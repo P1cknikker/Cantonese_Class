@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>粵語 · Kantonesisch – Lern-App</title>
+  <link rel="stylesheet" href="css/style.css">
+  <style>
+    /* Phase-2 SPA Ergänzungen */
+    body { max-width: 760px; padding-bottom: 4rem; }
+    .view { display: none; }
+    .view.active { display: block; }
+    .audio-note {
+      font-size: 0.8rem; color: var(--muted); background: #fffbeb;
+      border-left: 3px solid #d69e2e; padding: 0.5rem 0.75rem; margin: 0.6rem 0 1rem; border-radius: 0 6px 6px 0;
+    }
+    .search-bar {
+      width: 100%; padding: 0.6rem 0.85rem; font-size: 0.95rem;
+      border: 1px solid #cbd5e0; border-radius: 8px; background: var(--input-bg);
+      margin-bottom: 1rem; font-family: inherit;
+    }
+    .search-bar:focus { outline: none; border-color: var(--accent); box-shadow: 0 0 0 2px rgba(43,108,176,0.2); }
+    .filter-row { display: flex; flex-wrap: wrap; gap: 0.4rem; margin-bottom: 1rem; }
+    .filter-btn {
+      padding: 0.3rem 0.7rem; font-size: 0.82rem; border-radius: 999px;
+      border: 1px solid #cbd5e0; background: #edf2f7; cursor: pointer; color: #2d3748;
+    }
+    .filter-btn.active { background: #2b6cb0; color: #fff; border-color: #2b6cb0; }
+    .vocab-list { display: flex; flex-direction: column; gap: 0.35rem; }
+    .vocab-item {
+      display: flex; align-items: center; gap: 0.6rem; flex-wrap: wrap;
+      background: var(--card); border: 1px solid var(--border); border-radius: 8px;
+      padding: 0.55rem 0.85rem;
+    }
+    .vocab-item .zh { font-size: 1.15rem; font-weight: 600; min-width: 4rem; }
+    .vocab-item .jyut { font-style: italic; color: var(--muted); font-size: 0.85rem; }
+    .vocab-item .de { color: #2d3748; font-size: 0.9rem; flex: 1; }
+    .badge-core {
+      font-size: 0.7rem; font-weight: 600; padding: 0.12rem 0.45rem;
+      border-radius: 999px; background: #bee3f8; color: #2c5282;
+    }
+    .progress-bar-wrap {
+      background: #e2e8f0; border-radius: 999px; height: 10px; margin: 0.5rem 0 1rem; overflow: hidden;
+    }
+    .progress-bar-fill {
+      height: 100%; background: linear-gradient(90deg, #38a169, #2b6cb0); border-radius: 999px;
+      transition: width 0.35s ease;
+    }
+    .mark-btn {
+      font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 5px;
+      border: 1px solid #cbd5e0; background: #f7fafc; cursor: pointer;
+    }
+    .mark-btn.known { background: #c6f6d5; border-color: #68d391; color: #276749; }
+    .classic-link {
+      display: inline-block; margin-top: 0.8rem; font-size: 0.88rem;
+      color: var(--accent); text-decoration: none;
+    }
+    .classic-link:hover { text-decoration: underline; }
+    .lesson-nav-bottom {
+      display: flex; justify-content: space-between; gap: 0.75rem; margin-top: 1.5rem; flex-wrap: wrap;
+    }
+    .lesson-nav-bottom a, .lesson-nav-bottom button {
+      padding: 0.45rem 0.9rem; border-radius: 8px; border: 1px solid #cbd5e0;
+      background: #edf2f7; color: #2d3748; text-decoration: none; font-size: 0.9rem; cursor: pointer;
+    }
+    .lesson-nav-bottom a:hover, .lesson-nav-bottom button:hover { background: #e2e8f0; }
+    .complete-btn {
+      background: #c6f6d5 !important; border-color: #68d391 !important; color: #276749 !important; font-weight: 600;
+    }
+    .empty-state { text-align: center; color: var(--muted); padding: 2rem 1rem; }
+    .helper-list { font-size: 0.9rem; color: var(--muted); margin: 0.5rem 0 1rem; }
+    .helper-list span { display: inline-block; margin: 0.15rem 0.35rem 0.15rem 0; }
+  
+    .copyright-notice {
+      margin-top: 2rem;
+      padding-top: 1rem;
+      border-top: 1px solid #e2e8f0;
+      text-align: center;
+      font-size: 0.75rem;
+      color: #718096;
+      line-height: 1.45;
+    }
+
+  </style>
+</head>
+<body>
+
+  <nav class="app-nav" id="main-nav">
+    <a href="#/" class="nav-brand">粵語 · Kantonesisch</a>
+    <div class="nav-links">
+      <a href="#/" data-route="/">Übersicht</a>
+      <span class="nav-sep">·</span>
+      <a href="#/vocab" data-route="/vocab">Vokabeln</a>
+      <span class="nav-sep">·</span>
+      <a href="#/progress" data-route="/progress">Fortschritt</a>
+    </div>
+  </nav>
+
+  <!-- ========== DASHBOARD ========== -->
+  <div id="view-home" class="view">
+    <header class="dash-header">
+      <h1>KANTONESISCH LERNEN</h1>
+      <p class="meta">Anfänger · Stufe 1</p>
+    </header>
+
+    <div class="dash-stats" id="home-stats"></div>
+
+    <div class="section-title">Lektionen</div>
+    <div class="lesson-grid" id="home-lessons"></div>
+
+  </div>
+
+  <!-- ========== VOCAB ========== -->
+  <div id="view-vocab" class="view">
+    <h1>Vokabeln</h1>
+    <p class="meta">Alle Wörter aus der Datenbank · Suche &amp; Filter</p>
+    <input type="search" class="search-bar" id="vocab-search" placeholder="Suche: Zeichen, Jyutping oder Deutsch…">
+    <div class="filter-row">
+      <button class="filter-btn active" data-filter="all">Alle</button>
+      <button class="filter-btn" data-filter="core">Nur Kernwörter</button>
+      <button class="filter-btn" data-filter="helpers">Nur Hilfswörter</button>
+      <button class="filter-btn" data-filter="known">Gelernt</button>
+      <button class="filter-btn" data-filter="unknown">Ungelernt</button>
+    </div>
+    <div class="vocab-list" id="vocab-list"></div>
+  </div>
+
+  <!-- ========== PROGRESS ========== -->
+  <div id="view-progress" class="view">
+    <h1>Fortschritt</h1>
+    <div class="hint-box">
+      <strong>Tipp</strong><br>
+      Gespeichert lokal in diesem Browser.<br>
+      <strong>Achtung:</strong> Beim Löschen des Browserverlaufs, der Website-Daten oder im Privatmodus kann der Fortschritt verloren gehen — auch ohne den Button „Fortschritt zurücksetzen“.
+    </div>
+    <div class="dash-stats" id="progress-stats"></div>
+    <div class="section-title">Weg zum nächsten Level</div>
+    <p class="meta">Ziel: ca. 100 gelernte Wörter</p>
+    <div class="progress-bar-wrap"><div class="progress-bar-fill" id="level-bar" style="width:0%"></div></div>
+    <p class="meta" id="level-text"></p>
+    <div class="section-title">Abgeschlossene Lektionen</div>
+    <div id="progress-lessons"></div>
+    <div class="section-title">Markierte Wörter</div>
+    <div id="progress-known"></div>
+    <button class="check-btn" style="margin-top:1.2rem;" onclick="App.resetProgress()">Fortschritt zurücksetzen</button>
+  </div>
+
+  <!-- ========== LESSON ========== -->
+  <div id="view-lesson" class="view">
+    <div id="lesson-content"></div>
+  </div>
+
+
+  <footer class="copyright-notice" id="site-copyright">
+    © 2026 Language Practice · Kantonesisch lernen. Alle Rechte vorbehalten.<br>
+    Keine Vervielfältigung, Weitergabe, Veröffentlichung oder kommerzielle Nutzung ohne ausdrückliche Erlaubnis.
+  </footer>
+
+  <script>
+  const App = (() => {
+    const STORAGE_KEY = 'kantonesisch_progress_v1';
+    const GOAL_WORDS = 100;
+    let lessons = [];
+    let vocab = [];
+    let currentAudio = null;
+    let currentBtn = null;
+    let vocabFilter = 'all';
+    let vocabQuery = '';
+
+    function loadProgress() {
+      try {
+        return JSON.parse(localStorage.getItem(STORAGE_KEY)) || { completed: [], known: [] };
+      } catch { return { completed: [], known: [] }; }
+    }
+    function saveProgress(p) {
+      localStorage.setItem(STORAGE_KEY, JSON.stringify(p));
+    }
+    function isCompleted(id) {
+      return loadProgress().completed.includes(id);
+    }
+    function isKnown(zh) {
+      return loadProgress().known.includes(zh);
+    }
+    function toggleKnown(zh) {
+      const p = loadProgress();
+      const i = p.known.indexOf(zh);
+      if (i >= 0) p.known.splice(i, 1);
+      else p.known.push(zh);
+      saveProgress(p);
+      // Fortschrittsbalken aktualisieren, wenn sichtbar
+      if (document.getElementById('view-progress')?.classList.contains('active')) {
+        renderProgress();
+      } else if (document.getElementById('level-bar')) {
+        updateProgressBarOnly();
+      }
+    }
+
+    function updateProgressBarOnly() {
+      const known = loadProgress().known.length;
+      const pct = Math.min(100, Math.round((known / GOAL_WORDS) * 100));
+      const bar = document.getElementById('level-bar');
+      const txt = document.getElementById('level-text');
+      if (bar) bar.style.width = pct + '%';
+      if (txt) {
+        txt.textContent = known + ' als gelernt markierte Wörter · ca. ' + pct + '% des Weges zu ' + GOAL_WORDS;
+      }
+    }
+
+    function vocabAudioUrl(v) {
+      if (!v || !v.audio) return null;
+      // lesson-Feld oder aus lessons.json ableiten
+      let folder = v.clipsFolder || null;
+      if (!folder && v.lesson) {
+        folder = 'clips_lektion_' + String(v.lesson).padStart(2, '0');
+      }
+      if (!folder && typeof lessons !== 'undefined') {
+        for (const l of lessons) {
+          const hit = (l.words || []).find(w => w.zh === v.zh && w.audio === v.audio);
+          if (hit) { folder = l.clipsFolder; break; }
+        }
+        if (!folder) {
+          for (const l of lessons) {
+            const hit = (l.words || []).find(w => w.zh === v.zh);
+            if (hit && hit.audio) {
+              folder = l.clipsFolder;
+              v = Object.assign({}, v, { audio: hit.audio });
+              break;
+            }
+            if (hit) { folder = l.clipsFolder; break; }
+          }
+        }
+      }
+      if (!folder) return null;
+      return audioUrl(folder, v.audio);
+    }
+    function markComplete(id) {
+      const p = loadProgress();
+      if (!p.completed.includes(id)) {
+        p.completed.push(id);
+        saveProgress(p);
+      }
+    }
+    function resetProgress() {
+      if (confirm('Gesamten Fortschritt in diesem Browser löschen?')) {
+        localStorage.removeItem(STORAGE_KEY);
+        route();
+      }
+    }
+
+    function audioUrl(folder, file) {
+      if (!file) return null;
+      // relative to App/ → ../Audiodateien/clips_lektion_XX/file
+      return `../Audiodateien/${folder}/${file}`;
+    }
+
+    function playAudio(btn, url) {
+      if (!url) {
+        alert('Kein Audio-Pfad hinterlegt.');
+        return;
+      }
+      if (currentAudio) {
+        currentAudio.pause();
+        if (currentBtn) {
+          currentBtn.classList.remove('playing');
+          currentBtn.textContent = '▶';
+        }
+      }
+      const audio = new Audio(url);
+      currentAudio = audio;
+      currentBtn = btn;
+      btn.classList.add('playing');
+      btn.textContent = '■';
+      audio.play().catch(err => {
+        console.error(err);
+        btn.classList.remove('playing');
+        btn.textContent = '▶';
+        alert('Audio konnte nicht abgespielt werden.\n\nTipp: Öffne die App über einen lokalen Server:\n  cd App && python3 -m http.server 8080\n\nOder nutze die „Klassische Ansicht“ (Base64-Audio).');
+      });
+      audio.onended = () => {
+        btn.classList.remove('playing');
+        btn.textContent = '▶';
+        currentAudio = null;
+        currentBtn = null;
+      };
+    }
+
+    function toggleSolution(id, btn) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      const hidden = el.classList.contains('hidden');
+      el.classList.toggle('hidden', !hidden);
+      btn.textContent = hidden ? 'Verbergen' : 'Prüfen';
+    }
+
+    // ---------- RENDERERS ----------
+    function renderHome() {
+      const p = loadProgress();
+      const coreCount = vocab.filter(v => v.core).length;
+      const helperCount = vocab.filter(v => !v.core).length;
+      document.getElementById('home-stats').innerHTML = `
+        <div class="stat-card"><div class="num">${lessons.length}</div><div class="label">Lektionen</div></div>
+        <div class="stat-card"><div class="num">${coreCount}</div><div class="label">Kernwörter</div></div>
+        <div class="stat-card"><div class="num">${helperCount}</div><div class="label">Hilfswörter</div></div>
+        <div class="stat-card"><div class="num">${vocab.length}</div><div class="label">Wörter insgesamt</div></div>
+      `;
+      document.getElementById('home-lessons').innerHTML = lessons.map(l => {
+        const done = isCompleted(l.id);
+        return `
+          <a class="lesson-card ${done ? 'done' : ''}" href="#/lesson/${l.id}">
+            <div class="lesson-num">${String(l.id).padStart(2,'0')}</div>
+            <div class="lesson-info">
+              <h2>${l.title}</h2>
+              <p>${l.words.map(w => w.zh).join(' · ')} &nbsp;·&nbsp; ${l.words.length} Kernwörter</p>
+            </div>
+            ${done ? '<span class="lesson-badge">fertig</span>' : '<span class="lesson-badge" style="background:#edf2f7;color:#4a5568;">offen</span>'}
+          </a>`;
+      }).join('');
+    }
+
+    function renderVocab() {
+      let list = vocab.slice();
+      if (vocabFilter === 'core') list = list.filter(v => v.core);
+      if (vocabFilter === 'helpers') list = list.filter(v => !v.core);
+      if (vocabFilter === 'known') list = list.filter(v => isKnown(v.zh));
+      if (vocabFilter === 'unknown') list = list.filter(v => !isKnown(v.zh));
+      if (vocabQuery) {
+        const q = vocabQuery.toLowerCase();
+        list = list.filter(v =>
+          (v.zh && v.zh.includes(vocabQuery)) ||
+          (v.jyutping && v.jyutping.toLowerCase().includes(q)) ||
+          (v.de && v.de.toLowerCase().includes(q))
+        );
+      }
+      const el = document.getElementById('vocab-list');
+      if (!list.length) {
+        el.innerHTML = '<div class="empty-state">Keine Treffer.</div>';
+        return;
+      }
+      el.innerHTML = list.map(v => {
+        const url = vocabAudioUrl(v);
+        return `
+          <div class="vocab-item">
+            <span class="zh">${v.zh}</span>
+            ${url ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${url}')">▶</button>` : ''}
+            <span class="jyut">${v.jyutping || ''}</span>
+            <span class="de">${v.de || ''}</span>
+            ${v.core ? '<span class="badge-core">Kern</span>' : ''}
+            <button type="button" class="mark-btn ${isKnown(v.zh) ? 'known' : ''}" data-zh="${v.zh}">${isKnown(v.zh) ? '✓ Gelernt' : 'Lernen'}</button>
+          </div>`;
+      }).join('');
+      el.querySelectorAll('.mark-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          toggleKnown(btn.dataset.zh);
+          renderVocab();
+          updateNav();
+        });
+      });
+    }
+
+    function renderProgress() {
+      const p = loadProgress();
+      const known = p.known.length;
+      const pct = Math.min(100, Math.round((known / GOAL_WORDS) * 100));
+      const coreCount = vocab.filter(v => v.core).length;
+      const helperCount = vocab.filter(v => !v.core).length;
+      const knownCore = vocab.filter(v => v.core && isKnown(v.zh)).length;
+      const knownHelpers = vocab.filter(v => !v.core && isKnown(v.zh)).length;
+      document.getElementById('progress-stats').innerHTML = `
+        <div class="stat-card"><div class="num">${p.completed.length}/${lessons.length}</div><div class="label">Lektionen</div></div>
+        <div class="stat-card"><div class="num">${knownCore}/${coreCount}</div><div class="label">Kernwörter</div></div>
+        <div class="stat-card"><div class="num">${knownHelpers}/${helperCount}</div><div class="label">Hilfswörter</div></div>
+        <div class="stat-card"><div class="num">${GOAL_WORDS}</div><div class="label">Ziel</div></div>
+      `;
+      document.getElementById('level-bar').style.width = pct + '%';
+      document.getElementById('level-text').textContent =
+        known + ' als gelernt markierte Wörter · ca. ' + pct + '% des Weges zu ' + GOAL_WORDS;
+      document.getElementById('progress-lessons').innerHTML = lessons.map(l => {
+        const done = isCompleted(l.id);
+        return `<div class="vocab-item">
+          <span class="zh">L${String(l.id).padStart(2,'0')}</span>
+          <span class="de">${l.title}</span>
+          ${done ? '<span class="badge-core" style="background:#c6f6d5;color:#276749;">fertig</span>' : '<span class="meta">offen</span>'}
+        </div>`;
+      }).join('');
+      const knownList = p.known;
+      document.getElementById('progress-known').innerHTML = knownList.length
+        ? knownList.map(zh => {
+            const v = vocab.find(x => x.zh === zh);
+            return `<div class="vocab-item"><span class="zh">${zh}</span><span class="de">${v ? v.de : ''}</span></div>`;
+          }).join('')
+        : '<p class="meta">Noch keine Wörter markiert. In der Vokabel-Ansicht oder in Lektionen auf „Lernen“ tippen.</p>';
+    }
+
+    function initDragDrop(root) {
+      const scope = root || document;
+      scope.querySelectorAll('.dnd-chip').forEach(chip => {
+        chip.setAttribute('draggable', 'true');
+        chip.addEventListener('dragstart', e => {
+          chip.classList.add('dragging');
+          e.dataTransfer.setData('text/plain', chip.dataset.value || chip.textContent.trim());
+          e.dataTransfer.effectAllowed = 'copy';
+        });
+        chip.addEventListener('dragend', () => chip.classList.remove('dragging'));
+      });
+      scope.querySelectorAll('.dnd-slot').forEach(slot => {
+        slot.addEventListener('dragover', e => { e.preventDefault(); slot.classList.add('drag-over'); });
+        slot.addEventListener('dragleave', () => slot.classList.remove('drag-over'));
+        slot.addEventListener('drop', e => {
+          e.preventDefault();
+          slot.classList.remove('drag-over');
+          const val = e.dataTransfer.getData('text/plain');
+          if (!val) return;
+          slot.textContent = val;
+          slot.dataset.filled = val;
+          slot.classList.add('filled');
+        });
+        slot.addEventListener('click', () => {
+          if (slot.classList.contains('filled')) {
+            slot.textContent = '';
+            slot.dataset.filled = '';
+            slot.classList.remove('filled');
+          }
+        });
+      });
+    }
+
+    function renderDndPrompt(prompt) {
+      let de = '';
+      const deM = prompt.match(/\(([^)]+)\)\s*$/);
+      if (deM) {
+        de = deM[1];
+        prompt = prompt.slice(0, deM.index).trim();
+      }
+      // remove leading "1) " if present
+      prompt = prompt.replace(/^\d+\)\s*/, '');
+      const parts = prompt.split(/___/);
+      let html = '';
+      parts.forEach((part, i) => {
+        html += part;
+        if (i < parts.length - 1) html += '<span class="dnd-slot"></span>';
+      });
+      if (de) {
+        html += ` <span class="de" style="font-weight:normal;font-size:0.9rem;">(${de})</span>`;
+      }
+      return html;
+    }
+
+    function renderLesson(id) {
+      const l = lessons.find(x => x.id === id);
+      if (!l) {
+        document.getElementById('lesson-content').innerHTML = '<p class="empty-state">Lektion nicht gefunden.</p>';
+        return;
+      }
+      const folder = l.clipsFolder || ('clips_lektion_' + String(l.id).padStart(2, '0'));
+      const words = l.words || [];
+      const helpers = l.helpers || [];
+      const grammar = l.grammar || [];
+      const exercises = l.exercises || {};
+      const review = l.review || [];
+      const chips = (l.dndChips && l.dndChips.length) ? l.dndChips : words.map(w => w.zh).filter(Boolean);
+
+      let html = `
+        <h1>KANTONESISCH LERNEN</h1>
+        <div class="subtitle">===================</div>
+        <div class="subtitle">Lektion ${String(l.id).padStart(2,'0')} — Anfänger (Beginner)</div>
+        <p class="meta">Thema: ${l.title || ''}</p>
+        <p class="meta">Stand: ${l.date || ''} &nbsp;|&nbsp; Zielwortschatz bisher (kumulativ): ${l.cumulativeWords || '—'} Kernwörter</p>
+
+        <div class="hint-box">
+          <strong>HINWEIS ZUR AUSSPRACHE</strong><br>
+          • Romanisierung: Jyutping (Zahlen 1–6 = Töne)<br>
+          • Traditionelle Schriftzeichen (Hongkong-Standard)<br>
+          • Audio: Clips unter <code>Audiodateien/${folder}/</code>
+        </div>
+
+        <div class="section-title">1) FÜNF NEUE WÖRTER MIT BEISPIELSÄTZEN</div>
+      `;
+
+      words.forEach((w, i) => {
+        if (!w) return;
+        const wordUrl = audioUrl(folder, w.audio);
+        const ex = w.example || {};
+        const exUrl = audioUrl(folder, w.exampleAudio);
+        html += `
+          <div class="word-block">
+            <div class="zh">
+              ${i + 1}. ${w.zh || ''}
+              ${wordUrl ? `<button type="button" class="play-btn" onclick="App.play(this,'${wordUrl}')">▶</button>` : ''}
+              <button type="button" class="mark-btn ${isKnown(w.zh) ? 'known' : ''}" data-zh="${w.zh || ''}" onclick="App.toggleKnownBtn(this)">${isKnown(w.zh) ? '✓ Gelernt' : 'Lernen'}</button>
+            </div>
+            <div class="jyut">Jyutping: ${w.jyutping || ''}</div>
+            <div class="de">Bedeutung: ${w.de || ''}</div>
+            ${ex.zh ? `
+            <div style="margin-top:0.45rem;"><strong>Beispiel:</strong> ${ex.zh}
+              ${exUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${exUrl}')">▶</button>` : ''}
+            </div>
+            <div class="jyut">Jyutping: ${ex.jyutping || ''}</div>
+            <div class="de">Deutsch: ${ex.de || ''}</div>` : ''}
+          </div>`;
+      });
+
+      if (helpers.length) {
+        html += `<p class="note"><strong>Hilfswörter</strong> in den Beispielen (noch nicht als „neue Wörter“ zählen, nur zum Verstehen):<br>
+          ${helpers.map(h => `${h.zh} <em>${h.jyutping || ''}</em> = ${h.de || ''}`).join(' · ')}
+        </p>`;
+      }
+
+      html += `<div class="section-title">2) GRAMMATIK</div>`;
+      grammar.forEach(g => {
+        if (!g) return;
+        const points = Array.isArray(g.points) ? g.points : (g.note ? [g.note] : []);
+        html += `<div class="rule-block"><div class="rule-title">${g.title || 'Regel'}</div>`;
+        if (points.length) {
+          html += `<div class="rule-examples"><ul style="margin:0.3rem 0 0;padding-left:1.2rem;">`;
+          points.forEach(pt => { html += `<li style="margin:0.3rem 0;">${pt}</li>`; });
+          html += `</ul></div>`;
+        }
+        html += `</div>`;
+      });
+
+      const gex = Array.isArray(l.grammarExamples) ? l.grammarExamples : [];
+      if (gex.length) {
+        html += `<div class="rule-block"><div class="rule-title">Beispiele (mit Audio)</div>`;
+        gex.forEach(ge => {
+          const gUrl = audioUrl(folder, ge.audio);
+          html += `<div style="margin:0.35rem 0;">${ge.zh || ''}
+            ${gUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${gUrl}')">▶</button>` : ''}
+          </div>`;
+        });
+        html += `</div>`;
+      }
+
+      html += `<div class="section-title">3) ÜBUNG</div>`;
+
+      // A
+      if (exercises.A && exercises.A.length) {
+        html += `<p><strong>Übung A — Übersetze die Beispielsätze aus Abschnitt 1 ins Deutsche:</strong></p>
+          <p class="note">Optional eintragen und „Prüfen“ tippen, um die Lösung ein- oder auszublenden.</p>`;
+        exercises.A.forEach((ex, i) => {
+          if (!ex) return;
+          const sid = `sol-a-${l.id}-${i}`;
+          const aUrl = audioUrl(folder, ex.audio);
+          html += `
+            <div class="exercise-item">
+              <div class="zh" style="font-size:1.1rem;">${i + 1}) ${ex.zh || ''}
+                ${aUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${aUrl}')">▶</button>` : ''}
+              </div>
+              <input class="translation-input" type="text" placeholder="Deine Übersetzung…">
+              <button type="button" class="check-btn" onclick="App.toggleSol('${sid}', this)">Prüfen</button>
+              <div id="${sid}" class="solution hidden">${ex.answer || ''}</div>
+            </div>`;
+        });
+      }
+
+      // B DnD
+      if (exercises.B && exercises.B.length) {
+        html += `<p style="margin-top:1.2rem;"><strong>Übung B — Ziehe die passende Option in die Lücke:</strong></p>
+          <div class="dnd-options">${chips.map(c => `<span class="dnd-chip" data-value="${c}">${c}</span>`).join('')}</div>
+          <div class="exercise-item">`;
+        exercises.B.forEach((ex, i) => {
+          const prompt = (ex.prompt || '').replace(/_{2,}|＿+/g, '___');
+          html += `<div class="dnd-sentence">${i + 1}) ${renderDndPrompt(prompt)}</div>`;
+        });
+        const sidB = `sol-b-${l.id}`;
+        html += `
+            <button type="button" class="check-btn" onclick="App.toggleSol('${sidB}', this)">Prüfen</button>
+            <div id="${sidB}" class="solution hidden">
+              ${exercises.B.map((ex, i) => {
+                const bUrl = audioUrl(folder, ex.audio);
+                return `<div>${i + 1}) ${ex.answer || ''} ${bUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${bUrl}')">▶</button>` : ''}</div>`;
+              }).join('')}
+            </div>
+          </div>`;
+      }
+
+      // C
+      if (exercises.C && exercises.C.length) {
+        html += `<p style="margin-top:1.2rem;"><strong>Übung C — Übersetze ins Kantonesische (Schriftzeichen + Jyutping + Audio):</strong></p>
+          <p class="note">Schreibe Schriftzeichen oder Jyutping und tippe „Prüfen“ / „Verbergen“.</p>`;
+        exercises.C.forEach((ex, i) => {
+          if (!ex) return;
+          const sid = `sol-c-${l.id}-${i}`;
+          const ans = ex.answer || '';
+          const jy = ex.jyutping || '';
+          const cUrl = audioUrl(folder, ex.audio);
+          html += `
+            <div class="exercise-item">
+              <div class="de"><strong>${i + 1})</strong> ${ex.prompt || ''}</div>
+              <input class="translation-input" type="text" placeholder="Chinesisch oder Jyutping …">
+              <button type="button" class="check-btn" onclick="App.toggleSol('${sid}', this)">Prüfen</button>
+              <div id="${sid}" class="solution hidden">
+                <div>${ans} ${cUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${cUrl}')">▶</button>` : ''}</div>
+                ${jy ? `<div class="jyut">${jy}</div>` : ''}
+              </div>
+            </div>`;
+        });
+      }
+
+      // 4 Wiederholung — wie Full-HTML: abwechselnd versteckt + Prüfen
+      html += `<div class="section-title">4) WIEDERHOLUNG</div>`;
+      const reviewItems = Array.isArray(l.reviewItems) ? l.reviewItems : [];
+      if (reviewItems.length) {
+        const rNote = l.reviewNote || 'Wiederhole Vokabeln. Mit „Prüfen“ die versteckte Seite ein- und ausblenden.';
+        html += `<p class="note">${rNote}</p><div class="rule-block review-box word-block">`;
+        reviewItems.forEach((ri, riIdx) => {
+          const rFolder = ri.clipsFolder || folder;
+          const rUrl = audioUrl(rFolder, ri.audio);
+          const sid = `sol-r-${l.id}-${riIdx}`;
+          const hide = ri.hide || (riIdx % 2 === 0 ? 'zh' : 'de');
+          const zhHtml = `<span class="zh review-zh">${ri.zh || ''}</span>`;
+          const deHtml = `<span class="de review-de">${ri.de || ''}</span>`;
+          let left = '';
+          let right = '';
+          if (hide === 'zh') {
+            left = `<span class="review-hidden-slot">
+              <button type="button" class="check-btn" onclick="App.toggleSol('${sid}', this)">Prüfen</button>
+              <span id="${sid}" class="solution hidden">${zhHtml}</span>
+            </span>`;
+            right = deHtml;
+          } else {
+            left = zhHtml;
+            right = `<span class="review-hidden-slot">
+              <button type="button" class="check-btn" onclick="App.toggleSol('${sid}', this)">Prüfen</button>
+              <span id="${sid}" class="solution hidden">${deHtml}</span>
+            </span>`;
+          }
+          html += `<div class="review-row" style="padding:0.5rem 0;border-bottom:1px solid #edf2f7;display:flex;align-items:center;gap:0.6rem;flex-wrap:wrap;">
+            ${left}
+            ${rUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${rUrl}')">▶</button>` : ''}
+            ${right}
+          </div>`;
+        });
+        html += `</div>`;
+      } else if (review.length) {
+        html += `<p class="note">Wiederhole Vokabeln aus früheren Lektionen.</p><div class="rule-block review-box">`;
+        review.forEach((r, riIdx) => {
+          const sid = `sol-r-fallback-${l.id}-${riIdx}`;
+          html += `<div class="review-row" style="padding:0.4rem 0;border-bottom:1px solid #edf2f7;">
+            <button type="button" class="check-btn" onclick="App.toggleSol('${sid}', this)">Prüfen</button>
+            <span id="${sid}" class="solution hidden">${r}</span>
+          </div>`;
+        });
+        html += `</div>`;
+      } else {
+        html += `<p class="note">Siehe frühere Lektionen und die markierten Wörter unter „Vokabeln“ / „Fortschritt“.</p>`;
+      }
+
+      // 5 Neue Vokabeln
+      html += `<div class="section-title">5) NEUE VOKABELN</div>
+        <div class="rule-block vocab-box">
+          <p><strong>Kern-Wörter dieser Lektion</strong></p>`;
+      words.forEach(w => {
+        if (!w) return;
+        const url = audioUrl(folder, w.audio);
+        html += `<div class="vocab-row">
+          <span class="vocab-zh">${w.zh || ''}</span>
+          ${url ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${url}')">▶</button>` : ''}
+          <span class="jyut">${w.jyutping || ''}</span>
+          <span class="vocab-de">${w.de || ''}</span>
+        </div>`;
+      });
+      if (helpers.length) {
+        html += `<p style="margin-top:0.8rem;"><strong>Hilfswörter dieser Lektion</strong></p>`;
+        helpers.forEach(h => {
+          const hUrl = audioUrl(folder, h.audio);
+          html += `<div class="vocab-row">
+            <span class="vocab-zh">${h.zh || ''}</span>
+            ${hUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${hUrl}')">▶</button>` : ''}
+            <span class="jyut">${h.jyutping || ''}</span>
+            <span class="vocab-de">${h.de || ''}</span>
+          </div>`;
+        });
+      }
+      html += `</div>`;
+
+      const prev = lessons.find(x => x.id === l.id - 1);
+      const next = lessons.find(x => x.id === l.id + 1);
+      html += `
+        <div class="end">ENDE LEKTION ${String(l.id).padStart(2,'0')}</div>
+        <p class="meta" style="text-align:center;">Kumulativ: ${l.cumulativeWords || '—'} / 100 Kernwörter · Level: Anfänger</p>
+        <div class="lesson-nav-bottom">
+          ${prev ? `<a href="#/lesson/${prev.id}">← Lektion ${prev.id}</a>` : '<span></span>'}
+          <button type="button" class="complete-btn" onclick="App.completeLesson(${l.id})">${isCompleted(l.id) ? '✓ Abgeschlossen' : 'Als erledigt markieren'}</button>
+          ${next ? `<a href="#/lesson/${next.id}">Lektion ${next.id} →</a>` : '<a href="#/">Zur Übersicht</a>'}
+        </div>
+      `;
+
+      const host = document.getElementById('lesson-content');
+      host.innerHTML = html;
+      initDragDrop(host);
+    }
+
+    function updateNav() {
+      const hash = location.hash.slice(1) || '/';
+      document.querySelectorAll('#main-nav a[data-route]').forEach(a => {
+        const r = a.getAttribute('data-route');
+        a.classList.toggle('nav-current', hash === r || (r !== '/' && hash.startsWith(r)));
+      });
+      // lesson routes
+      if (hash.startsWith('/lesson/')) {
+        document.querySelectorAll('#main-nav a[data-route]').forEach(a => a.classList.remove('nav-current'));
+      }
+    }
+
+    function showView(name) {
+      document.querySelectorAll('.view').forEach(v => v.classList.remove('active'));
+      const el = document.getElementById('view-' + name);
+      if (el) el.classList.add('active');
+    }
+
+    function route() {
+      const hash = location.hash.slice(1) || '/';
+      updateNav();
+      if (hash === '/' || hash === '') {
+        showView('home');
+        renderHome();
+      } else if (hash === '/vocab') {
+        showView('vocab');
+        renderVocab();
+      } else if (hash === '/progress') {
+        showView('progress');
+        renderProgress();
+      } else if (hash.startsWith('/lesson/')) {
+        const id = parseInt(hash.split('/')[2], 10);
+        showView('lesson');
+        renderLesson(id);
+      } else {
+        showView('home');
+        renderHome();
+      }
+      window.scrollTo(0, 0);
+    }
+
+    async function init() {
+      try {
+        const [lRes, vRes] = await Promise.all([
+          fetch('data/lessons.json'),
+          fetch('data/vocab.json')
+        ]);
+        lessons = await lRes.json();
+        vocab = await vRes.json();
+      } catch (e) {
+        console.error('Daten laden fehlgeschlagen – Fallback?', e);
+        document.body.insertAdjacentHTML('afterbegin',
+          '<div class="audio-note">Daten konnten nicht geladen werden. Bitte lokalen Server starten: <code>cd App && python3 -m http.server 8080</code></div>');
+        return;
+      }
+
+      // vocab search / filter
+      const search = document.getElementById('vocab-search');
+      if (search) {
+        search.addEventListener('input', () => {
+          vocabQuery = search.value.trim();
+          renderVocab();
+        });
+      }
+      document.querySelectorAll('.filter-btn').forEach(btn => {
+        btn.addEventListener('click', () => {
+          document.querySelectorAll('.filter-btn').forEach(b => b.classList.remove('active'));
+          btn.classList.add('active');
+          vocabFilter = btn.dataset.filter;
+          renderVocab();
+        });
+      });
+
+      window.addEventListener('hashchange', route);
+      route();
+    }
+
+    return {
+      init,
+      play: playAudio,
+      toggleSol: toggleSolution,
+      toggleKnownBtn(btn) {
+        toggleKnown(btn.dataset.zh);
+        btn.classList.toggle('known');
+        btn.textContent = btn.classList.contains('known') ? '✓ Gelernt' : 'Lernen';
+      },
+      completeLesson(id) {
+        markComplete(id);
+        renderLesson(id);
+      },
+      resetProgress
+    };
+  })();
+
+  document.addEventListener('DOMContentLoaded', () => App.init());
+  </script>
+</body>
+</html>

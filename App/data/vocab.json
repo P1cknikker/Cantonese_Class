@@ -1,0 +1,470 @@
+[
+  {
+    "zh": "你好",
+    "jyutping": "nei5 hou2",
+    "de": "Hallo",
+    "audio": "01_nihao.mp3",
+    "core": true,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "唔該",
+    "jyutping": "m4 goi1",
+    "de": "Danke (für eine Dienstleistung) / Bitte / Entschuldigung (Aufmerksamkeit holen)",
+    "audio": "03_mgoi.mp3",
+    "core": true,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "我",
+    "jyutping": "ngo5",
+    "de": "ich / mich",
+    "audio": "05_ngo.mp3",
+    "core": true,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "係",
+    "jyutping": "hai6",
+    "de": "sein (ist/bin/sind); auch: ja",
+    "audio": "07_hai.mp3",
+    "core": true,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "食",
+    "jyutping": "sik6",
+    "de": "essen",
+    "audio": "09_sik.mp3",
+    "core": true,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "你",
+    "jyutping": "nei5",
+    "de": "du",
+    "audio": "17_nei.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "學生",
+    "jyutping": "hok6 saang1",
+    "de": "Schüler/Student",
+    "audio": "18_hoksaang.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "水",
+    "jyutping": "seoi2",
+    "de": "Wasser",
+    "audio": "19_seoi.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "飯",
+    "jyutping": "faan6",
+    "de": "Reis / Mahlzeit",
+    "audio": "20_faan.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "老師",
+    "jyutping": "lou5 si1",
+    "de": "Lehrer",
+    "audio": "21_lousi.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "麵",
+    "jyutping": "min6",
+    "de": "Nudeln",
+    "audio": "22_min.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "一杯",
+    "jyutping": "jat1 bui1",
+    "de": "ein Glas/Tasse",
+    "audio": "23_jat_bui.mp3",
+    "core": false,
+    "lesson": 1,
+    "clipsFolder": "clips_lektion_01"
+  },
+  {
+    "zh": "有",
+    "jyutping": "jau5",
+    "de": "haben / es gibt / vorhanden sein",
+    "audio": "01_jau.mp3",
+    "core": true,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "冇",
+    "jyutping": "mou5",
+    "de": "nicht haben / es gibt nicht (Gegenteil von 有)",
+    "audio": "03_mou.mp3",
+    "core": true,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "幾多",
+    "jyutping": "gei2 do1",
+    "de": "wie viel / wie viele",
+    "audio": "05_geido.mp3",
+    "core": true,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "三",
+    "jyutping": "saam1",
+    "de": "drei",
+    "audio": "07_saam.mp3",
+    "core": true,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "個",
+    "jyutping": "go3",
+    "de": "allgemeines Zählwort (Stück / ein …)",
+    "audio": "09_go.mp3",
+    "core": true,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "錢",
+    "jyutping": "cin2",
+    "de": "Geld",
+    "audio": "13_cin.mp3",
+    "core": false,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "一",
+    "jyutping": "jat1",
+    "de": "eins",
+    "audio": "14_jat.mp3",
+    "core": false,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "兩",
+    "jyutping": "loeng5",
+    "de": "zwei (beim Zählen)",
+    "audio": "15_loeng.mp3",
+    "core": false,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "二",
+    "jyutping": "ji6",
+    "de": "zwei",
+    "audio": null,
+    "core": false,
+    "lesson": 2,
+    "clipsFolder": "clips_lektion_02"
+  },
+  {
+    "zh": "想",
+    "jyutping": "soeng2",
+    "de": "wollen / möchten / denken",
+    "audio": "01_soeng.mp3",
+    "core": true,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "去",
+    "jyutping": "heoi3",
+    "de": "gehen / fahren (zu einem Ort)",
+    "audio": "03_heoi.mp3",
+    "core": true,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "邊度",
+    "jyutping": "bin1 dou6",
+    "de": "wo / wohin (Ort)",
+    "audio": "05_bindou.mp3",
+    "core": true,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "屋企",
+    "jyutping": "uk1 kei2",
+    "de": "Zuhause / Haus (familiär, Hongkong)",
+    "audio": "07_ukkei.mp3",
+    "core": true,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "今日",
+    "jyutping": "gam1 jat6",
+    "de": "heute",
+    "audio": "09_gamjat.mp3",
+    "core": true,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "學校",
+    "jyutping": "hok6 haau6",
+    "de": "Schule",
+    "audio": "13_hokhaau.mp3",
+    "core": false,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "而家",
+    "jyutping": "ji4 gaa1",
+    "de": "jetzt",
+    "audio": "14_jigaa.mp3",
+    "core": false,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "啦",
+    "jyutping": "laa1",
+    "de": "Partikel",
+    "audio": null,
+    "core": false,
+    "lesson": 3,
+    "clipsFolder": "clips_lektion_03"
+  },
+  {
+    "zh": "聽日",
+    "jyutping": "ting1 jat6",
+    "de": "morgen",
+    "audio": "01_tingjat.mp3",
+    "core": true,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "幾時",
+    "jyutping": "gei2 si4",
+    "de": "wann",
+    "audio": "03b_geisi.mp3",
+    "core": true,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "飲",
+    "jyutping": "jam2",
+    "de": "trinken",
+    "audio": "05_jam.mp3",
+    "core": true,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "茶",
+    "jyutping": "caa4",
+    "de": "Tee",
+    "audio": "07_caa.mp3",
+    "core": true,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "好",
+    "jyutping": "hou2",
+    "de": "gut / sehr / okay",
+    "audio": "09_hou.mp3",
+    "core": true,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "呢杯",
+    "jyutping": "ni1 bui1",
+    "de": "diese Tasse / dieses Glas",
+    "audio": "12_nibui.mp3",
+    "core": false,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "咖啡",
+    "jyutping": "gaa3 fe1",
+    "de": "Kaffee",
+    "audio": "13_gaafe.mp3",
+    "core": false,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "先",
+    "jyutping": "sin1",
+    "de": "zuerst / erst",
+    "audio": "14_sin.mp3",
+    "core": false,
+    "lesson": 4,
+    "clipsFolder": "clips_lektion_04"
+  },
+  {
+    "zh": "買",
+    "jyutping": "maai5",
+    "de": "kaufen",
+    "audio": "01_maai.mp3",
+    "core": true,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "嘢",
+    "jyutping": "je5",
+    "de": "Sache / Ding / etwas",
+    "audio": "03_je.mp3",
+    "core": true,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "未",
+    "jyutping": "mei6",
+    "de": "noch nicht",
+    "audio": "05_mei.mp3",
+    "core": true,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "得",
+    "jyutping": "dak1",
+    "de": "okay / können / gehen (im Sinne von „es geht“)",
+    "audio": "07_dak.mp3",
+    "core": true,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "多謝",
+    "jyutping": "do1 ze6",
+    "de": "danke (für Freundlichkeit / Geschenk)",
+    "audio": "09_doze.mp3",
+    "core": true,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "呀",
+    "jyutping": "aa3",
+    "de": "Frage-/Ausrufepartikel",
+    "audio": "14_aa.mp3",
+    "core": false,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "嗰個",
+    "jyutping": "go2 go3",
+    "de": "jener / der da",
+    "audio": "15_gogo.mp3",
+    "core": false,
+    "lesson": 5,
+    "clipsFolder": "clips_lektion_05"
+  },
+  {
+    "zh": "返",
+    "jyutping": "faan1",
+    "de": "zurückkehren / (nach Hause / zur Arbeit) gehen",
+    "audio": "01_faan.mp3",
+    "core": true,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "嚟",
+    "jyutping": "lai4",
+    "de": "kommen",
+    "audio": "03_lai.mp3",
+    "core": true,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "走",
+    "jyutping": "zau2",
+    "de": "gehen / weggehen / losgehen",
+    "audio": "05_zau.mp3",
+    "core": true,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "到",
+    "jyutping": "dou3",
+    "de": "ankommen / bis / erreichen",
+    "audio": "07_dou.mp3",
+    "core": true,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "等",
+    "jyutping": "dang2",
+    "de": "warten",
+    "audio": "09_dang.mp3",
+    "core": true,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "一齊",
+    "jyutping": "jat1 cai4",
+    "de": "zusammen",
+    "audio": "14_jatcai.mp3",
+    "core": false,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "快啲",
+    "jyutping": "faai3 di1",
+    "de": "schneller / beeil dich",
+    "audio": "15_faaidi.mp3",
+    "core": false,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "呢度",
+    "jyutping": "ni1 dou6",
+    "de": "hier",
+    "audio": "16_nidou.mp3",
+    "core": false,
+    "lesson": 6,
+    "clipsFolder": "clips_lektion_06"
+  }
+]

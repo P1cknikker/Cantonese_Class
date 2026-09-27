@@ -1,0 +1,1694 @@
+[
+  {
+    "id": 1,
+    "title": "Begrüßung, Ich-Sätze, Essen",
+    "date": "2026-09-24",
+    "cumulativeWords": 5,
+    "clipsFolder": "clips_lektion_01",
+    "words": [
+      {
+        "zh": "你好",
+        "jyutping": "nei5 hou2",
+        "de": "Hallo",
+        "audio": "01_nihao.mp3",
+        "example": {
+          "zh": "你好，我係學生。",
+          "jyutping": "nei5 hou2, ngo5 hai6 hok6 saang1.",
+          "de": "Hallo, ich bin Student/in."
+        },
+        "exampleAudio": "02_nihao_ngo_hai_hoksaang.mp3"
+      },
+      {
+        "zh": "唔該",
+        "jyutping": "m4 goi1",
+        "de": "Danke (für eine Dienstleistung) / Bitte / Entschuldigung (Aufmerksamkeit holen)",
+        "audio": "03_mgoi.mp3",
+        "example": {
+          "zh": "唔該，一杯水。",
+          "jyutping": "m4 goi1, jat1 bui1 seoi2.",
+          "de": "Bitte einmal ein Glas Wasser. / Danke, ein Glas Wasser."
+        },
+        "exampleAudio": "04_mgoi_jat_bui_seoi.mp3"
+      },
+      {
+        "zh": "我",
+        "jyutping": "ngo5",
+        "de": "ich / mich",
+        "audio": "05_ngo.mp3",
+        "example": {
+          "zh": "我食飯。",
+          "jyutping": "ngo5 sik6 faan6.",
+          "de": "Ich esse (eine Mahlzeit / Reis)."
+        },
+        "exampleAudio": "06_ngo_sik_faan.mp3"
+      },
+      {
+        "zh": "係",
+        "jyutping": "hai6",
+        "de": "sein (ist/bin/sind); auch: ja",
+        "audio": "07_hai.mp3",
+        "example": {
+          "zh": "我係老師。",
+          "jyutping": "ngo5 hai6 lou5 si1.",
+          "de": "Ich bin Lehrer/in."
+        },
+        "exampleAudio": "08_ngo_hai_lousi.mp3"
+      },
+      {
+        "zh": "食",
+        "jyutping": "sik6",
+        "de": "essen",
+        "audio": "09_sik.mp3",
+        "example": {
+          "zh": "你食唔食麵？",
+          "jyutping": "nei5 sik6 m4 sik6 min6?",
+          "de": "Isst du Nudeln? (wörtlich: du essen nicht essen Nudeln?)"
+        },
+        "exampleAudio": "10_nei_sik_m_sik_min.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "你",
+        "jyutping": "nei5",
+        "de": "du",
+        "audio": "17_nei.mp3"
+      },
+      {
+        "zh": "學生",
+        "jyutping": "hok6 saang1",
+        "de": "Schüler/Student",
+        "audio": "18_hoksaang.mp3"
+      },
+      {
+        "zh": "水",
+        "jyutping": "seoi2",
+        "de": "Wasser",
+        "audio": "19_seoi.mp3"
+      },
+      {
+        "zh": "飯",
+        "jyutping": "faan6",
+        "de": "Reis / Mahlzeit",
+        "audio": "20_faan.mp3"
+      },
+      {
+        "zh": "老師",
+        "jyutping": "lou5 si1",
+        "de": "Lehrer",
+        "audio": "21_lousi.mp3"
+      },
+      {
+        "zh": "麵",
+        "jyutping": "min6",
+        "de": "Nudeln",
+        "audio": "22_min.mp3"
+      },
+      {
+        "zh": "一杯",
+        "jyutping": "jat1 bui1",
+        "de": "ein Glas/Tasse",
+        "audio": "23_jat_bui.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: Grundwortstellung SVO (Subjekt + Verb + Objekt)",
+        "points": [
+          "Die Satzordnung ist oft: Subjekt + Verb + Objekt.",
+          "我食飯。 → Ich esse Reis.",
+          "我係老師。 → Ich bin Lehrer/in."
+        ]
+      },
+      {
+        "title": "Regel 2: Verneinung mit 唔 (m4) und Verb-nicht-Verb-Frage",
+        "points": [
+          "唔 steht direkt VOR dem Verb (oder Adjektiv): 我唔食飯。 ngo5 m4 sik6 faan6. → Ich esse nicht.",
+          "Ja/Nein-Frage oft als Verb-nicht-Verb: 你食唔食？ nei5 sik6 m4 sik6? → Isst du?",
+          "Mit 係: 我係老師。 / 我唔係老師。"
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "你好，我係學生。",
+          "answer": "Hallo, ich bin Student/in.",
+          "audio": "02_nihao_ngo_hai_hoksaang.mp3"
+        },
+        {
+          "zh": "唔該，一杯水。",
+          "answer": "Bitte / Danke, ein Glas Wasser.",
+          "audio": "04_mgoi_jat_bui_seoi.mp3"
+        },
+        {
+          "zh": "我食飯。",
+          "answer": "Ich esse (eine Mahlzeit / Reis).",
+          "audio": "06_ngo_sik_faan.mp3"
+        },
+        {
+          "zh": "我係老師。",
+          "answer": "Ich bin Lehrer/in.",
+          "audio": "08_ngo_hai_lousi.mp3"
+        },
+        {
+          "zh": "你食唔食麵？",
+          "answer": "Isst du Nudeln?",
+          "audio": "10_nei_sik_m_sik_min.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 係老師。 (Ich bin nicht Lehrer/in.)",
+          "answer": "我唔係老師。",
+          "audio": "13_ngo_m_hai_lousi.mp3"
+        },
+        {
+          "prompt": "你 ___ 食麵。 (Du isst keine Nudeln.)",
+          "answer": "你唔食麵。",
+          "audio": "14_nei_m_sik_min.mp3"
+        },
+        {
+          "prompt": "我食 ___ 食飯？ (Esse ich?)",
+          "answer": "我食唔食飯？",
+          "audio": "15_ngo_sik_m_sik_faan.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Hallo, ich bin Student/in.",
+          "answer": "你好，我係學生。",
+          "jyutping": "nei5 hou2, ngo5 hai6 hok6 saang1.",
+          "audio": "02_nihao_ngo_hai_hoksaang.mp3"
+        },
+        {
+          "prompt": "Danke. Ich esse nicht.",
+          "answer": "唔該。我唔食飯。",
+          "jyutping": "m4 goi1. ngo5 m4 sik6 faan6.",
+          "audio": "11_ngo_m_sik_faan.mp3"
+        },
+        {
+          "prompt": "Bist du Lehrer/in?",
+          "answer": "你係唔係老師？",
+          "jyutping": "nei5 hai6 m4 hai6 lou5 si1?",
+          "audio": "08_ngo_hai_lousi.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "唔該 → Danke / Bitte",
+      "我 → ich / mich",
+      "係 → sein; ja",
+      "食 → essen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Hallo, ich bin Student/in.",
+          "answer": "你好，我係學生。",
+          "jyutping": "nei5 hou2, ngo5 hai6 hok6 saang1."
+        },
+        {
+          "prompt": "Danke. Ich esse nicht.",
+          "answer": "唔該。我唔食飯。",
+          "jyutping": "m4 goi1. ngo5 m4 sik6 faan6."
+        },
+        {
+          "prompt": "Bist du Lehrer/in?",
+          "answer": "你係唔係老師？",
+          "jyutping": "nei5 hai6 m4 hai6 lou5 si1?"
+        }
+      ]
+    },
+    "dndChips": [
+      "唔",
+      "係",
+      "食",
+      "我",
+      "你",
+      "飯"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "01_nihao.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "唔該",
+        "de": "Danke / Bitte",
+        "audio": "03_mgoi.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "我",
+        "de": "ich / mich",
+        "audio": "05_ngo.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "係",
+        "de": "sein; ja",
+        "audio": "07_hai.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "09_sik.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我食飯。",
+        "audio": "06_ngo_sik_faan.mp3"
+      },
+      {
+        "zh": "我係老師。",
+        "audio": "08_ngo_hai_lousi.mp3"
+      },
+      {
+        "zh": "我唔食飯。",
+        "audio": "11_ngo_m_sik_faan.mp3"
+      },
+      {
+        "zh": "你食唔食？",
+        "audio": "12_nei_sik_m_sik.mp3"
+      },
+      {
+        "zh": "我唔係老師。",
+        "audio": "13_ngo_m_hai_lousi.mp3"
+      }
+    ],
+    "reviewNote": "Erste Lektion: Wiederhole die Wörter dieser Lektion. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 2,
+    "title": "Haben / Nicht-Haben, Zahlen, Zählwort",
+    "date": "2026-09-24",
+    "cumulativeWords": 10,
+    "clipsFolder": "clips_lektion_02",
+    "words": [
+      {
+        "zh": "有",
+        "jyutping": "jau5",
+        "de": "haben / es gibt / vorhanden sein",
+        "audio": "01_jau.mp3",
+        "example": {
+          "zh": "我有錢。",
+          "jyutping": "ngo5 jau5 cin2.",
+          "de": "Ich habe Geld."
+        },
+        "exampleAudio": "02_ngo_jau_cin.mp3"
+      },
+      {
+        "zh": "冇",
+        "jyutping": "mou5",
+        "de": "nicht haben / es gibt nicht (Gegenteil von 有)",
+        "audio": "03_mou.mp3",
+        "example": {
+          "zh": "我冇錢。",
+          "jyutping": "ngo5 mou5 cin2.",
+          "de": "Ich habe kein Geld."
+        },
+        "exampleAudio": "04_ngo_mou_cin.mp3"
+      },
+      {
+        "zh": "幾多",
+        "jyutping": "gei2 do1",
+        "de": "wie viel / wie viele",
+        "audio": "05_geido.mp3",
+        "example": {
+          "zh": "你有幾多個？",
+          "jyutping": "nei5 jau5 gei2 do1 go3?",
+          "de": "Wie viele hast du?"
+        },
+        "exampleAudio": "06_nei_jau_geido_go.mp3"
+      },
+      {
+        "zh": "三",
+        "jyutping": "saam1",
+        "de": "drei",
+        "audio": "07_saam.mp3",
+        "example": {
+          "zh": "我有三個。",
+          "jyutping": "ngo5 jau5 saam1 go3.",
+          "de": "Ich habe drei (Stück)."
+        },
+        "exampleAudio": "08_ngo_jau_saam_go.mp3"
+      },
+      {
+        "zh": "個",
+        "jyutping": "go3",
+        "de": "allgemeines Zählwort (Stück / ein …)",
+        "audio": "09_go.mp3",
+        "example": {
+          "zh": "一個、三個",
+          "jyutping": "jat1 go3, saam1 go3.",
+          "de": "ein Stück, drei Stück"
+        },
+        "exampleAudio": "10_jat_go_saam_go.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "錢",
+        "jyutping": "cin2",
+        "de": "Geld",
+        "audio": "13_cin.mp3"
+      },
+      {
+        "zh": "一",
+        "jyutping": "jat1",
+        "de": "eins",
+        "audio": "14_jat.mp3"
+      },
+      {
+        "zh": "兩",
+        "jyutping": "loeng5",
+        "de": "zwei (beim Zählen)",
+        "audio": "15_loeng.mp3"
+      },
+      {
+        "zh": "二",
+        "jyutping": "ji6",
+        "de": "zwei"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 有 und 冇 (haben / nicht haben)",
+        "points": [
+          "有 = haben / es gibt: 我有錢。 ngo5 jau5 cin2. → Ich habe Geld.",
+          "冇 = nicht haben (Gegenteil von 有; kein 唔 davor): 我冇錢。 ngo5 mou5 cin2.",
+          "Wichtig: Bei 冇 steht KEIN 唔 davor (冇 ersetzt 有 + 唔)."
+        ]
+      },
+      {
+        "title": "Regel 2: 幾多 + Zählwort 個",
+        "points": [
+          "Frage mit 幾多 + Zählwort: 你有幾多個？ nei5 jau5 gei2 do1 go3? → Wie viele hast du?",
+          "Antwort oft: Zahl + 個 — 三個。 saam1 go3. → Drei (Stück)."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我有錢。",
+          "answer": "Ich habe Geld.",
+          "audio": "02_ngo_jau_cin.mp3"
+        },
+        {
+          "zh": "我冇錢。",
+          "answer": "Ich habe kein Geld.",
+          "audio": "04_ngo_mou_cin.mp3"
+        },
+        {
+          "zh": "你有幾多個？",
+          "answer": "Wie viele hast du?",
+          "audio": "06_nei_jau_geido_go.mp3"
+        },
+        {
+          "zh": "我有三個。",
+          "answer": "Ich habe drei (Stück).",
+          "audio": "08_ngo_jau_saam_go.mp3"
+        },
+        {
+          "zh": "一個、三個",
+          "answer": "ein Stück, drei Stück",
+          "audio": "10_jat_go_saam_go.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 錢。 (Ich habe kein Geld.)",
+          "answer": "我冇錢。",
+          "audio": "04_ngo_mou_cin.mp3"
+        },
+        {
+          "prompt": "你 ___ 三個。 (Du hast drei Stück.)",
+          "answer": "你有三個。",
+          "audio": "11_nei_jau_saam_go.mp3"
+        },
+        {
+          "prompt": "我 ___ 錢。 (Ich habe Geld.)",
+          "answer": "我有錢。",
+          "audio": "02_ngo_jau_cin.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich habe drei (Stück).",
+          "answer": "我有三個。",
+          "jyutping": "ngo5 jau5 saam1 go3.",
+          "audio": "08_ngo_jau_saam_go.mp3"
+        },
+        {
+          "prompt": "Ich habe kein Geld.",
+          "answer": "我冇錢。",
+          "jyutping": "ngo5 mou5 cin2.",
+          "audio": "04_ngo_mou_cin.mp3"
+        },
+        {
+          "prompt": "Wie viele hast du?",
+          "answer": "你有幾多個？",
+          "jyutping": "nei5 jau5 gei2 do1 go3?",
+          "audio": "06_nei_jau_geido_go.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "我 → ich / mich",
+      "食 → essen",
+      "唔該 → Danke / Bitte",
+      "係 → sein; ja",
+      "老師 → Lehrer"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich habe drei (Stück).",
+          "answer": "我有三個。",
+          "jyutping": "ngo5 jau5 saam1 go3."
+        },
+        {
+          "prompt": "Ich habe kein Geld.",
+          "answer": "我冇錢。",
+          "jyutping": "ngo5 mou5 cin2."
+        },
+        {
+          "prompt": "Wie viele hast du?",
+          "answer": "你有幾多個？",
+          "jyutping": "nei5 jau5 gei2 do1 go3?"
+        }
+      ]
+    },
+    "dndChips": [
+      "有",
+      "冇",
+      "幾多",
+      "個",
+      "三",
+      "錢"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "01_nihao.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "我",
+        "de": "ich / mich",
+        "audio": "05_ngo.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "09_sik.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "唔該",
+        "de": "Danke / Bitte",
+        "audio": "03_mgoi.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "係",
+        "de": "sein; ja",
+        "audio": "07_hai.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "老師",
+        "de": "Lehrer",
+        "audio": "21_lousi.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我有錢。",
+        "audio": "02_ngo_jau_cin.mp3"
+      },
+      {
+        "zh": "我冇錢。",
+        "audio": "04_ngo_mou_cin.mp3"
+      },
+      {
+        "zh": "你有幾多個？",
+        "audio": "06_nei_jau_geido_go.mp3"
+      },
+      {
+        "zh": "我有三個。",
+        "audio": "08_ngo_jau_saam_go.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 01. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 3,
+    "title": "Wollen, gehen, Ort, zu Hause, heute",
+    "date": "2026-09-24",
+    "cumulativeWords": 15,
+    "clipsFolder": "clips_lektion_03",
+    "words": [
+      {
+        "zh": "想",
+        "jyutping": "soeng2",
+        "de": "wollen / möchten / denken",
+        "audio": "01_soeng.mp3",
+        "example": {
+          "zh": "我想去屋企。",
+          "jyutping": "ngo5 soeng2 heoi3 uk1 kei2.",
+          "de": "Ich will nach Hause gehen."
+        },
+        "exampleAudio": "02_ngo_soeng_heoi_ukkei.mp3"
+      },
+      {
+        "zh": "去",
+        "jyutping": "heoi3",
+        "de": "gehen / fahren (zu einem Ort)",
+        "audio": "03_heoi.mp3",
+        "example": {
+          "zh": "你去邊度？",
+          "jyutping": "nei5 heoi3 bin1 dou6?",
+          "de": "Wohin gehst du?"
+        },
+        "exampleAudio": "04_nei_heoi_bindou.mp3"
+      },
+      {
+        "zh": "邊度",
+        "jyutping": "bin1 dou6",
+        "de": "wo / wohin (Ort)",
+        "audio": "05_bindou.mp3",
+        "example": {
+          "zh": "邊度有飯？",
+          "jyutping": "bin1 dou6 jau5 faan6?",
+          "de": "Wo gibt es Reis / eine Mahlzeit?"
+        },
+        "exampleAudio": "06_bindou_jau_faan.mp3"
+      },
+      {
+        "zh": "屋企",
+        "jyutping": "uk1 kei2",
+        "de": "Zuhause / Haus (familiär, Hongkong)",
+        "audio": "07_ukkei.mp3",
+        "example": {
+          "zh": "我今日去屋企。",
+          "jyutping": "ngo5 gam1 jat6 heoi3 uk1 kei2.",
+          "de": "Ich gehe heute nach Hause."
+        },
+        "exampleAudio": "08_ngo_gamjat_heoi_ukkei.mp3"
+      },
+      {
+        "zh": "今日",
+        "jyutping": "gam1 jat6",
+        "de": "heute",
+        "audio": "09_gamjat.mp3",
+        "example": {
+          "zh": "今日我想食飯。",
+          "jyutping": "gam1 jat6 ngo5 soeng2 sik6 faan6.",
+          "de": "Heute will ich essen (eine Mahlzeit)."
+        },
+        "exampleAudio": "10_gamjat_ngo_soeng_sik_faan.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "學校",
+        "jyutping": "hok6 haau6",
+        "de": "Schule",
+        "audio": "13_hokhaau.mp3"
+      },
+      {
+        "zh": "而家",
+        "jyutping": "ji4 gaa1",
+        "de": "jetzt",
+        "audio": "14_jigaa.mp3"
+      },
+      {
+        "zh": "啦",
+        "jyutping": "laa1",
+        "de": "Partikel"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 想 + Verb (wollen / möchten)",
+        "points": [
+          "想 steht VOR dem Verb: 我想去屋企。 ngo5 soeng2 heoi3 uk1 kei2.",
+          "Verneinung: 唔想 + Verb — 我唔想去。",
+          "Ja/Nein-Frage: 你想唔想去？"
+        ]
+      },
+      {
+        "title": "Regel 2: Fragewort 邊度 und Zeitangaben",
+        "points": [
+          "邊度 = wo / wohin: 你去邊度？",
+          "Zeit oft am Satzanfang oder nach dem Subjekt: 今日我想食飯。 / 我今日去屋企。"
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我想去屋企。",
+          "answer": "Ich will nach Hause gehen.",
+          "audio": "02_ngo_soeng_heoi_ukkei.mp3"
+        },
+        {
+          "zh": "你去邊度？",
+          "answer": "Wohin gehst du?",
+          "audio": "04_nei_heoi_bindou.mp3"
+        },
+        {
+          "zh": "邊度有飯？",
+          "answer": "Wo gibt es Reis / eine Mahlzeit?",
+          "audio": "06_bindou_jau_faan.mp3"
+        },
+        {
+          "zh": "我今日去屋企。",
+          "answer": "Ich gehe heute nach Hause.",
+          "audio": "08_ngo_gamjat_heoi_ukkei.mp3"
+        },
+        {
+          "zh": "今日我想食飯。",
+          "answer": "Heute will ich essen (eine Mahlzeit).",
+          "audio": "10_gamjat_ngo_soeng_sik_faan.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 去屋企。 (Ich will nach Hause gehen.)",
+          "answer": "我想去屋企。",
+          "audio": "02_ngo_soeng_heoi_ukkei.mp3"
+        },
+        {
+          "prompt": "你去 ___？ (Wohin gehst du?)",
+          "answer": "你去邊度？",
+          "audio": "04_nei_heoi_bindou.mp3"
+        },
+        {
+          "prompt": "我 ___ 去學校。 (Ich will nicht zur Schule gehen.)",
+          "answer": "我唔想去學校。",
+          "audio": "15_ngo_m_soeng_heoi_hokhaau.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Heute will ich essen.",
+          "answer": "今日我想食飯。",
+          "jyutping": "gam1 jat6 ngo5 soeng2 sik6 faan6.",
+          "audio": "10_gamjat_ngo_soeng_sik_faan.mp3"
+        },
+        {
+          "prompt": "Wohin gehst du?",
+          "answer": "你去邊度？",
+          "jyutping": "nei5 heoi3 bin1 dou6?",
+          "audio": "04_nei_heoi_bindou.mp3"
+        },
+        {
+          "prompt": "Ich will nicht nach Hause gehen.",
+          "answer": "我唔想去屋企。",
+          "jyutping": "ngo5 m4 soeng2 heoi3 uk1 kei2.",
+          "audio": "15_ngo_m_soeng_heoi_hokhaau.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "有 → haben / es gibt",
+      "冇 → nicht haben",
+      "食 → essen",
+      "幾多 → wie viel / wie viele",
+      "我 → ich / mich"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Heute will ich essen.",
+          "answer": "今日我想食飯。",
+          "jyutping": "gam1 jat6 ngo5 soeng2 sik6 faan6."
+        },
+        {
+          "prompt": "Wohin gehst du?",
+          "answer": "你去邊度？",
+          "jyutping": "nei5 heoi3 bin1 dou6?"
+        },
+        {
+          "prompt": "Ich will nicht nach Hause gehen.",
+          "answer": "我唔想去屋企。",
+          "jyutping": "ngo5 m4 soeng2 heoi3 uk1 kei2."
+        }
+      ]
+    },
+    "dndChips": [
+      "想",
+      "唔想",
+      "邊度",
+      "去",
+      "今日",
+      "屋企"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "01_nihao.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "zh"
+      },
+      {
+        "zh": "有",
+        "de": "haben / es gibt",
+        "audio": "01_jau.mp3",
+        "clipsFolder": "clips_lektion_02",
+        "hide": "de"
+      },
+      {
+        "zh": "冇",
+        "de": "nicht haben",
+        "audio": "03_mou.mp3",
+        "clipsFolder": "clips_lektion_02",
+        "hide": "zh"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "09_sik.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "幾多",
+        "de": "wie viel / wie viele",
+        "audio": "05_geido.mp3",
+        "clipsFolder": "clips_lektion_02",
+        "hide": "zh"
+      },
+      {
+        "zh": "我",
+        "de": "ich / mich",
+        "audio": "05_ngo.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我想去屋企。",
+        "audio": "02_ngo_soeng_heoi_ukkei.mp3"
+      },
+      {
+        "zh": "我唔想去學校。",
+        "audio": "15_ngo_m_soeng_heoi_hokhaau.mp3"
+      },
+      {
+        "zh": "你去邊度？",
+        "audio": "04_nei_heoi_bindou.mp3"
+      },
+      {
+        "zh": "今日我想食飯。",
+        "audio": "10_gamjat_ngo_soeng_sik_faan.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 01 und 02. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 4,
+    "title": "Morgen, wann, trinken, Tee, gut",
+    "date": "2026-09-25",
+    "cumulativeWords": 20,
+    "clipsFolder": "clips_lektion_04",
+    "words": [
+      {
+        "zh": "聽日",
+        "jyutping": "ting1 jat6",
+        "de": "morgen",
+        "audio": "01_tingjat.mp3",
+        "example": {
+          "zh": "我聽日去屋企。",
+          "jyutping": "ngo5 ting1 jat6 heoi3 uk1 kei2.",
+          "de": "Ich gehe morgen nach Hause."
+        },
+        "exampleAudio": "02_ngo_tingjat_heoi_ukkei.mp3"
+      },
+      {
+        "zh": "幾時",
+        "jyutping": "gei2 si4",
+        "de": "wann",
+        "audio": "03b_geisi.mp3",
+        "example": {
+          "zh": "你幾時去？",
+          "jyutping": "nei5 gei2 si4 heoi3?",
+          "de": "Wann gehst du?"
+        },
+        "exampleAudio": "04_nei_geisi_heoi.mp3"
+      },
+      {
+        "zh": "飲",
+        "jyutping": "jam2",
+        "de": "trinken",
+        "audio": "05_jam.mp3",
+        "example": {
+          "zh": "我想飲茶。",
+          "jyutping": "ngo5 soeng2 jam2 caa4.",
+          "de": "Ich will Tee trinken."
+        },
+        "exampleAudio": "06_ngo_soeng_jam_caa.mp3"
+      },
+      {
+        "zh": "茶",
+        "jyutping": "caa4",
+        "de": "Tee",
+        "audio": "07_caa.mp3",
+        "example": {
+          "zh": "你飲唔飲茶？",
+          "jyutping": "nei5 jam2 m4 jam2 caa4?",
+          "de": "Trinkst du Tee?"
+        },
+        "exampleAudio": "08_nei_jam_m_jam_caa.mp3"
+      },
+      {
+        "zh": "好",
+        "jyutping": "hou2",
+        "de": "gut / sehr / okay",
+        "audio": "09_hou.mp3",
+        "example": {
+          "zh": "呢杯茶好好飲。",
+          "jyutping": "ni1 bui1 caa4 hou2 hou2 jam2.",
+          "de": "Diese Tasse Tee ist sehr gut zu trinken / schmeckt sehr gut."
+        },
+        "exampleAudio": "10_ni_bui_caa_houhoujam.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "呢杯",
+        "jyutping": "ni1 bui1",
+        "de": "diese Tasse / dieses Glas",
+        "audio": "12_nibui.mp3"
+      },
+      {
+        "zh": "咖啡",
+        "jyutping": "gaa3 fe1",
+        "de": "Kaffee",
+        "audio": "13_gaafe.mp3"
+      },
+      {
+        "zh": "先",
+        "jyutping": "sin1",
+        "de": "zuerst / erst",
+        "audio": "14_sin.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: Zeitwörter 聽日 und Fragewort 幾時",
+        "points": [
+          "Zeit oft nach dem Subjekt oder am Satzanfang: 我聽日去屋企。 / 聽日我想飲茶。",
+          "幾時 = wann: 你幾時去？",
+          "Vergleich: 今日 = heute, 聽日 = morgen, 幾時 = wann."
+        ]
+      },
+      {
+        "title": "Regel 2: 飲 + Getränk und 好",
+        "points": [
+          "飲 steht vor dem Getränk: 飲茶、飲水、飲咖啡",
+          "Ja/Nein-Frage: 你飲唔飲茶？",
+          "好 = gut / sehr. 好好 + Verb = „sehr gut zum …“: 呢杯茶好好飲。",
+          "Verneinung von 好: 唔好"
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我聽日去屋企。",
+          "answer": "Ich gehe morgen nach Hause.",
+          "audio": "02_ngo_tingjat_heoi_ukkei.mp3"
+        },
+        {
+          "zh": "你幾時去？",
+          "answer": "Wann gehst du?",
+          "audio": "04_nei_geisi_heoi.mp3"
+        },
+        {
+          "zh": "我想飲茶。",
+          "answer": "Ich will Tee trinken.",
+          "audio": "06_ngo_soeng_jam_caa.mp3"
+        },
+        {
+          "zh": "你飲唔飲茶？",
+          "answer": "Trinkst du Tee?",
+          "audio": "08_nei_jam_m_jam_caa.mp3"
+        },
+        {
+          "zh": "呢杯茶好好飲。",
+          "answer": "Diese Tasse Tee ist sehr gut zu trinken / schmeckt sehr gut.",
+          "audio": "10_ni_bui_caa_houhoujam.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 去屋企。 (Ich gehe morgen nach Hause.)",
+          "answer": "我聽日去屋企。",
+          "audio": "02_ngo_tingjat_heoi_ukkei.mp3"
+        },
+        {
+          "prompt": "你 ___ 去？ (Wann gehst du?)",
+          "answer": "你幾時去？",
+          "audio": "04_nei_geisi_heoi.mp3"
+        },
+        {
+          "prompt": "我想 ___ 茶。 (Ich will Tee trinken.)",
+          "answer": "我想飲茶。",
+          "audio": "06_ngo_soeng_jam_caa.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Wann gehst du?",
+          "answer": "你幾時去？",
+          "jyutping": "nei5 gei2 si4 heoi3?",
+          "audio": "04_nei_geisi_heoi.mp3"
+        },
+        {
+          "prompt": "Ich will Tee trinken.",
+          "answer": "我想飲茶。",
+          "jyutping": "ngo5 soeng2 jam2 caa4.",
+          "audio": "06_ngo_soeng_jam_caa.mp3"
+        },
+        {
+          "prompt": "Trinkst du Tee?",
+          "answer": "你飲唔飲茶？",
+          "jyutping": "nei5 jam2 m4 jam2 caa4?",
+          "audio": "08_nei_jam_m_jam_caa.mp3"
+        }
+      ]
+    },
+    "review": [
+      "想 → wollen / möchten",
+      "有 → haben / es gibt",
+      "去 → gehen",
+      "今日 → heute",
+      "邊度 → wo / wohin",
+      "我 → ich / mich"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Wann gehst du?",
+          "answer": "你幾時去？",
+          "jyutping": "nei5 gei2 si4 heoi3?"
+        },
+        {
+          "prompt": "Ich will Tee trinken.",
+          "answer": "我想飲茶。",
+          "jyutping": "ngo5 soeng2 jam2 caa4."
+        },
+        {
+          "prompt": "Trinkst du Tee?",
+          "answer": "你飲唔飲茶？",
+          "jyutping": "nei5 jam2 m4 jam2 caa4?"
+        }
+      ]
+    },
+    "dndChips": [
+      "聽日",
+      "幾時",
+      "飲",
+      "茶",
+      "好",
+      "今日"
+    ],
+    "reviewItems": [
+      {
+        "zh": "想",
+        "de": "wollen / möchten",
+        "audio": "01_soeng.mp3",
+        "clipsFolder": "clips_lektion_03",
+        "hide": "zh"
+      },
+      {
+        "zh": "有",
+        "de": "haben / es gibt",
+        "audio": "01_jau.mp3",
+        "clipsFolder": "clips_lektion_02",
+        "hide": "de"
+      },
+      {
+        "zh": "去",
+        "de": "gehen",
+        "audio": "03_heoi.mp3",
+        "clipsFolder": "clips_lektion_03",
+        "hide": "zh"
+      },
+      {
+        "zh": "今日",
+        "de": "heute",
+        "audio": "09_gamjat.mp3",
+        "clipsFolder": "clips_lektion_03",
+        "hide": "de"
+      },
+      {
+        "zh": "邊度",
+        "de": "wo / wohin",
+        "audio": "05_bindou.mp3",
+        "clipsFolder": "clips_lektion_03",
+        "hide": "zh"
+      },
+      {
+        "zh": "我",
+        "de": "ich / mich",
+        "audio": "05_ngo.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我聽日去屋企。",
+        "audio": "02_ngo_tingjat_heoi_ukkei.mp3"
+      },
+      {
+        "zh": "你幾時去？",
+        "audio": "04_nei_geisi_heoi.mp3"
+      },
+      {
+        "zh": "聽日我想飲茶。",
+        "audio": "11_tingjat_ngo_soeng_jam_caa.mp3"
+      },
+      {
+        "zh": "我想飲茶。",
+        "audio": "06_ngo_soeng_jam_caa.mp3"
+      },
+      {
+        "zh": "你飲唔飲茶？",
+        "audio": "08_nei_jam_m_jam_caa.mp3"
+      },
+      {
+        "zh": "呢杯茶好好飲。",
+        "audio": "10_ni_bui_caa_houhoujam.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus früheren Lektionen. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 5,
+    "title": "kaufen, Sache, noch nicht, okay/können, danke",
+    "date": "2026-09-26",
+    "cumulativeWords": 25,
+    "clipsFolder": "clips_lektion_05",
+    "words": [
+      {
+        "zh": "買",
+        "jyutping": "maai5",
+        "de": "kaufen",
+        "audio": "01_maai.mp3",
+        "example": {
+          "zh": "我想買茶。",
+          "jyutping": "ngo5 soeng2 maai5 caa4.",
+          "de": "Ich will Tee kaufen."
+        },
+        "exampleAudio": "02_ngo_soeng_maai_caa.mp3"
+      },
+      {
+        "zh": "嘢",
+        "jyutping": "je5",
+        "de": "Sache / Ding / etwas",
+        "audio": "03_je.mp3",
+        "example": {
+          "zh": "我想買嘢。",
+          "jyutping": "ngo5 soeng2 maai5 je5.",
+          "de": "Ich will etwas kaufen."
+        },
+        "exampleAudio": "04_ngo_soeng_maai_je.mp3"
+      },
+      {
+        "zh": "未",
+        "jyutping": "mei6",
+        "de": "noch nicht",
+        "audio": "05_mei.mp3",
+        "example": {
+          "zh": "我未食飯。",
+          "jyutping": "ngo5 mei6 sik6 faan6.",
+          "de": "Ich habe noch nicht gegessen."
+        },
+        "exampleAudio": "06_ngo_mei_sik_faan.mp3"
+      },
+      {
+        "zh": "得",
+        "jyutping": "dak1",
+        "de": "okay / können / gehen (im Sinne von „es geht“)",
+        "audio": "07_dak.mp3",
+        "example": {
+          "zh": "得唔得？",
+          "jyutping": "dak1 m4 dak1?",
+          "de": "Geht das? / Ist das okay?"
+        },
+        "exampleAudio": "08_dak_m_dak.mp3"
+      },
+      {
+        "zh": "多謝",
+        "jyutping": "do1 ze6",
+        "de": "danke (für Freundlichkeit / Geschenk)",
+        "audio": "09_doze.mp3",
+        "example": {
+          "zh": "多謝你。",
+          "jyutping": "do1 ze6 nei5.",
+          "de": "Danke dir."
+        },
+        "exampleAudio": "10_doze_nei.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "啦",
+        "jyutping": "laa1",
+        "de": "Partikel (Aufforderung / Abschluss)",
+        "audio": "13_laa.mp3"
+      },
+      {
+        "zh": "呀",
+        "jyutping": "aa3",
+        "de": "Frage-/Ausrufepartikel",
+        "audio": "14_aa.mp3"
+      },
+      {
+        "zh": "嗰個",
+        "jyutping": "go2 go3",
+        "de": "jener / der da",
+        "audio": "15_gogo.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 未 = noch nicht (vor dem Verb)",
+        "points": [
+          "未 steht direkt vor dem Verb und bedeutet „noch nicht“ — anders als 唔 (einfach „nicht“).",
+          "我未食飯。 → Ich habe noch nicht gegessen.",
+          "我未買嘢。 → Ich habe noch nichts gekauft."
+        ]
+      },
+      {
+        "title": "Regel 2: 買嘢, 得唔得 und 多謝 vs. 唔該",
+        "points": [
+          "買 + Objekt (買茶、買嘢).",
+          "得唔得？ = Geht das? / Ist das okay?",
+          "多謝 = Danke für Freundlichkeit / Geschenk; 唔該 = Danke für eine Dienstleistung / Bitte.",
+          "你買唔買？ → Kaufst du (es)?"
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我想買茶。",
+          "answer": "Ich will Tee kaufen.",
+          "audio": "02_ngo_soeng_maai_caa.mp3"
+        },
+        {
+          "zh": "我想買嘢。",
+          "answer": "Ich will etwas kaufen.",
+          "audio": "04_ngo_soeng_maai_je.mp3"
+        },
+        {
+          "zh": "我未食飯。",
+          "answer": "Ich habe noch nicht gegessen.",
+          "audio": "06_ngo_mei_sik_faan.mp3"
+        },
+        {
+          "zh": "得唔得？",
+          "answer": "Geht das? / Ist das okay?",
+          "audio": "08_dak_m_dak.mp3"
+        },
+        {
+          "zh": "多謝你。",
+          "answer": "Danke dir.",
+          "audio": "10_doze_nei.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我想 ___ 茶。 (Ich will Tee kaufen.)",
+          "answer": "我想買茶。",
+          "audio": "02_ngo_soeng_maai_caa.mp3"
+        },
+        {
+          "prompt": "我想買 ___。 (Ich will etwas kaufen.)",
+          "answer": "我想買嘢。",
+          "audio": "04_ngo_soeng_maai_je.mp3"
+        },
+        {
+          "prompt": "我 ___ 食飯。 (Ich habe noch nicht gegessen.)",
+          "answer": "我未食飯。",
+          "audio": "06_ngo_mei_sik_faan.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich will etwas kaufen.",
+          "answer": "我想買嘢。",
+          "jyutping": "ngo5 soeng2 maai5 je5.",
+          "audio": "04_ngo_soeng_maai_je.mp3"
+        },
+        {
+          "prompt": "Ich habe noch nicht gegessen.",
+          "answer": "我未食飯。",
+          "jyutping": "ngo5 mei6 sik6 faan6.",
+          "audio": "06_ngo_mei_sik_faan.mp3"
+        },
+        {
+          "prompt": "Geht das? / Ist das okay?",
+          "answer": "得唔得？",
+          "jyutping": "dak1 m4 dak1?",
+          "audio": "08_dak_m_dak.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "有 → haben / es gibt",
+      "食 → essen",
+      "聽日 → morgen",
+      "係 → sein / ja",
+      "飲 → trinken"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich will etwas kaufen.",
+          "answer": "我想買嘢。",
+          "jyutping": "ngo5 soeng2 maai5 je5."
+        },
+        {
+          "prompt": "Ich habe noch nicht gegessen.",
+          "answer": "我未食飯。",
+          "jyutping": "ngo5 mei6 sik6 faan6."
+        },
+        {
+          "prompt": "Geht das? / Ist das okay?",
+          "answer": "得唔得？",
+          "jyutping": "dak1 m4 dak1?"
+        }
+      ]
+    },
+    "dndChips": [
+      "買",
+      "嘢",
+      "未",
+      "得",
+      "多謝",
+      "茶"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "rev_nihao.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "zh"
+      },
+      {
+        "zh": "有",
+        "de": "haben / es gibt",
+        "audio": "rev_jau.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "de"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "rev_sik.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "zh"
+      },
+      {
+        "zh": "聽日",
+        "de": "morgen",
+        "audio": "rev_tingjat.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "de"
+      },
+      {
+        "zh": "係",
+        "de": "sein / ja",
+        "audio": "rev_hai.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "zh"
+      },
+      {
+        "zh": "飲",
+        "de": "trinken",
+        "audio": "rev_jam.mp3",
+        "clipsFolder": "clips_lektion_05",
+        "hide": "de"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我未食飯。",
+        "audio": "06_ngo_mei_sik_faan.mp3"
+      },
+      {
+        "zh": "我未買嘢。",
+        "audio": "11_ngo_mei_maai_je.mp3"
+      },
+      {
+        "zh": "我想買嘢。",
+        "audio": "04_ngo_soeng_maai_je.mp3"
+      },
+      {
+        "zh": "你買唔買？",
+        "audio": "12_nei_maai_m_maai.mp3"
+      },
+      {
+        "zh": "得唔得？",
+        "audio": "08_dak_m_dak.mp3"
+      },
+      {
+        "zh": "多謝你。",
+        "audio": "10_doze_nei.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus früheren Lektionen. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 6,
+    "title": "zurückkehren, kommen, gehen/weggehen, ankommen, warten",
+    "date": "2026-09-27",
+    "cumulativeWords": 30,
+    "clipsFolder": "clips_lektion_06",
+    "words": [
+      {
+        "zh": "返",
+        "jyutping": "faan1",
+        "de": "zurückkehren / (nach Hause / zur Arbeit) gehen",
+        "audio": "01_faan.mp3",
+        "example": {
+          "zh": "我聽日返屋企。",
+          "jyutping": "ngo5 ting1 jat6 faan1 uk1 kei2.",
+          "de": "Ich gehe morgen nach Hause."
+        },
+        "exampleAudio": "02_ngo_tingjat_faan_ukkei.mp3"
+      },
+      {
+        "zh": "嚟",
+        "jyutping": "lai4",
+        "de": "kommen",
+        "audio": "03_lai.mp3",
+        "example": {
+          "zh": "你幾時嚟？",
+          "jyutping": "nei5 gei2 si4 lai4?",
+          "de": "Wann kommst du?"
+        },
+        "exampleAudio": "04_nei_geisi_lai.mp3"
+      },
+      {
+        "zh": "走",
+        "jyutping": "zau2",
+        "de": "gehen / weggehen / losgehen",
+        "audio": "05_zau.mp3",
+        "example": {
+          "zh": "我而家走。",
+          "jyutping": "ngo5 ji4 gaa1 zau2.",
+          "de": "Ich gehe jetzt weg."
+        },
+        "exampleAudio": "06_ngo_jigaa_zau.mp3"
+      },
+      {
+        "zh": "到",
+        "jyutping": "dou3",
+        "de": "ankommen / bis / erreichen",
+        "audio": "07_dou.mp3",
+        "example": {
+          "zh": "我到學校。",
+          "jyutping": "ngo5 dou3 hok6 haau6.",
+          "de": "Ich komme an der Schule an."
+        },
+        "exampleAudio": "08_ngo_dou_hokhaau.mp3"
+      },
+      {
+        "zh": "等",
+        "jyutping": "dang2",
+        "de": "warten",
+        "audio": "09_dang.mp3",
+        "example": {
+          "zh": "你等我。",
+          "jyutping": "nei5 dang2 ngo5.",
+          "de": "Warte auf mich."
+        },
+        "exampleAudio": "10_nei_dang_ngo.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "一齊",
+        "jyutping": "jat1 cai4",
+        "de": "zusammen",
+        "audio": "14_jatcai.mp3"
+      },
+      {
+        "zh": "快啲",
+        "jyutping": "faai3 di1",
+        "de": "schneller / beeil dich",
+        "audio": "15_faaidi.mp3"
+      },
+      {
+        "zh": "呢度",
+        "jyutping": "ni1 dou6",
+        "de": "hier",
+        "audio": "16_nidou.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 嚟 / 去 / 返 — Richtung",
+        "points": [
+          "去 = hingehen (weg vom Sprecher). 嚟 = herkommen (zum Sprecher). 返 = zurückkehren / den üblichen Weg nehmen (nach Hause, zur Arbeit).",
+          "我想去學校。 → Ich will zur Schule gehen.",
+          "你幾時嚟？ → Wann kommst du?",
+          "我聽日返屋企。 → Ich gehe morgen nach Hause.",
+          "你返唔返？ → Gehst du zurück?"
+        ]
+      },
+      {
+        "title": "Regel 2: 到 (ankommen) und 等 (warten)",
+        "points": [
+          "到 steht oft allein als Verb „ankommen“. 等 + Person: 等我、等你.",
+          "我到學校。 → Ich komme an der Schule an.",
+          "我未到。 → Ich bin noch nicht da.",
+          "你等我。 → Warte auf mich.",
+          "你等一齊嚟。 → Warte, wir kommen zusammen."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我聽日返屋企。",
+          "answer": "Ich gehe morgen nach Hause.",
+          "audio": "02_ngo_tingjat_faan_ukkei.mp3"
+        },
+        {
+          "zh": "你幾時嚟？",
+          "answer": "Wann kommst du?",
+          "audio": "04_nei_geisi_lai.mp3"
+        },
+        {
+          "zh": "我而家走。",
+          "answer": "Ich gehe jetzt weg.",
+          "audio": "06_ngo_jigaa_zau.mp3"
+        },
+        {
+          "zh": "我到學校。",
+          "answer": "Ich komme an der Schule an.",
+          "audio": "08_ngo_dou_hokhaau.mp3"
+        },
+        {
+          "zh": "你等我。",
+          "answer": "Warte auf mich.",
+          "audio": "10_nei_dang_ngo.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我聽日 ___ 屋企。 (Ich gehe morgen nach Hause.)",
+          "answer": "我聽日返屋企。",
+          "audio": "02_ngo_tingjat_faan_ukkei.mp3"
+        },
+        {
+          "prompt": "你幾時 ___？ (Wann kommst du?)",
+          "answer": "你幾時嚟？",
+          "audio": "04_nei_geisi_lai.mp3"
+        },
+        {
+          "prompt": "我而家 ___。 (Ich gehe jetzt weg.)",
+          "answer": "我而家走。",
+          "audio": "06_ngo_jigaa_zau.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich gehe morgen nach Hause.",
+          "answer": "我聽日返屋企。",
+          "jyutping": "ngo5 ting1 jat6 faan1 uk1 kei2.",
+          "audio": "02_ngo_tingjat_faan_ukkei.mp3"
+        },
+        {
+          "prompt": "Wann kommst du?",
+          "answer": "你幾時嚟？",
+          "jyutping": "nei5 gei2 si4 lai4?",
+          "audio": "04_nei_geisi_lai.mp3"
+        },
+        {
+          "prompt": "Warte auf mich.",
+          "answer": "你等我。",
+          "jyutping": "nei5 dang2 ngo5.",
+          "audio": "10_nei_dang_ngo.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "有 → haben / es gibt",
+      "食 → essen",
+      "聽日 → morgen",
+      "係 → sein / ja",
+      "買 → kaufen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich gehe morgen nach Hause.",
+          "answer": "我聽日返屋企。",
+          "jyutping": "ngo5 ting1 jat6 faan1 uk1 kei2."
+        },
+        {
+          "prompt": "Wann kommst du?",
+          "answer": "你幾時嚟？",
+          "jyutping": "nei5 gei2 si4 lai4?"
+        },
+        {
+          "prompt": "Warte auf mich.",
+          "answer": "你等我。",
+          "jyutping": "nei5 dang2 ngo5."
+        }
+      ]
+    },
+    "dndChips": [
+      "返",
+      "嚟",
+      "走",
+      "到",
+      "等",
+      "一齊"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "rev_nihao.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "zh"
+      },
+      {
+        "zh": "有",
+        "de": "haben / es gibt",
+        "audio": "rev_jau.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "de"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "rev_sik.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "zh"
+      },
+      {
+        "zh": "聽日",
+        "de": "morgen",
+        "audio": "rev_tingjat.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "de"
+      },
+      {
+        "zh": "係",
+        "de": "sein / ja",
+        "audio": "rev_hai.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "zh"
+      },
+      {
+        "zh": "買",
+        "de": "kaufen",
+        "audio": "rev_maai.mp3",
+        "clipsFolder": "clips_lektion_06",
+        "hide": "de"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我想去學校。",
+        "audio": "17_ngo_soeng_heoi_hokhaau.mp3"
+      },
+      {
+        "zh": "你幾時嚟？",
+        "audio": "04_nei_geisi_lai.mp3"
+      },
+      {
+        "zh": "我聽日返屋企。",
+        "audio": "02_ngo_tingjat_faan_ukkei.mp3"
+      },
+      {
+        "zh": "你返唔返？",
+        "audio": "11_nei_faan_m_faan.mp3"
+      },
+      {
+        "zh": "我到學校。",
+        "audio": "08_ngo_dou_hokhaau.mp3"
+      },
+      {
+        "zh": "我未到。",
+        "audio": "12_ngo_mei_dou.mp3"
+      },
+      {
+        "zh": "你等我。",
+        "audio": "10_nei_dang_ngo.mp3"
+      },
+      {
+        "zh": "你等一齊嚟。",
+        "audio": "13_nei_dang_jatcai_lai.mp3"
+      }
+    ],
+    "reviewNote": "Ungerade Zeilen: Chinesisch versteckt. Gerade Zeilen: Deutsch versteckt. 7 Wörter aus Lektion 01–05."
+  }
+]
