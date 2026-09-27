@@ -228,8 +228,10 @@ h1 {
   min-width: 4.5rem;
 }
 .vocab-de {
-  color: #2d3748;
+  color: #1a202c;
   font-size: 0.92rem;
+  font-weight: 700;
+  margin-left: 0.6rem;
 }
 .review-box { padding: 0.5rem 0.85rem; }
 .review-row {

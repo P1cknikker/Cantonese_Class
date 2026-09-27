@@ -116,16 +116,15 @@
         "title": "Regel 1: Grundwortstellung SVO (Subjekt + Verb + Objekt)",
         "points": [
           "Die Satzordnung ist oft: Subjekt + Verb + Objekt.",
-          "我食飯。 → Ich esse Reis.",
-          "我係老師。 → Ich bin Lehrer/in."
+          "我食飯。 ngo5 sik6 faan6. → Ich esse Reis.",
+          "我係老師。 ngo5 hai6 lou5 si1. → Ich bin Lehrer/in."
         ]
       },
       {
         "title": "Regel 2: Verneinung mit 唔 (m4) und Verb-nicht-Verb-Frage",
         "points": [
           "唔 steht direkt VOR dem Verb (oder Adjektiv): 我唔食飯。 ngo5 m4 sik6 faan6. → Ich esse nicht.",
-          "Ja/Nein-Frage oft als Verb-nicht-Verb: 你食唔食？ nei5 sik6 m4 sik6? → Isst du?",
-          "Mit 係: 我係老師。 / 我唔係老師。"
+          "Ja/Nein-Frage oft als Verb-nicht-Verb: 你食唔食？ nei5 sik6 m4 sik6? → Isst du?"
         ]
       }
     ],
@@ -185,13 +184,13 @@
           "prompt": "Danke. Ich esse nicht.",
           "answer": "唔該。我唔食飯。",
           "jyutping": "m4 goi1. ngo5 m4 sik6 faan6.",
-          "audio": "11_ngo_m_sik_faan.mp3"
+          "audio": "25_mgoi_ngo_m_sik_faan.mp3"
         },
         {
           "prompt": "Bist du Lehrer/in?",
           "answer": "你係唔係老師？",
           "jyutping": "nei5 hai6 m4 hai6 lou5 si1?",
-          "audio": "08_ngo_hai_lousi.mp3"
+          "audio": "26_nei_hai_m_hai_lousi.mp3"
         }
       ]
     },
@@ -213,12 +212,14 @@
         {
           "prompt": "Danke. Ich esse nicht.",
           "answer": "唔該。我唔食飯。",
-          "jyutping": "m4 goi1. ngo5 m4 sik6 faan6."
+          "jyutping": "m4 goi1. ngo5 m4 sik6 faan6.",
+          "audio": "25_mgoi_ngo_m_sik_faan.mp3"
         },
         {
           "prompt": "Bist du Lehrer/in?",
           "answer": "你係唔係老師？",
-          "jyutping": "nei5 hai6 m4 hai6 lou5 si1?"
+          "jyutping": "nei5 hai6 m4 hai6 lou5 si1?",
+          "audio": "26_nei_hai_m_hai_lousi.mp3"
         }
       ]
     },
@@ -270,26 +271,94 @@
     "grammarExamples": [
       {
         "zh": "我食飯。",
-        "audio": "06_ngo_sik_faan.mp3"
+        "audio": "06_ngo_sik_faan.mp3",
+        "jyutping": "ngo5 sik6 faan6."
       },
       {
         "zh": "我係老師。",
-        "audio": "08_ngo_hai_lousi.mp3"
+        "audio": "08_ngo_hai_lousi.mp3",
+        "jyutping": "ngo5 hai6 lou5 si1."
       },
       {
-        "zh": "我唔食飯。",
-        "audio": "11_ngo_m_sik_faan.mp3"
+        "zh": "你食飯。",
+        "audio": "27_nei_sik_faan.mp3",
+        "jyutping": "nei5 sik6 faan6."
       },
       {
-        "zh": "你食唔食？",
-        "audio": "12_nei_sik_m_sik.mp3"
+        "zh": "你唔食飯。",
+        "audio": "28_nei_m_sik_faan.mp3",
+        "jyutping": "nei5 m4 sik6 faan6."
       },
       {
-        "zh": "我唔係老師。",
-        "audio": "13_ngo_m_hai_lousi.mp3"
+        "zh": "你食唔食飯？",
+        "audio": "29_nei_sik_m_sik_faan.mp3",
+        "jyutping": "nei5 sik6 m4 sik6 faan6?"
+      },
+      {
+        "zh": "你係學生。",
+        "audio": "30_nei_hai_hoksaang.mp3",
+        "jyutping": "nei5 hai6 hok6 saang1."
+      },
+      {
+        "zh": "你唔係學生。",
+        "audio": "31_nei_m_hai_hoksaang.mp3",
+        "jyutping": "nei5 m4 hai6 hok6 saang1."
+      },
+      {
+        "zh": "你係唔係學生？",
+        "audio": "32_nei_hai_m_hai_hoksaang.mp3",
+        "jyutping": "nei5 hai6 m4 hai6 hok6 saang1?"
       }
     ],
-    "reviewNote": "Erste Lektion: Wiederhole die Wörter dieser Lektion. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+    "reviewNote": "Erste Lektion: Wiederhole die Wörter dieser Lektion. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "exampleBoxes": [
+      {
+        "title": "Beispiel 1 (Essen)",
+        "rows": [
+          {
+            "zh": "你食飯。",
+            "jyutping": "nei5 sik6 faan6.",
+            "de": "Du isst Reis.",
+            "audio": "27_nei_sik_faan.mp3"
+          },
+          {
+            "zh": "你唔食飯。",
+            "jyutping": "nei5 m4 sik6 faan6.",
+            "de": "Du isst keinen Reis.",
+            "audio": "28_nei_m_sik_faan.mp3"
+          },
+          {
+            "zh": "你食唔食飯？",
+            "jyutping": "nei5 sik6 m4 sik6 faan6?",
+            "de": "Isst du Reis?",
+            "audio": "29_nei_sik_m_sik_faan.mp3"
+          }
+        ]
+      },
+      {
+        "title": "Beispiel 2 (Sein)",
+        "rows": [
+          {
+            "zh": "你係學生。",
+            "jyutping": "nei5 hai6 hok6 saang1.",
+            "de": "Du bist Schüler.",
+            "audio": "30_nei_hai_hoksaang.mp3"
+          },
+          {
+            "zh": "你唔係學生。",
+            "jyutping": "nei5 m4 hai6 hok6 saang1.",
+            "de": "Du bist kein Schüler.",
+            "audio": "31_nei_m_hai_hoksaang.mp3"
+          },
+          {
+            "zh": "你係唔係學生？",
+            "jyutping": "nei5 hai6 m4 hai6 hok6 saang1?",
+            "de": "Bist du Schüler?",
+            "audio": "32_nei_hai_m_hai_hoksaang.mp3"
+          }
+        ]
+      }
+    ]
   },
   {
     "id": 2,

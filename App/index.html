@@ -33,8 +33,9 @@
       padding: 0.55rem 0.85rem;
     }
     .vocab-item .zh { font-size: 1.15rem; font-weight: 600; min-width: 4rem; }
-    .vocab-item .jyut { font-style: italic; color: var(--muted); font-size: 0.85rem; }
-    .vocab-item .de { color: #2d3748; font-size: 0.9rem; flex: 1; }
+    .vocab-item .play-btn { flex-shrink: 0; }
+    .vocab-item .jyut { font-style: italic; color: var(--muted); font-size: 0.85rem; margin-left: 0; }
+    .vocab-item .de { color: #1a202c; font-size: 0.9rem; font-weight: 700; flex: 1; }
     .badge-core {
       font-size: 0.7rem; font-weight: 600; padding: 0.12rem 0.45rem;
       border-radius: 999px; background: #bee3f8; color: #2c5282;
@@ -470,7 +471,7 @@
           <strong>HINWEIS ZUR AUSSPRACHE</strong><br>
           • Romanisierung: Jyutping (Zahlen 1–6 = Töne)<br>
           • Traditionelle Schriftzeichen (Hongkong-Standard)<br>
-          • Audio: Clips unter <code>Audiodateien/${folder}/</code>
+          • Audio: Clips abspielen mit dem grünen Play-Button
         </div>
 
         <div class="section-title">1) FÜNF NEUE WÖRTER MIT BEISPIELSÄTZEN</div>
@@ -515,16 +516,54 @@
           points.forEach(pt => { html += `<li style="margin:0.3rem 0;">${pt}</li>`; });
           html += `</ul></div>`;
         }
+        const cols = Array.isArray(g.exampleColumns) ? g.exampleColumns : [];
+        if (cols.length) {
+          html += `<div class="grammar-cols" style="display:grid;grid-template-columns:1fr 1fr;gap:1rem;margin-top:0.75rem;">`;
+          cols.forEach(col => {
+            html += `<div class="grammar-col"><p class="de" style="font-weight:700;margin:0 0 0.4rem;">${col.title || ''}</p>`;
+            (col.rows || []).forEach(row => {
+              const rUrl = audioUrl(folder, row.audio);
+              html += `<div style="margin:0.4rem 0;">
+                <span class="zh">${row.zh || ''}</span>
+                ${rUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${rUrl}')">▶</button>` : ''}
+                ${row.jyutping ? `<div class="jyut">${row.jyutping}</div>` : ''}
+                ${row.de ? `<div class="de" style="font-weight:normal;">${row.de}</div>` : ''}
+              </div>`;
+            });
+            html += `</div>`;
+          });
+          html += `</div>`;
+        }
         html += `</div>`;
       });
 
-      const gex = Array.isArray(l.grammarExamples) ? l.grammarExamples : [];
+      // Beispiel-Kästen (wie Regel 1 / Regel 2)
+      const boxes = Array.isArray(l.exampleBoxes) ? l.exampleBoxes : [];
+      boxes.forEach(box => {
+        html += `<div class="rule-block"><div class="rule-title">${box.title || 'Beispiel'}</div>`;
+        (box.rows || []).forEach((row, ri) => {
+          const rUrl = audioUrl(folder, row.audio);
+          const border = ri < (box.rows.length - 1) ? 'border-bottom:1px solid #edf2f7;' : '';
+          html += `<div style="display:flex;align-items:center;gap:0.55rem;flex-wrap:wrap;padding:0.4rem 0;${border}">
+            <span class="zh">${row.zh || ''}</span>
+            ${rUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${rUrl}')">▶</button>` : ''}
+            ${row.jyutping ? `<span class="jyut">${row.jyutping}</span>` : ''}
+            ${row.de ? `<span class="de">${row.de}</span>` : ''}
+          </div>`;
+        });
+        html += `</div>`;
+      });
+
+      const hasBoxes = boxes.length > 0;
+      const hasCols = grammar.some(g => g && Array.isArray(g.exampleColumns) && g.exampleColumns.length);
+      const gex = (!hasBoxes && !hasCols && Array.isArray(l.grammarExamples)) ? l.grammarExamples : [];
       if (gex.length) {
         html += `<div class="rule-block"><div class="rule-title">Beispiele (mit Audio)</div>`;
         gex.forEach(ge => {
           const gUrl = audioUrl(folder, ge.audio);
           html += `<div style="margin:0.35rem 0;">${ge.zh || ''}
             ${gUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${gUrl}')">▶</button>` : ''}
+            ${ge.jyutping ? `<div class="jyut">${ge.jyutping}</div>` : ''}
           </div>`;
         });
         html += `</div>`;
@@ -645,33 +684,33 @@
         html += `<p class="note">Siehe frühere Lektionen und die markierten Wörter unter „Vokabeln“ / „Fortschritt“.</p>`;
       }
 
-      // 5 Neue Vokabeln
-      html += `<div class="section-title">5) NEUE VOKABELN</div>
-        <div class="rule-block vocab-box">
-          <p><strong>Kern-Wörter dieser Lektion</strong></p>`;
+      // 5 Neue Vokabeln — zwei Kästen wie Full-HTML
+      html += `<div class="section-title">5) NEUE VOKABELN</div>`;
+      html += `<p class="note"><strong>Kern-Wörter dieser Lektion</strong></p>
+        <div class="rule-block vocab-box word-block">`;
       words.forEach(w => {
         if (!w) return;
         const url = audioUrl(folder, w.audio);
         html += `<div class="vocab-row">
           <span class="vocab-zh">${w.zh || ''}</span>
-          ${url ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${url}')">▶</button>` : ''}
-          <span class="jyut">${w.jyutping || ''}</span>
+          ${url ? `<button type="button" class="play-btn" style="width:28px;height:28px;font-size:0.8rem;" onclick="App.play(this,'${url}')">▶</button>` : ''}
           <span class="vocab-de">${w.de || ''}</span>
         </div>`;
       });
+      html += `</div>`;
       if (helpers.length) {
-        html += `<p style="margin-top:0.8rem;"><strong>Hilfswörter dieser Lektion</strong></p>`;
+        html += `<p class="note" style="margin-top:1rem;"><strong>Hilfswörter dieser Lektion</strong></p>
+          <div class="rule-block vocab-box word-block">`;
         helpers.forEach(h => {
           const hUrl = audioUrl(folder, h.audio);
           html += `<div class="vocab-row">
             <span class="vocab-zh">${h.zh || ''}</span>
-            ${hUrl ? `<button type="button" class="play-btn" style="width:26px;height:26px;font-size:0.75rem;" onclick="App.play(this,'${hUrl}')">▶</button>` : ''}
-            <span class="jyut">${h.jyutping || ''}</span>
+            ${hUrl ? `<button type="button" class="play-btn" style="width:28px;height:28px;font-size:0.8rem;" onclick="App.play(this,'${hUrl}')">▶</button>` : ''}
             <span class="vocab-de">${h.de || ''}</span>
           </div>`;
         });
+        html += `</div>`;
       }
-      html += `</div>`;
 
       const prev = lessons.find(x => x.id === l.id - 1);
       const next = lessons.find(x => x.id === l.id + 1);
