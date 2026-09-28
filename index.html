@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>粵語 · Kantonesisch – Lern-App</title>
+  <title>粵語 · Kantonesisch – Lern-App (Hongkong-Urban)</title>
   <link rel="stylesheet" href="css/style.css">
   <style>
     /* Phase-2 SPA Ergänzungen */
@@ -38,20 +38,20 @@
     .vocab-item .de { color: #1a202c; font-size: 0.9rem; font-weight: 700; flex: 1; }
     .badge-core {
       font-size: 0.7rem; font-weight: 600; padding: 0.12rem 0.45rem;
-      border-radius: 999px; background: #bee3f8; color: #2c5282;
+      border-radius: 999px; background: #f5e6e8; color: #8b1528;
     }
     .progress-bar-wrap {
       background: #e2e8f0; border-radius: 999px; height: 10px; margin: 0.5rem 0 1rem; overflow: hidden;
     }
     .progress-bar-fill {
-      height: 100%; background: linear-gradient(90deg, #38a169, #2b6cb0); border-radius: 999px;
+      height: 100%; background: linear-gradient(90deg, #c41e3a, #b8860b); border-radius: 999px;
       transition: width 0.35s ease;
     }
     .mark-btn {
       font-size: 0.75rem; padding: 0.2rem 0.5rem; border-radius: 5px;
       border: 1px solid #cbd5e0; background: #f7fafc; cursor: pointer;
     }
-    .mark-btn.known { background: #c6f6d5; border-color: #68d391; color: #276749; }
+    .mark-btn.known { background: #f3e9d0; border-color: #d4c08a; color: #6b4f08; }
     .classic-link {
       display: inline-block; margin-top: 0.8rem; font-size: 0.88rem;
       color: var(--accent); text-decoration: none;
@@ -66,7 +66,7 @@
     }
     .lesson-nav-bottom a:hover, .lesson-nav-bottom button:hover { background: #e2e8f0; }
     .complete-btn {
-      background: #c6f6d5 !important; border-color: #68d391 !important; color: #276749 !important; font-weight: 600;
+      background: #f3e9d0 !important; border-color: #d4c08a !important; color: #6b4f08 !important; font-weight: 600;
     }
     .empty-state { text-align: center; color: var(--muted); padding: 2rem 1rem; }
     .helper-list { font-size: 0.9rem; color: var(--muted); margin: 0.5rem 0 1rem; }
@@ -75,10 +75,10 @@
     .copyright-notice {
       margin-top: 2rem;
       padding-top: 1rem;
-      border-top: 1px solid #e2e8f0;
+      border-top: 1px solid #e8dcc8;
       text-align: center;
       font-size: 0.75rem;
-      color: #718096;
+      color: #6b5e54;
       line-height: 1.45;
     }
 
@@ -87,26 +87,31 @@
 <body>
 
   <nav class="app-nav" id="main-nav">
-    <a href="#/" class="nav-brand">粵語 · Kantonesisch</a>
+    <a href="#/" class="nav-brand-block" data-route="/" aria-label="粵語學習 – Kantonesisch lernen">
+      <img class="nav-brand-img" src="assets/nav-brand.png" alt="粵語學習 – Kantonesisch lernen" width="312" height="74">
+    </a>
+    <span class="nav-divider-v" aria-hidden="true"></span>
     <div class="nav-links">
-      <a href="#/" data-route="/">Übersicht</a>
-      <span class="nav-sep">·</span>
-      <a href="#/vocab" data-route="/vocab">Vokabeln</a>
-      <span class="nav-sep">·</span>
-      <a href="#/progress" data-route="/progress">Fortschritt</a>
+      <a href="#/" data-route="/"><span class="nav-ico" aria-hidden="true">概覽</span> Übersicht</a>
+      <a href="#/vocab" data-route="/vocab"><span class="nav-ico" aria-hidden="true">詞彙</span> Vokabeln</a>
+      <a href="#/progress" data-route="/progress"><span class="nav-ico" aria-hidden="true">進度</span> Fortschritt</a>
     </div>
   </nav>
+
+  <img class="page-skyline" src="assets/skyline-banner.png" alt="Hongkong Skyline" width="1200" height="600">
+  <div class="ornament-divider" role="separator"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
 
   <!-- ========== DASHBOARD ========== -->
   <div id="view-home" class="view">
     <header class="dash-header">
-      <h1>KANTONESISCH LERNEN</h1>
-      <p class="meta">Anfänger · Stufe 1</p>
+      <h1>粵語學習</h1>
+      <p class="meta" style="color:#b8860b;font-weight:600;">Kantonesisch lernen · Anfänger · Stufe 1</p>
     </header>
 
     <div class="dash-stats" id="home-stats"></div>
 
     <div class="section-title">Lektionen</div>
+    <div class="ornament-divider" role="separator"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
     <div class="lesson-grid" id="home-lessons"></div>
 
   </div>
@@ -136,12 +141,15 @@
     </div>
     <div class="dash-stats" id="progress-stats"></div>
     <div class="section-title">Weg zum nächsten Level</div>
+    <div class="ornament-divider" role="separator"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
     <p class="meta">Ziel: ca. 100 gelernte Wörter</p>
     <div class="progress-bar-wrap"><div class="progress-bar-fill" id="level-bar" style="width:0%"></div></div>
     <p class="meta" id="level-text"></p>
     <div class="section-title">Abgeschlossene Lektionen</div>
+    <div class="ornament-divider" role="separator"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
     <div id="progress-lessons"></div>
     <div class="section-title">Markierte Wörter</div>
+    <div class="ornament-divider" role="separator"><span class="line"></span><span class="dot"></span><span class="line"></span></div>
     <div id="progress-known"></div>
     <button class="check-btn" style="margin-top:1.2rem;" onclick="App.resetProgress()">Fortschritt zurücksetzen</button>
   </div>
@@ -313,7 +321,7 @@
               <h2>${l.title}</h2>
               <p>${l.words.map(w => w.zh).join(' · ')} &nbsp;·&nbsp; ${l.words.length} Kernwörter</p>
             </div>
-            ${done ? '<span class="lesson-badge">fertig</span>' : '<span class="lesson-badge" style="background:#edf2f7;color:#4a5568;">offen</span>'}
+            ${done ? '<span class="lesson-badge">fertig</span>' : '<span class="lesson-badge" style="background:#f5e6e8;color:#8b1528;">offen</span>'}
           </a>`;
       }).join('');
     }
@@ -446,6 +454,20 @@
       return html;
     }
 
+
+    function sectionHeading(de, zh) {
+      return `<div class="section-heading">
+        <div class="section-heading-de">${de}</div>
+        <div class="section-heading-banner">
+          <span class="line"></span>
+          <span class="dot"></span>
+          <span class="zh-label">${zh}</span>
+          <span class="dot"></span>
+          <span class="line"></span>
+        </div>
+      </div>`;
+    }
+
     function renderLesson(id) {
       const l = lessons.find(x => x.id === id);
       if (!l) {
@@ -474,7 +496,7 @@
           • Audio: Clips abspielen mit dem grünen Play-Button
         </div>
 
-        <div class="section-title">1) FÜNF NEUE WÖRTER MIT BEISPIELSÄTZEN</div>
+        ${sectionHeading("Fünf neue Wörter", "新詞")}
       `;
 
       words.forEach((w, i) => {
@@ -506,7 +528,7 @@
         </p>`;
       }
 
-      html += `<div class="section-title">2) GRAMMATIK</div>`;
+      html += sectionHeading("Grammatik", "語法");
       grammar.forEach(g => {
         if (!g) return;
         const points = Array.isArray(g.points) ? g.points : (g.note ? [g.note] : []);
@@ -569,7 +591,7 @@
         html += `</div>`;
       }
 
-      html += `<div class="section-title">3) ÜBUNG</div>`;
+      html += sectionHeading("Übung", "練習");
 
       // A
       if (exercises.A && exercises.A.length) {
@@ -636,7 +658,7 @@
       }
 
       // 4 Wiederholung — wie Full-HTML: abwechselnd versteckt + Prüfen
-      html += `<div class="section-title">4) WIEDERHOLUNG</div>`;
+      html += sectionHeading("Wiederholung", "複習");
       const reviewItems = Array.isArray(l.reviewItems) ? l.reviewItems : [];
       if (reviewItems.length) {
         const rNote = l.reviewNote || 'Wiederhole Vokabeln. Mit „Prüfen“ die versteckte Seite ein- und ausblenden.';
@@ -685,7 +707,7 @@
       }
 
       // 5 Neue Vokabeln — zwei Kästen wie Full-HTML
-      html += `<div class="section-title">5) NEUE VOKABELN</div>`;
+      html += sectionHeading("Neue Vokabeln", "詞彙");
       html += `<p class="note"><strong>Kern-Wörter dieser Lektion</strong></p>
         <div class="rule-block vocab-box word-block">`;
       words.forEach(w => {
