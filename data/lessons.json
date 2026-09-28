@@ -1759,5 +1759,328 @@
       }
     ],
     "reviewNote": "Ungerade Zeilen: Chinesisch versteckt. Gerade Zeilen: Deutsch versteckt. 7 Wörter aus Lektion 01–05."
+  },
+  {
+    "id": 7,
+    "title": "schauen, kennen, wissen, mögen, können/werden",
+    "date": "2026-09-28",
+    "cumulativeWords": 35,
+    "clipsFolder": "clips_lektion_07",
+    "words": [
+      {
+        "zh": "睇",
+        "jyutping": "tai2",
+        "de": "schauen / ansehen / gucken",
+        "audio": "01_tai.mp3",
+        "example": {
+          "zh": "我想睇電影。",
+          "jyutping": "ngo5 soeng2 tai2 din6 jing2.",
+          "de": "Ich will einen Film ansehen."
+        },
+        "exampleAudio": "02_ngo_soeng_tai_dinjing.mp3"
+      },
+      {
+        "zh": "識",
+        "jyutping": "sik1",
+        "de": "kennen / können (Person, Sprache, Fähigkeit)",
+        "audio": "03_sik.mp3",
+        "example": {
+          "zh": "我識你。",
+          "jyutping": "ngo5 sik1 nei5.",
+          "de": "Ich kenne dich."
+        },
+        "exampleAudio": "04_ngo_sik_nei.mp3"
+      },
+      {
+        "zh": "知",
+        "jyutping": "zi1",
+        "de": "wissen (eine Information)",
+        "audio": "05_zi.mp3",
+        "example": {
+          "zh": "我知。",
+          "jyutping": "ngo5 zi1.",
+          "de": "Ich weiß (es)."
+        },
+        "exampleAudio": "06_ngo_zi.mp3"
+      },
+      {
+        "zh": "鍾意",
+        "jyutping": "zung1 ji3",
+        "de": "mögen / gern haben",
+        "audio": "07_zungji.mp3",
+        "example": {
+          "zh": "我鍾意飲茶。",
+          "jyutping": "ngo5 zung1 ji3 jam2 caa4.",
+          "de": "Ich mag Tee trinken. / Ich trinke gern Tee."
+        },
+        "exampleAudio": "08_ngo_zungji_jam_caa.mp3"
+      },
+      {
+        "zh": "會",
+        "jyutping": "wui5",
+        "de": "können / werden (Fähigkeit oder Zukunft)",
+        "audio": "09_wui.mp3",
+        "example": {
+          "zh": "你會唔會？",
+          "jyutping": "nei5 wui5 m4 wui5?",
+          "de": "Kannst du? / Wirst du?"
+        },
+        "exampleAudio": "10_nei_wui_m_wui.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "電影",
+        "jyutping": "din6 jing2",
+        "de": "Film",
+        "audio": "11_dinjing.mp3"
+      },
+      {
+        "zh": "中文",
+        "jyutping": "zung1 man2",
+        "de": "Chinesisch",
+        "audio": "12_zungman.mp3"
+      },
+      {
+        "zh": "唔使",
+        "jyutping": "m4 sai2",
+        "de": "nicht nötig / muss nicht",
+        "audio": "13_msai.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 識 vs. 知",
+        "points": [
+          "識 = Person, Sprache oder Fähigkeit kennen/können. 知 = eine Information wissen.",
+          "我識你。 → Ich kenne dich.",
+          "我識中文。 → Ich kann / kenne Chinesisch.",
+          "我知。 → Ich weiß (es).  我唔知。 → Ich weiß nicht.",
+          "你識唔識我？ → Kennst du mich?"
+        ]
+      },
+      {
+        "title": "Regel 2: 鍾意 und 會",
+        "points": [
+          "鍾意 + Nomen oder Verb: 鍾意茶、鍾意飲茶、鍾意睇電影.",
+          "Ja/Nein: 你鍾意唔鍾意？",
+          "會 = Fähigkeit oder Zukunft: 我會去。 → Ich werde / kann gehen.",
+          "你會唔會？ → Kannst du? / Wirst du?",
+          "我會睇電影。 → Ich werde einen Film ansehen."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我想睇電影。",
+          "answer": "Ich will einen Film ansehen.",
+          "audio": "02_ngo_soeng_tai_dinjing.mp3"
+        },
+        {
+          "zh": "我識你。",
+          "answer": "Ich kenne dich.",
+          "audio": "04_ngo_sik_nei.mp3"
+        },
+        {
+          "zh": "我知。",
+          "answer": "Ich weiß (es).",
+          "audio": "06_ngo_zi.mp3"
+        },
+        {
+          "zh": "我鍾意飲茶。",
+          "answer": "Ich mag Tee trinken. / Ich trinke gern Tee.",
+          "audio": "08_ngo_zungji_jam_caa.mp3"
+        },
+        {
+          "zh": "你會唔會？",
+          "answer": "Kannst du? / Wirst du?",
+          "audio": "10_nei_wui_m_wui.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我想 ___ 電影。 (Ich will einen Film ansehen.)",
+          "answer": "我想睇電影。",
+          "audio": "02_ngo_soeng_tai_dinjing.mp3"
+        },
+        {
+          "prompt": "我 ___ 你。 (Ich kenne dich.)",
+          "answer": "我識你。",
+          "audio": "04_ngo_sik_nei.mp3"
+        },
+        {
+          "prompt": "我 ___ 。 (Ich weiß es.)",
+          "answer": "我知。",
+          "audio": "06_ngo_zi.mp3"
+        },
+        {
+          "prompt": "我 ___ 飲茶。 (Ich mag Tee trinken.)",
+          "answer": "我鍾意飲茶。",
+          "audio": "08_ngo_zungji_jam_caa.mp3"
+        },
+        {
+          "prompt": "你 ___ 唔會？ (Kannst du? / Wirst du?)",
+          "answer": "你會唔會？",
+          "audio": "10_nei_wui_m_wui.mp3"
+        },
+        {
+          "prompt": "我想睇 ___ 。 (Ich will einen Film ansehen.)",
+          "answer": "我想睇電影。",
+          "audio": "02_ngo_soeng_tai_dinjing.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich will einen Film ansehen.",
+          "answer": "我想睇電影。",
+          "jyutping": "ngo5 soeng2 tai2 din6 jing2.",
+          "audio": "02_ngo_soeng_tai_dinjing.mp3"
+        },
+        {
+          "prompt": "Ich kenne dich.",
+          "answer": "我識你。",
+          "jyutping": "ngo5 sik1 nei5.",
+          "audio": "04_ngo_sik_nei.mp3"
+        },
+        {
+          "prompt": "Ich mag Tee trinken.",
+          "answer": "我鍾意飲茶。",
+          "jyutping": "ngo5 zung1 ji3 jam2 caa4.",
+          "audio": "08_ngo_zungji_jam_caa.mp3"
+        }
+      ]
+    },
+    "review": [
+      "你好 → Hallo",
+      "唔該 → Bitte / Danke (Dienstleistung)",
+      "我 → ich",
+      "係 → sein / ja",
+      "食 → essen",
+      "你 → du",
+      "去 → gehen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich will einen Film ansehen.",
+          "answer": "我想睇電影。",
+          "jyutping": "ngo5 soeng2 tai2 din6 jing2."
+        },
+        {
+          "prompt": "Ich kenne dich.",
+          "answer": "我識你。",
+          "jyutping": "ngo5 sik1 nei5."
+        },
+        {
+          "prompt": "Ich mag Tee trinken.",
+          "answer": "我鍾意飲茶。",
+          "jyutping": "ngo5 zung1 ji3 jam2 caa4."
+        }
+      ]
+    },
+    "dndChips": [
+      "睇",
+      "識",
+      "知",
+      "鍾意",
+      "會",
+      "電影"
+    ],
+    "reviewItems": [
+      {
+        "zh": "你好",
+        "de": "Hallo",
+        "audio": "rev_nihao.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "zh"
+      },
+      {
+        "zh": "唔該",
+        "de": "Bitte / Danke (Dienstleistung)",
+        "audio": "rev_mgoi.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "de"
+      },
+      {
+        "zh": "我",
+        "de": "ich",
+        "audio": "rev_ngo.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "zh"
+      },
+      {
+        "zh": "係",
+        "de": "sein / ja",
+        "audio": "rev_hai.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "de"
+      },
+      {
+        "zh": "食",
+        "de": "essen",
+        "audio": "rev_sik6.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "zh"
+      },
+      {
+        "zh": "你",
+        "de": "du",
+        "audio": "rev_nei.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "de"
+      },
+      {
+        "zh": "去",
+        "de": "gehen",
+        "audio": "rev_heoi.mp3",
+        "clipsFolder": "clips_lektion_07",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我識你。",
+        "audio": "04_ngo_sik_nei.mp3"
+      },
+      {
+        "zh": "我識中文。",
+        "audio": "14_ngo_sik_zungman.mp3"
+      },
+      {
+        "zh": "我知。",
+        "audio": "06_ngo_zi.mp3"
+      },
+      {
+        "zh": "我唔知。",
+        "audio": "15_ngo_m_zi.mp3"
+      },
+      {
+        "zh": "你識唔識我？",
+        "audio": "18_nei_sik_m_sik_ngo.mp3"
+      },
+      {
+        "zh": "我鍾意飲茶。",
+        "audio": "08_ngo_zungji_jam_caa.mp3"
+      },
+      {
+        "zh": "你鍾意唔鍾意？",
+        "audio": "17_nei_zungji_m_zungji.mp3"
+      },
+      {
+        "zh": "我會去。",
+        "audio": "16_ngo_wui_heoi.mp3"
+      },
+      {
+        "zh": "你會唔會？",
+        "audio": "10_nei_wui_m_wui.mp3"
+      },
+      {
+        "zh": "我會睇電影。",
+        "audio": "19_ngo_wui_tai_dinjing.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 01 (plus 去). Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
   }
 ]

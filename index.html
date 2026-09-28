@@ -250,8 +250,8 @@
 
     function audioUrl(folder, file) {
       if (!file) return null;
-      // relative to App/ → ../Audiodateien/clips_lektion_XX/file
-      return `../Audiodateien/${folder}/${file}`;
+      // relative to Cantonese_Class/ → Audiodateien/clips_lektion_XX/file
+      return `Audiodateien/${folder}/${file}`;
     }
 
     function playAudio(btn, url) {

@@ -466,5 +466,77 @@
     "core": false,
     "lesson": 6,
     "clipsFolder": "clips_lektion_06"
+  },
+  {
+    "zh": "睇",
+    "jyutping": "tai2",
+    "de": "schauen / ansehen / gucken",
+    "audio": "01_tai.mp3",
+    "core": true,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "識",
+    "jyutping": "sik1",
+    "de": "kennen / können (Person, Sprache, Fähigkeit)",
+    "audio": "03_sik.mp3",
+    "core": true,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "知",
+    "jyutping": "zi1",
+    "de": "wissen (eine Information)",
+    "audio": "05_zi.mp3",
+    "core": true,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "鍾意",
+    "jyutping": "zung1 ji3",
+    "de": "mögen / gern haben",
+    "audio": "07_zungji.mp3",
+    "core": true,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "會",
+    "jyutping": "wui5",
+    "de": "können / werden (Fähigkeit oder Zukunft)",
+    "audio": "09_wui.mp3",
+    "core": true,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "電影",
+    "jyutping": "din6 jing2",
+    "de": "Film",
+    "audio": "11_dinjing.mp3",
+    "core": false,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "中文",
+    "jyutping": "zung1 man2",
+    "de": "Chinesisch",
+    "audio": "12_zungman.mp3",
+    "core": false,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "唔使",
+    "jyutping": "m4 sai2",
+    "de": "nicht nötig / muss nicht",
+    "audio": "13_msai.mp3",
+    "core": false,
+    "lesson": 7,
+    "clipsFolder": "clips_lektion_07"
   }
 ]
