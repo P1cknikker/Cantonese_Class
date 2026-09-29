@@ -538,5 +538,77 @@
     "core": false,
     "lesson": 7,
     "clipsFolder": "clips_lektion_07"
+  },
+  {
+    "zh": "俾",
+    "jyutping": "bei2",
+    "de": "geben",
+    "audio": "01_bei.mp3",
+    "core": true,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "要",
+    "jyutping": "jiu3",
+    "de": "wollen / brauchen / müssen",
+    "audio": "03_jiu.mp3",
+    "core": true,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "做",
+    "jyutping": "zou6",
+    "de": "machen / tun / arbeiten als",
+    "audio": "05_zou.mp3",
+    "core": true,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "同",
+    "jyutping": "tung4",
+    "de": "mit / und (zusammen mit)",
+    "audio": "07_tung.mp3",
+    "core": true,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "用",
+    "jyutping": "jung6",
+    "de": "benutzen / verwenden",
+    "audio": "09_jung.mp3",
+    "core": true,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "咩",
+    "jyutping": "me1",
+    "de": "was",
+    "audio": "11_me.mp3",
+    "core": false,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "朋友",
+    "jyutping": "pang4 jau5",
+    "de": "Freund/Freundin",
+    "audio": "12_pangjau.mp3",
+    "core": false,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "電話",
+    "jyutping": "din6 waa2",
+    "de": "Telefon",
+    "audio": "13_dinwaa.mp3",
+    "core": false,
+    "lesson": 8,
+    "clipsFolder": "clips_lektion_08"
   }
 ]

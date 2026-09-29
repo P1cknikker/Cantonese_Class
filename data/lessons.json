@@ -2082,5 +2082,322 @@
       }
     ],
     "reviewNote": "Wiederhole Vokabeln aus Lektion 01 (plus 去). Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 8,
+    "title": "geben, wollen/brauchen, machen, mit, benutzen",
+    "date": "2026-09-29",
+    "cumulativeWords": 40,
+    "clipsFolder": "clips_lektion_08",
+    "words": [
+      {
+        "zh": "俾",
+        "jyutping": "bei2",
+        "de": "geben",
+        "audio": "01_bei.mp3",
+        "example": {
+          "zh": "我俾錢你。",
+          "jyutping": "ngo5 bei2 cin2 nei5.",
+          "de": "Ich gebe dir Geld."
+        },
+        "exampleAudio": "02_ngo_bei_cin_nei.mp3"
+      },
+      {
+        "zh": "要",
+        "jyutping": "jiu3",
+        "de": "wollen / brauchen / müssen",
+        "audio": "03_jiu.mp3",
+        "example": {
+          "zh": "我要咖啡。",
+          "jyutping": "ngo5 jiu3 gaa3 fe1.",
+          "de": "Ich will / brauche Kaffee."
+        },
+        "exampleAudio": "04_ngo_jiu_gaafe.mp3"
+      },
+      {
+        "zh": "做",
+        "jyutping": "zou6",
+        "de": "machen / tun / arbeiten als",
+        "audio": "05_zou.mp3",
+        "example": {
+          "zh": "你做咩？",
+          "jyutping": "nei5 zou6 me1?",
+          "de": "Was machst du?"
+        },
+        "exampleAudio": "06_nei_zou_me.mp3"
+      },
+      {
+        "zh": "同",
+        "jyutping": "tung4",
+        "de": "mit / und (zusammen mit)",
+        "audio": "07_tung.mp3",
+        "example": {
+          "zh": "我同你一齊去。",
+          "jyutping": "ngo5 tung4 nei5 jat1 cai4 heoi3.",
+          "de": "Ich gehe mit dir zusammen."
+        },
+        "exampleAudio": "08_ngo_tung_nei_jatcai_heoi.mp3"
+      },
+      {
+        "zh": "用",
+        "jyutping": "jung6",
+        "de": "benutzen / verwenden",
+        "audio": "09_jung.mp3",
+        "example": {
+          "zh": "我用電話。",
+          "jyutping": "ngo5 jung6 din6 waa2.",
+          "de": "Ich benutze das Telefon."
+        },
+        "exampleAudio": "10_ngo_jung_dinwaa.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "咩",
+        "jyutping": "me1",
+        "de": "was",
+        "audio": "11_me.mp3"
+      },
+      {
+        "zh": "朋友",
+        "jyutping": "pang4 jau5",
+        "de": "Freund/Freundin",
+        "audio": "12_pangjau.mp3"
+      },
+      {
+        "zh": "電話",
+        "jyutping": "din6 waa2",
+        "de": "Telefon",
+        "audio": "13_dinwaa.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 俾 — geben",
+        "points": [
+          "Typische Stellung in Hongkong: 俾 + Sache + Person.",
+          "我俾錢你。 → Ich gebe dir Geld.",
+          "我俾你。 → Ich gebe (es) dir.",
+          "Anfänger merken: 俾 = geben."
+        ]
+      },
+      {
+        "title": "Regel 2: 要, 做, 同, 用",
+        "points": [
+          "要 + Nomen: wollen/brauchen (我要咖啡). Ja/Nein: 你要唔要？",
+          "做 + 咩: Was machst du? 你做唔做？",
+          "同 + Person + Verb: mit jemandem etwas tun. 我同朋友去。",
+          "用 + Gegenstand: benutzen. 我要用電話。"
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我俾錢你。",
+          "answer": "Ich gebe dir Geld.",
+          "audio": "02_ngo_bei_cin_nei.mp3"
+        },
+        {
+          "zh": "我要咖啡。",
+          "answer": "Ich will / brauche Kaffee.",
+          "audio": "04_ngo_jiu_gaafe.mp3"
+        },
+        {
+          "zh": "你做咩？",
+          "answer": "Was machst du?",
+          "audio": "06_nei_zou_me.mp3"
+        },
+        {
+          "zh": "我同你一齊去。",
+          "answer": "Ich gehe mit dir zusammen.",
+          "audio": "08_ngo_tung_nei_jatcai_heoi.mp3"
+        },
+        {
+          "zh": "我用電話。",
+          "answer": "Ich benutze das Telefon.",
+          "audio": "10_ngo_jung_dinwaa.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 錢你。 (Ich gebe dir Geld.)",
+          "answer": "我俾錢你。",
+          "audio": "02_ngo_bei_cin_nei.mp3"
+        },
+        {
+          "prompt": "我 ___ 咖啡。 (Ich will Kaffee.)",
+          "answer": "我要咖啡。",
+          "audio": "04_ngo_jiu_gaafe.mp3"
+        },
+        {
+          "prompt": "你 ___ 咩？ (Was machst du?)",
+          "answer": "你做咩？",
+          "audio": "06_nei_zou_me.mp3"
+        },
+        {
+          "prompt": "我 ___ 你一齊去。 (Ich gehe mit dir zusammen.)",
+          "answer": "我同你一齊去。",
+          "audio": "08_ngo_tung_nei_jatcai_heoi.mp3"
+        },
+        {
+          "prompt": "我 ___ 電話。 (Ich benutze das Telefon.)",
+          "answer": "我用電話。",
+          "audio": "10_ngo_jung_dinwaa.mp3"
+        },
+        {
+          "prompt": "我用 ___ 。 (Ich benutze das Telefon.)",
+          "answer": "我用電話。",
+          "audio": "10_ngo_jung_dinwaa.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich gebe dir Geld.",
+          "answer": "我俾錢你。",
+          "jyutping": "ngo5 bei2 cin2 nei5.",
+          "audio": "02_ngo_bei_cin_nei.mp3"
+        },
+        {
+          "prompt": "Ich will Kaffee.",
+          "answer": "我要咖啡。",
+          "jyutping": "ngo5 jiu3 gaa3 fe1.",
+          "audio": "04_ngo_jiu_gaafe.mp3"
+        },
+        {
+          "prompt": "Ich gehe mit dir zusammen.",
+          "answer": "我同你一齊去。",
+          "jyutping": "ngo5 tung4 nei5 jat1 cai4 heoi3.",
+          "audio": "08_ngo_tung_nei_jatcai_heoi.mp3"
+        }
+      ]
+    },
+    "review": [
+      "有 → haben",
+      "冇 → nicht haben",
+      "幾多 → wie viel",
+      "三 → drei",
+      "個 → Zählwort (Stück)",
+      "錢 → Geld",
+      "買 → kaufen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich gebe dir Geld.",
+          "answer": "我俾錢你。",
+          "jyutping": "ngo5 bei2 cin2 nei5."
+        },
+        {
+          "prompt": "Ich will Kaffee.",
+          "answer": "我要咖啡。",
+          "jyutping": "ngo5 jiu3 gaa3 fe1."
+        },
+        {
+          "prompt": "Ich gehe mit dir zusammen.",
+          "answer": "我同你一齊去。",
+          "jyutping": "ngo5 tung4 nei5 jat1 cai4 heoi3."
+        }
+      ]
+    },
+    "dndChips": [
+      "俾",
+      "要",
+      "做",
+      "同",
+      "用",
+      "電話"
+    ],
+    "reviewItems": [
+      {
+        "zh": "有",
+        "de": "haben",
+        "audio": "rev_jau.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "zh"
+      },
+      {
+        "zh": "冇",
+        "de": "nicht haben",
+        "audio": "rev_mou.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "de"
+      },
+      {
+        "zh": "幾多",
+        "de": "wie viel",
+        "audio": "rev_geido.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "zh"
+      },
+      {
+        "zh": "三",
+        "de": "drei",
+        "audio": "rev_saam.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "de"
+      },
+      {
+        "zh": "個",
+        "de": "Zählwort (Stück)",
+        "audio": "rev_go.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "zh"
+      },
+      {
+        "zh": "錢",
+        "de": "Geld",
+        "audio": "rev_cin.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "de"
+      },
+      {
+        "zh": "買",
+        "de": "kaufen",
+        "audio": "rev_maai.mp3",
+        "clipsFolder": "clips_lektion_08",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "我俾錢你。",
+        "audio": "02_ngo_bei_cin_nei.mp3"
+      },
+      {
+        "zh": "我俾你。",
+        "audio": "14_ngo_bei_nei.mp3"
+      },
+      {
+        "zh": "我要咖啡。",
+        "audio": "04_ngo_jiu_gaafe.mp3"
+      },
+      {
+        "zh": "你要唔要？",
+        "audio": "15_nei_jiu_m_jiu.mp3"
+      },
+      {
+        "zh": "你做咩？",
+        "audio": "06_nei_zou_me.mp3"
+      },
+      {
+        "zh": "你做唔做？",
+        "audio": "17_nei_zou_m_zou.mp3"
+      },
+      {
+        "zh": "我同朋友去。",
+        "audio": "16_ngo_tung_pangjau_heoi.mp3"
+      },
+      {
+        "zh": "我要用電話。",
+        "audio": "18_ngo_jiu_jung_dinwaa.mp3"
+      },
+      {
+        "zh": "你要咩？",
+        "audio": "19_nei_jiu_me.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 02 (plus 買 aus L05). Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
   }
 ]
