@@ -2399,5 +2399,330 @@
       }
     ],
     "reviewNote": "Wiederhole Vokabeln aus Lektion 02 (plus 買 aus L05). Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 9,
+    "title": "sprechen, hören, fragen, antworten, sehen/treffen",
+    "date": "2026-09-30",
+    "cumulativeWords": 45,
+    "clipsFolder": "clips_lektion_09",
+    "words": [
+      {
+        "zh": "講",
+        "jyutping": "gong2",
+        "de": "sprechen / sagen",
+        "audio": "01_gong.mp3",
+        "example": {
+          "zh": "我講中文。",
+          "jyutping": "ngo5 gong2 zung1 man2.",
+          "de": "Ich spreche Chinesisch."
+        },
+        "exampleAudio": "02_ngo_gong_zungman.mp3"
+      },
+      {
+        "zh": "聽",
+        "jyutping": "teng1",
+        "de": "hören / zuhören",
+        "audio": "03_teng.mp3",
+        "example": {
+          "zh": "你聽唔聽？",
+          "jyutping": "nei5 teng1 m4 teng1?",
+          "de": "Hörst du (zu)?"
+        },
+        "exampleAudio": "04_nei_teng_m_teng.mp3"
+      },
+      {
+        "zh": "問",
+        "jyutping": "man6",
+        "de": "fragen",
+        "audio": "05_man.mp3",
+        "example": {
+          "zh": "我想問你。",
+          "jyutping": "ngo5 soeng2 man6 nei5.",
+          "de": "Ich möchte dich fragen."
+        },
+        "exampleAudio": "06_ngo_soeng_man_nei.mp3"
+      },
+      {
+        "zh": "答",
+        "jyutping": "daap3",
+        "de": "antworten",
+        "audio": "07_daap.mp3",
+        "example": {
+          "zh": "你答我。",
+          "jyutping": "nei5 daap3 ngo5.",
+          "de": "Antworte mir."
+        },
+        "exampleAudio": "08_nei_daap_ngo.mp3"
+      },
+      {
+        "zh": "見",
+        "jyutping": "gin3",
+        "de": "sehen / treffen",
+        "audio": "09_gin.mp3",
+        "example": {
+          "zh": "聽日見。",
+          "jyutping": "ting1 jat6 gin3.",
+          "de": "Bis morgen. / Sehen uns morgen."
+        },
+        "exampleAudio": "10_tingjat_gin.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "英文",
+        "jyutping": "jing1 man2",
+        "de": "Englisch",
+        "audio": "11_jingman.mp3"
+      },
+      {
+        "zh": "問題",
+        "jyutping": "man6 tai4",
+        "de": "Frage / Problem",
+        "audio": "12_mantai.mp3"
+      },
+      {
+        "zh": "慢慢",
+        "jyutping": "maan6 maan2",
+        "de": "langsam / gemächlich",
+        "audio": "13_maamaan.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: A-nicht-A bei Verben",
+        "points": [
+          "Ja/Nein oft: Verb + 唔 + Verb.",
+          "你聽唔聽？ → Hörst du?",
+          "你講唔講？ → Sprichst du?",
+          "Kurzantwort: 聽 / 唔聽; 講 / 唔講."
+        ]
+      },
+      {
+        "title": "Regel 2: 講, 問, 答, 見",
+        "points": [
+          "講 + Sprache: 我講中文。 / 你講英文。",
+          "問 + Person: 我想問你。 / 你問咩？",
+          "答 + Person: 你答我。 / 我唔答。",
+          "見 = sehen/treffen. 聽日見。 = Bis morgen. 慢慢講 = sprich langsam."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我講中文。",
+          "answer": "Ich spreche Chinesisch.",
+          "audio": "02_ngo_gong_zungman.mp3"
+        },
+        {
+          "zh": "你聽唔聽？",
+          "answer": "Hörst du (zu)?",
+          "audio": "04_nei_teng_m_teng.mp3"
+        },
+        {
+          "zh": "我想問你。",
+          "answer": "Ich möchte dich fragen.",
+          "audio": "06_ngo_soeng_man_nei.mp3"
+        },
+        {
+          "zh": "你答我。",
+          "answer": "Antworte mir.",
+          "audio": "08_nei_daap_ngo.mp3"
+        },
+        {
+          "zh": "聽日見。",
+          "answer": "Bis morgen. / Sehen uns morgen.",
+          "audio": "10_tingjat_gin.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 中文。 (Ich spreche Chinesisch.)",
+          "answer": "我講中文。",
+          "audio": "02_ngo_gong_zungman.mp3"
+        },
+        {
+          "prompt": "你 ___ 唔聽？ (Hörst du?)",
+          "answer": "你聽唔聽？",
+          "audio": "04_nei_teng_m_teng.mp3"
+        },
+        {
+          "prompt": "我想 ___ 你。 (Ich möchte dich fragen.)",
+          "answer": "我想問你。",
+          "audio": "06_ngo_soeng_man_nei.mp3"
+        },
+        {
+          "prompt": "你 ___ 我。 (Antworte mir.)",
+          "answer": "你答我。",
+          "audio": "08_nei_daap_ngo.mp3"
+        },
+        {
+          "prompt": "聽日 ___ 。 (Bis morgen.)",
+          "answer": "聽日見。",
+          "audio": "10_tingjat_gin.mp3"
+        },
+        {
+          "prompt": "你講 ___ 。 (Du sprichst Englisch.)",
+          "answer": "你講英文。",
+          "audio": "19_nei_gong_jingman.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich spreche Chinesisch.",
+          "answer": "我講中文。",
+          "jyutping": "ngo5 gong2 zung1 man2.",
+          "audio": "02_ngo_gong_zungman.mp3"
+        },
+        {
+          "prompt": "Ich möchte dich fragen.",
+          "answer": "我想問你。",
+          "jyutping": "ngo5 soeng2 man6 nei5.",
+          "audio": "06_ngo_soeng_man_nei.mp3"
+        },
+        {
+          "prompt": "Bis morgen.",
+          "answer": "聽日見。",
+          "jyutping": "ting1 jat6 gin3.",
+          "audio": "10_tingjat_gin.mp3"
+        }
+      ]
+    },
+    "review": [
+      "返 → zurückkehren",
+      "嚟 → kommen",
+      "走 → weggehen",
+      "到 → ankommen",
+      "等 → warten",
+      "睇 → schauen",
+      "識 → kennen / können"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich spreche Chinesisch.",
+          "answer": "我講中文。",
+          "jyutping": "ngo5 gong2 zung1 man2."
+        },
+        {
+          "prompt": "Ich möchte dich fragen.",
+          "answer": "我想問你。",
+          "jyutping": "ngo5 soeng2 man6 nei5."
+        },
+        {
+          "prompt": "Bis morgen.",
+          "answer": "聽日見。",
+          "jyutping": "ting1 jat6 gin3."
+        }
+      ]
+    },
+    "dndChips": [
+      "講",
+      "聽",
+      "問",
+      "答",
+      "見",
+      "英文"
+    ],
+    "reviewItems": [
+      {
+        "zh": "返",
+        "de": "zurückkehren",
+        "audio": "rev_faan.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "zh"
+      },
+      {
+        "zh": "嚟",
+        "de": "kommen",
+        "audio": "rev_lai.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "de"
+      },
+      {
+        "zh": "走",
+        "de": "weggehen",
+        "audio": "rev_zau.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "zh"
+      },
+      {
+        "zh": "到",
+        "de": "ankommen",
+        "audio": "rev_dou.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "de"
+      },
+      {
+        "zh": "等",
+        "de": "warten",
+        "audio": "rev_dang.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "zh"
+      },
+      {
+        "zh": "睇",
+        "de": "schauen",
+        "audio": "rev_tai.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "de"
+      },
+      {
+        "zh": "識",
+        "de": "kennen / können",
+        "audio": "rev_sik.mp3",
+        "clipsFolder": "clips_lektion_09",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "你聽唔聽？",
+        "audio": "04_nei_teng_m_teng.mp3"
+      },
+      {
+        "zh": "你講唔講？",
+        "audio": "14_nei_gong_m_gong.mp3"
+      },
+      {
+        "zh": "我講中文。",
+        "audio": "02_ngo_gong_zungman.mp3"
+      },
+      {
+        "zh": "你講英文。",
+        "audio": "19_nei_gong_jingman.mp3"
+      },
+      {
+        "zh": "我想問你。",
+        "audio": "06_ngo_soeng_man_nei.mp3"
+      },
+      {
+        "zh": "你問咩？",
+        "audio": "16_nei_man_me.mp3"
+      },
+      {
+        "zh": "你答我。",
+        "audio": "08_nei_daap_ngo.mp3"
+      },
+      {
+        "zh": "我唔答。",
+        "audio": "17_ngo_m_daap.mp3"
+      },
+      {
+        "zh": "聽日見。",
+        "audio": "10_tingjat_gin.mp3"
+      },
+      {
+        "zh": "我聽你。",
+        "audio": "15_ngo_teng_nei.mp3"
+      },
+      {
+        "zh": "我見你。",
+        "audio": "18_ngo_gin_nei.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 06 und 07. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
   }
 ]
