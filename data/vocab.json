@@ -610,5 +610,77 @@
     "core": false,
     "lesson": 8,
     "clipsFolder": "clips_lektion_08"
+  },
+  {
+    "zh": "講",
+    "jyutping": "gong2",
+    "de": "sprechen / sagen",
+    "audio": "01_gong.mp3",
+    "core": true,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "聽",
+    "jyutping": "teng1",
+    "de": "hören / zuhören",
+    "audio": "03_teng.mp3",
+    "core": true,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "問",
+    "jyutping": "man6",
+    "de": "fragen",
+    "audio": "05_man.mp3",
+    "core": true,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "答",
+    "jyutping": "daap3",
+    "de": "antworten",
+    "audio": "07_daap.mp3",
+    "core": true,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "見",
+    "jyutping": "gin3",
+    "de": "sehen / treffen",
+    "audio": "09_gin.mp3",
+    "core": true,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "英文",
+    "jyutping": "jing1 man2",
+    "de": "Englisch",
+    "audio": "11_jingman.mp3",
+    "core": false,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "問題",
+    "jyutping": "man6 tai4",
+    "de": "Frage / Problem",
+    "audio": "12_mantai.mp3",
+    "core": false,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "慢慢",
+    "jyutping": "maan6 maan2",
+    "de": "langsam / gemächlich",
+    "audio": "13_maamaan.mp3",
+    "core": false,
+    "lesson": 9,
+    "clipsFolder": "clips_lektion_09"
   }
 ]
