@@ -682,5 +682,149 @@
     "core": false,
     "lesson": 9,
     "clipsFolder": "clips_lektion_09"
+  },
+  {
+    "zh": "住",
+    "jyutping": "zyu6",
+    "de": "wohnen",
+    "audio": "01_zyu.mp3",
+    "core": true,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "開",
+    "jyutping": "hoi1",
+    "de": "öffnen",
+    "audio": "03_hoi.mp3",
+    "core": true,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "關",
+    "jyutping": "gwaan1",
+    "de": "schließen",
+    "audio": "05_gwaan.mp3",
+    "core": true,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "行",
+    "jyutping": "haang4",
+    "de": "gehen / laufen",
+    "audio": "07_haang.mp3",
+    "core": true,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "坐",
+    "jyutping": "co5",
+    "de": "sitzen",
+    "audio": "09_co.mp3",
+    "core": true,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "門",
+    "jyutping": "mun4",
+    "de": "Tür",
+    "audio": "11_mun.mp3",
+    "core": false,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "車",
+    "jyutping": "ce1",
+    "de": "Auto / Fahrzeug",
+    "audio": "12_ce.mp3",
+    "core": false,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "店",
+    "jyutping": "dim3",
+    "de": "Laden / Geschäft",
+    "audio": "13_dim.mp3",
+    "core": false,
+    "lesson": 10,
+    "clipsFolder": "clips_lektion_10"
+  },
+  {
+    "zh": "大",
+    "jyutping": "daai6",
+    "de": "groß",
+    "audio": "01_daai.mp3",
+    "core": true,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "細",
+    "jyutping": "sai3",
+    "de": "klein",
+    "audio": "03_sai.mp3",
+    "core": true,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "多",
+    "jyutping": "do1",
+    "de": "viel / viele",
+    "audio": "05_do.mp3",
+    "core": true,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "少",
+    "jyutping": "siu2",
+    "de": "wenig",
+    "audio": "07_siu.mp3",
+    "core": true,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "貴",
+    "jyutping": "gwai3",
+    "de": "teuer",
+    "audio": "09_gwai.mp3",
+    "core": true,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "平",
+    "jyutping": "peng4",
+    "de": "billig",
+    "audio": "11_peng.mp3",
+    "core": false,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "蚊",
+    "jyutping": "man1",
+    "de": "Dollar (HKD)",
+    "audio": "12_man.mp3",
+    "core": false,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "件",
+    "jyutping": "gin6",
+    "de": "Zählwort (Kleidung / Angelegenheit)",
+    "audio": "13_gin.mp3",
+    "core": false,
+    "lesson": 11,
+    "clipsFolder": "clips_lektion_11"
   }
 ]
