@@ -826,5 +826,167 @@
     "core": false,
     "lesson": 11,
     "clipsFolder": "clips_lektion_11"
+  },
+  {
+    "zh": "新",
+    "jyutping": "san1",
+    "de": "neu",
+    "audio": "01_san.mp3",
+    "core": true,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "舊",
+    "jyutping": "gau6",
+    "de": "alt (Dinge)",
+    "audio": "03_gau.mp3",
+    "core": true,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "熱",
+    "jyutping": "jit6",
+    "de": "heiß",
+    "audio": "05_jit.mp3",
+    "core": true,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "凍",
+    "jyutping": "dung3",
+    "de": "kalt",
+    "audio": "07_dung.mp3",
+    "core": true,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "餓",
+    "jyutping": "ngo6",
+    "de": "hungrig",
+    "audio": "09_ngo6.mp3",
+    "core": true,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "衫",
+    "jyutping": "saam1",
+    "de": "Kleidung / Hemd",
+    "audio": "11_saam.mp3",
+    "core": false,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "部",
+    "jyutping": "bou6",
+    "de": "Zählwort für Geräte (Telefon, Auto)",
+    "audio": "12_bou.mp3",
+    "core": false,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "天氣",
+    "jyutping": "tin1 hei3",
+    "de": "Wetter",
+    "audio": "13_tin_hei.mp3",
+    "core": false,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "太",
+    "jyutping": "taai3",
+    "de": "zu (vor Adjektiv)",
+    "audio": "14_taai.mp3",
+    "core": false,
+    "lesson": 12,
+    "clipsFolder": "clips_lektion_12"
+  },
+  {
+    "zh": "渴",
+    "jyutping": "hot3",
+    "de": "durstig",
+    "audio": "01_hot.mp3",
+    "core": true,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "攰",
+    "jyutping": "gui6",
+    "de": "müde",
+    "audio": "03_gui.mp3",
+    "core": true,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "開心",
+    "jyutping": "hoi1 sam1",
+    "de": "glücklich / froh",
+    "audio": "05_hoisam.mp3",
+    "core": true,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "忙",
+    "jyutping": "mong4",
+    "de": "beschäftigt",
+    "audio": "07_mong.mp3",
+    "core": true,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "早",
+    "jyutping": "zou2",
+    "de": "früh",
+    "audio": "09_zou.mp3",
+    "core": true,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "遲",
+    "jyutping": "ci4",
+    "de": "spät",
+    "audio": "11_ci.mp3",
+    "core": false,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "今晚",
+    "jyutping": "gam1 maan5",
+    "de": "heute Abend",
+    "audio": "12_gam_maan.mp3",
+    "core": false,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "朝早",
+    "jyutping": "ziu1 zou2",
+    "de": "morgens / am Morgen",
+    "audio": "13_ziu_zou.mp3",
+    "core": false,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "因為",
+    "jyutping": "jan1 wai6",
+    "de": "weil",
+    "audio": "14_janwai.mp3",
+    "core": false,
+    "lesson": 13,
+    "clipsFolder": "clips_lektion_13"
   }
 ]
