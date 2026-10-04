@@ -2724,5 +2724,647 @@
       }
     ],
     "reviewNote": "Wiederhole Vokabeln aus Lektion 06 und 07. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 10,
+    "title": "wohnen, öffnen, schließen, gehen, sitzen",
+    "date": "2026-10-01",
+    "cumulativeWords": 50,
+    "clipsFolder": "clips_lektion_10",
+    "words": [
+      {
+        "zh": "住",
+        "jyutping": "zyu6",
+        "de": "wohnen",
+        "audio": "01_zyu.mp3",
+        "example": {
+          "zh": "我住呢度。",
+          "jyutping": "ngo5 zyu6 ni1 dou6.",
+          "de": "Ich wohne hier."
+        },
+        "exampleAudio": "02_ngo_zyu_nidou.mp3"
+      },
+      {
+        "zh": "開",
+        "jyutping": "hoi1",
+        "de": "öffnen",
+        "audio": "03_hoi.mp3",
+        "example": {
+          "zh": "你開門。",
+          "jyutping": "nei5 hoi1 mun4.",
+          "de": "Mach die Tür auf."
+        },
+        "exampleAudio": "04_nei_hoi_mun.mp3"
+      },
+      {
+        "zh": "關",
+        "jyutping": "gwaan1",
+        "de": "schließen",
+        "audio": "05_gwaan.mp3",
+        "example": {
+          "zh": "關門。",
+          "jyutping": "gwaan1 mun4.",
+          "de": "Schließ die Tür."
+        },
+        "exampleAudio": "06_gwaan_mun.mp3"
+      },
+      {
+        "zh": "行",
+        "jyutping": "haang4",
+        "de": "gehen / laufen",
+        "audio": "07_haang.mp3",
+        "example": {
+          "zh": "我行去學校。",
+          "jyutping": "ngo5 haang4 heoi3 hok6 haau6.",
+          "de": "Ich gehe zu Fuß zur Schule."
+        },
+        "exampleAudio": "08_ngo_haang_heoi_hokhaau.mp3"
+      },
+      {
+        "zh": "坐",
+        "jyutping": "co5",
+        "de": "sitzen",
+        "audio": "09_co.mp3",
+        "example": {
+          "zh": "你坐呢度。",
+          "jyutping": "nei5 co5 ni1 dou6.",
+          "de": "Setz dich hier hin."
+        },
+        "exampleAudio": "10_nei_co_nidou.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "門",
+        "jyutping": "mun4",
+        "de": "Tür",
+        "audio": "11_mun.mp3"
+      },
+      {
+        "zh": "車",
+        "jyutping": "ce1",
+        "de": "Auto / Fahrzeug",
+        "audio": "12_ce.mp3"
+      },
+      {
+        "zh": "店",
+        "jyutping": "dim3",
+        "de": "Laden / Geschäft",
+        "audio": "13_dim.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 開 / 關 + Objekt",
+        "points": [
+          "開門 = die Tür öffnen; 關門 = die Tür schließen.",
+          "Auch für Läden: 店開門。 / 店關門。",
+          "Ja/Nein: 你開唔開門？"
+        ]
+      },
+      {
+        "title": "Regel 2: 住, 行, 坐",
+        "points": [
+          "住 + Ort: 我住呢度。 = Ich wohne hier.",
+          "行 = zu Fuß gehen. 行去學校 = zu Fuß zur Schule gehen.",
+          "坐 + Ort: 你坐呢度。 坐車 = mit dem Auto fahren.",
+          "行 vs. 走: 行 = gehen/laufen; 走 = weggehen."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我住呢度。",
+          "answer": "Ich wohne hier.",
+          "audio": "02_ngo_zyu_nidou.mp3"
+        },
+        {
+          "zh": "你開門。",
+          "answer": "Mach die Tür auf.",
+          "audio": "04_nei_hoi_mun.mp3"
+        },
+        {
+          "zh": "關門。",
+          "answer": "Schließ die Tür.",
+          "audio": "06_gwaan_mun.mp3"
+        },
+        {
+          "zh": "我行去學校。",
+          "answer": "Ich gehe zu Fuß zur Schule.",
+          "audio": "08_ngo_haang_heoi_hokhaau.mp3"
+        },
+        {
+          "zh": "你坐呢度。",
+          "answer": "Setz dich hier hin.",
+          "audio": "10_nei_co_nidou.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我 ___ 呢度。",
+          "answer": "我住呢度。",
+          "audio": "02_ngo_zyu_nidou.mp3",
+          "chip": "住"
+        },
+        {
+          "prompt": "你 ___ 門。",
+          "answer": "你開門。",
+          "audio": "04_nei_hoi_mun.mp3",
+          "chip": "開"
+        },
+        {
+          "prompt": "___ 門。",
+          "answer": "關門。",
+          "audio": "06_gwaan_mun.mp3",
+          "chip": "關"
+        },
+        {
+          "prompt": "我 ___ 去學校。",
+          "answer": "我行去學校。",
+          "audio": "08_ngo_haang_heoi_hokhaau.mp3",
+          "chip": "行"
+        },
+        {
+          "prompt": "你 ___ 呢度。",
+          "answer": "你坐呢度。",
+          "audio": "10_nei_co_nidou.mp3",
+          "chip": "坐"
+        },
+        {
+          "prompt": "你開 ___ 。",
+          "answer": "你開門。",
+          "audio": "04_nei_hoi_mun.mp3",
+          "chip": "門"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich wohne hier.",
+          "answer": "我住呢度。",
+          "jyutping": "ngo5 zyu6 ni1 dou6.",
+          "audio": "02_ngo_zyu_nidou.mp3"
+        },
+        {
+          "prompt": "Mach die Tür auf.",
+          "answer": "你開門。",
+          "jyutping": "nei5 hoi1 mun4.",
+          "audio": "04_nei_hoi_mun.mp3"
+        },
+        {
+          "prompt": "Ich gehe zu Fuß zur Schule.",
+          "answer": "我行去學校。",
+          "jyutping": "ngo5 haang4 heoi3 hok6 haau6.",
+          "audio": "08_ngo_haang_heoi_hokhaau.mp3"
+        }
+      ]
+    },
+    "review": [
+      "俾 → geben",
+      "要 → wollen / brauchen",
+      "做 → machen",
+      "同 → mit / und",
+      "用 → benutzen",
+      "講 → sprechen / sagen",
+      "聽 → hören / zuhören"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich wohne hier.",
+          "answer": "我住呢度。",
+          "jyutping": "ngo5 zyu6 ni1 dou6."
+        },
+        {
+          "prompt": "Mach die Tür auf.",
+          "answer": "你開門。",
+          "jyutping": "nei5 hoi1 mun4."
+        },
+        {
+          "prompt": "Ich gehe zu Fuß zur Schule.",
+          "answer": "我行去學校。",
+          "jyutping": "ngo5 haang4 heoi3 hok6 haau6."
+        }
+      ]
+    },
+    "dndChips": [
+      "住",
+      "開",
+      "關",
+      "行",
+      "坐",
+      "門"
+    ],
+    "reviewItems": [
+      {
+        "zh": "俾",
+        "de": "geben",
+        "audio": "rev_bei.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "zh"
+      },
+      {
+        "zh": "要",
+        "de": "wollen / brauchen",
+        "audio": "rev_jiu.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "de"
+      },
+      {
+        "zh": "做",
+        "de": "machen",
+        "audio": "rev_zou.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "zh"
+      },
+      {
+        "zh": "同",
+        "de": "mit / und",
+        "audio": "rev_tung.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "de"
+      },
+      {
+        "zh": "用",
+        "de": "benutzen",
+        "audio": "rev_jung.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "zh"
+      },
+      {
+        "zh": "講",
+        "de": "sprechen / sagen",
+        "audio": "rev_gong.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "de"
+      },
+      {
+        "zh": "聽",
+        "de": "hören / zuhören",
+        "audio": "rev_teng.mp3",
+        "clipsFolder": "clips_lektion_10",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "你開門。",
+        "audio": "04_nei_hoi_mun.mp3"
+      },
+      {
+        "zh": "關門。",
+        "audio": "06_gwaan_mun.mp3"
+      },
+      {
+        "zh": "你開唔開門？",
+        "audio": "14_hoi_m_hoi.mp3"
+      },
+      {
+        "zh": "店開門。",
+        "audio": "16_dim_hoi.mp3"
+      },
+      {
+        "zh": "店關門。",
+        "audio": "17_dim_gwaan.mp3"
+      },
+      {
+        "zh": "我住呢度。",
+        "audio": "02_ngo_zyu_nidou.mp3"
+      },
+      {
+        "zh": "我行去學校。",
+        "audio": "08_ngo_haang_heoi_hokhaau.mp3"
+      },
+      {
+        "zh": "你坐呢度。",
+        "audio": "10_nei_co_nidou.mp3"
+      },
+      {
+        "zh": "我坐車。",
+        "audio": "15_ngo_co_ce.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 08 und 09. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 11,
+    "title": "groß, klein, viel, wenig, teuer",
+    "date": "2026-10-02",
+    "cumulativeWords": 55,
+    "clipsFolder": "clips_lektion_11",
+    "words": [
+      {
+        "zh": "大",
+        "jyutping": "daai6",
+        "de": "groß",
+        "audio": "01_daai.mp3",
+        "example": {
+          "zh": "呢個好大。",
+          "jyutping": "ni1 go3 hou2 daai6.",
+          "de": "Das hier ist sehr groß."
+        },
+        "exampleAudio": "02_ni_go_hou_daai.mp3"
+      },
+      {
+        "zh": "細",
+        "jyutping": "sai3",
+        "de": "klein",
+        "audio": "03_sai.mp3",
+        "example": {
+          "zh": "嗰個好細。",
+          "jyutping": "go2 go3 hou2 sai3.",
+          "de": "Das da ist sehr klein."
+        },
+        "exampleAudio": "04_go_go_hou_sai.mp3"
+      },
+      {
+        "zh": "多",
+        "jyutping": "do1",
+        "de": "viel / viele",
+        "audio": "05_do.mp3",
+        "example": {
+          "zh": "我有好多嘢。",
+          "jyutping": "ngo5 jau5 hou2 do1 je5.",
+          "de": "Ich habe viele Sachen."
+        },
+        "exampleAudio": "06_ngo_jau_hou_do_je.mp3"
+      },
+      {
+        "zh": "少",
+        "jyutping": "siu2",
+        "de": "wenig",
+        "audio": "07_siu.mp3",
+        "example": {
+          "zh": "我有少少錢。",
+          "jyutping": "ngo5 jau5 siu2 siu2 cin2.",
+          "de": "Ich habe ein bisschen Geld."
+        },
+        "exampleAudio": "08_ngo_jau_siu_siu_cin.mp3"
+      },
+      {
+        "zh": "貴",
+        "jyutping": "gwai3",
+        "de": "teuer",
+        "audio": "09_gwai.mp3",
+        "example": {
+          "zh": "呢杯咖啡好貴。",
+          "jyutping": "ni1 bui1 gaa3 fe1 hou2 gwai3.",
+          "de": "Dieser Kaffee ist sehr teuer."
+        },
+        "exampleAudio": "10_ni_bui_gaafe_hou_gwai.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "平",
+        "jyutping": "peng4",
+        "de": "billig",
+        "audio": "11_peng.mp3"
+      },
+      {
+        "zh": "蚊",
+        "jyutping": "man1",
+        "de": "Dollar (HKD)",
+        "audio": "12_man.mp3"
+      },
+      {
+        "zh": "件",
+        "jyutping": "gin6",
+        "de": "Zählwort (Kleidung / Angelegenheit)",
+        "audio": "13_gin.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 好 + Adjektiv",
+        "points": [
+          "好大 = sehr groß; 好細 = sehr klein; 好貴 = sehr teuer; 好平 = sehr billig.",
+          "Verneinung: 唔 + Adjektiv. 唔大 = nicht groß.",
+          "Ja/Nein: Adjektiv + 唔 + Adjektiv. 貴唔貴？"
+        ]
+      },
+      {
+        "title": "Regel 2: 多 / 少",
+        "points": [
+          "好多 = sehr viel / viele. 我有好多嘢。",
+          "少少 = ein bisschen. 我有少少錢。",
+          "幾多 fragt nach der Menge; 多 / 少 sagen, ob es viel oder wenig ist.",
+          "Preis umgangssprachlich mit 蚊: 十蚊 = zehn Dollar."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "呢個好大。",
+          "answer": "Das hier ist sehr groß.",
+          "audio": "02_ni_go_hou_daai.mp3"
+        },
+        {
+          "zh": "嗰個好細。",
+          "answer": "Das da ist sehr klein.",
+          "audio": "04_go_go_hou_sai.mp3"
+        },
+        {
+          "zh": "我有好多嘢。",
+          "answer": "Ich habe viele Sachen.",
+          "audio": "06_ngo_jau_hou_do_je.mp3"
+        },
+        {
+          "zh": "我有少少錢。",
+          "answer": "Ich habe ein bisschen Geld.",
+          "audio": "08_ngo_jau_siu_siu_cin.mp3"
+        },
+        {
+          "zh": "呢杯咖啡好貴。",
+          "answer": "Dieser Kaffee ist sehr teuer.",
+          "audio": "10_ni_bui_gaafe_hou_gwai.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "呢個好 ___ 。",
+          "answer": "呢個好大。",
+          "audio": "02_ni_go_hou_daai.mp3"
+        },
+        {
+          "prompt": "嗰個好 ___ 。",
+          "answer": "嗰個好細。",
+          "audio": "04_go_go_hou_sai.mp3"
+        },
+        {
+          "prompt": "我有好 ___ 嘢。",
+          "answer": "我有好多嘢。",
+          "audio": "06_ngo_jau_hou_do_je.mp3"
+        },
+        {
+          "prompt": "我有 ___ 少錢。",
+          "answer": "我有少少錢。",
+          "audio": "08_ngo_jau_siu_siu_cin.mp3"
+        },
+        {
+          "prompt": "呢杯咖啡好 ___ 。",
+          "answer": "呢杯咖啡好貴。",
+          "audio": "10_ni_bui_gaafe_hou_gwai.mp3"
+        },
+        {
+          "prompt": "呢個好 ___ 。",
+          "answer": "呢個好平。",
+          "audio": "15_ni_go_hou_peng.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Das hier ist sehr groß.",
+          "answer": "呢個好大。",
+          "jyutping": "ni1 go3 hou2 daai6.",
+          "audio": "02_ni_go_hou_daai.mp3"
+        },
+        {
+          "prompt": "Ich habe viele Sachen.",
+          "answer": "我有好多嘢。",
+          "jyutping": "ngo5 jau5 hou2 do1 je5.",
+          "audio": "06_ngo_jau_hou_do_je.mp3"
+        },
+        {
+          "prompt": "Dieser Kaffee ist sehr teuer.",
+          "answer": "呢杯咖啡好貴。",
+          "jyutping": "ni1 bui1 gaa3 fe1 hou2 gwai3.",
+          "audio": "10_ni_bui_gaafe_hou_gwai.mp3"
+        }
+      ]
+    },
+    "review": [
+      "問 → fragen",
+      "答 → antworten",
+      "見 → sehen / treffen",
+      "住 → wohnen",
+      "開 → öffnen",
+      "關 → schließen",
+      "行 → gehen / laufen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Das hier ist sehr groß.",
+          "answer": "呢個好大。",
+          "jyutping": "ni1 go3 hou2 daai6."
+        },
+        {
+          "prompt": "Ich habe viele Sachen.",
+          "answer": "我有好多嘢。",
+          "jyutping": "ngo5 jau5 hou2 do1 je5."
+        },
+        {
+          "prompt": "Dieser Kaffee ist sehr teuer.",
+          "answer": "呢杯咖啡好貴。",
+          "jyutping": "ni1 bui1 gaa3 fe1 hou2 gwai3."
+        }
+      ]
+    },
+    "dndChips": [
+      "大",
+      "細",
+      "多",
+      "少",
+      "貴",
+      "平"
+    ],
+    "reviewItems": [
+      {
+        "zh": "問",
+        "de": "fragen",
+        "audio": "rev_man.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "zh"
+      },
+      {
+        "zh": "答",
+        "de": "antworten",
+        "audio": "rev_daap.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "de"
+      },
+      {
+        "zh": "見",
+        "de": "sehen / treffen",
+        "audio": "rev_gin.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "zh"
+      },
+      {
+        "zh": "住",
+        "de": "wohnen",
+        "audio": "rev_zyu.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "de"
+      },
+      {
+        "zh": "開",
+        "de": "öffnen",
+        "audio": "rev_hoi.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "zh"
+      },
+      {
+        "zh": "關",
+        "de": "schließen",
+        "audio": "rev_gwaan.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "de"
+      },
+      {
+        "zh": "行",
+        "de": "gehen / laufen",
+        "audio": "rev_haang.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "zh"
+      }
+    ],
+    "grammarExamples": [
+      {
+        "zh": "呢個好大。",
+        "audio": "02_ni_go_hou_daai.mp3"
+      },
+      {
+        "zh": "嗰個好細。",
+        "audio": "04_go_go_hou_sai.mp3"
+      },
+      {
+        "zh": "貴唔貴？",
+        "audio": "14_gwai_m_gwai.mp3"
+      },
+      {
+        "zh": "呢個好平。",
+        "audio": "15_ni_go_hou_peng.mp3"
+      },
+      {
+        "zh": "我有好多嘢。",
+        "audio": "06_ngo_jau_hou_do_je.mp3"
+      },
+      {
+        "zh": "我有少少錢。",
+        "audio": "08_ngo_jau_siu_siu_cin.mp3"
+      },
+      {
+        "zh": "好多。",
+        "audio": "16_hou_do.mp3"
+      },
+      {
+        "zh": "少少。",
+        "audio": "17_siu_siu.mp3"
+      },
+      {
+        "zh": "十蚊。",
+        "audio": "18_sap_man.mp3"
+      },
+      {
+        "zh": "呢件好貴。",
+        "audio": "19_ni_gin_hou_gwai.mp3"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 09 und 10. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
   }
 ]
