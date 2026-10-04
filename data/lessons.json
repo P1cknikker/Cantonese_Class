@@ -3366,5 +3366,651 @@
       }
     ],
     "reviewNote": "Wiederhole Vokabeln aus Lektion 09 und 10. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden."
+  },
+  {
+    "id": 12,
+    "title": "neu, alt, heiß, kalt, hungrig",
+    "date": "2026-10-03",
+    "cumulativeWords": 60,
+    "clipsFolder": "clips_lektion_12",
+    "words": [
+      {
+        "zh": "新",
+        "jyutping": "san1",
+        "de": "neu",
+        "audio": "01_san.mp3",
+        "example": {
+          "zh": "呢件衫好新。",
+          "jyutping": "ni1 gin6 saam1 hou2 san1.",
+          "de": "Dieses Kleidungsstück ist sehr neu."
+        },
+        "exampleAudio": "02_ni_gin_saam_hou_san.mp3"
+      },
+      {
+        "zh": "舊",
+        "jyutping": "gau6",
+        "de": "alt (Dinge)",
+        "audio": "03_gau.mp3",
+        "example": {
+          "zh": "嗰部電話好舊。",
+          "jyutping": "go2 bou6 din6 waa2 hou2 gau6.",
+          "de": "Das Telefon da ist sehr alt."
+        },
+        "exampleAudio": "04_go_bou_dinwaa_hou_gau.mp3"
+      },
+      {
+        "zh": "熱",
+        "jyutping": "jit6",
+        "de": "heiß",
+        "audio": "05_jit.mp3",
+        "example": {
+          "zh": "今日好熱。",
+          "jyutping": "gam1 jat6 hou2 jit6.",
+          "de": "Heute ist es sehr heiß."
+        },
+        "exampleAudio": "06_gam_jat_hou_jit.mp3"
+      },
+      {
+        "zh": "凍",
+        "jyutping": "dung3",
+        "de": "kalt",
+        "audio": "07_dung.mp3",
+        "example": {
+          "zh": "而家好凍。",
+          "jyutping": "ji4 gaa1 hou2 dung3.",
+          "de": "Jetzt ist es sehr kalt."
+        },
+        "exampleAudio": "08_ji_gaa_hou_dung.mp3"
+      },
+      {
+        "zh": "餓",
+        "jyutping": "ngo6",
+        "de": "hungrig",
+        "audio": "09_ngo6.mp3",
+        "example": {
+          "zh": "我好餓。",
+          "jyutping": "ngo5 hou2 ngo6.",
+          "de": "Ich bin sehr hungrig."
+        },
+        "exampleAudio": "10_ngo_hou_ngo6.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "衫",
+        "jyutping": "saam1",
+        "de": "Kleidung / Hemd",
+        "audio": "11_saam.mp3"
+      },
+      {
+        "zh": "部",
+        "jyutping": "bou6",
+        "de": "Zählwort für Geräte (Telefon, Auto)",
+        "audio": "12_bou.mp3"
+      },
+      {
+        "zh": "天氣",
+        "jyutping": "tin1 hei3",
+        "de": "Wetter",
+        "audio": "13_tin_hei.mp3"
+      },
+      {
+        "zh": "太",
+        "jyutping": "taai3",
+        "de": "zu (vor Adjektiv)",
+        "audio": "14_taai.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: Adjektiv ohne 係",
+        "points": [
+          "Adjektive stehen direkt nach dem Subjekt: 我好餓。 Dieses Kleidungsstück: 呢件衫好新。",
+          "Kein 係 vor dem Adjektiv. Nicht: 我係餓。",
+          "Verneinung: 唔 + Adjektiv. 呢件衫唔舊。 = Dieses Kleidungsstück ist nicht alt.",
+          "Ja/Nein: Adjektiv + 唔 + Adjektiv. 餓唔餓？"
+        ]
+      },
+      {
+        "title": "Regel 2: 太 + Adjektiv",
+        "points": [
+          "太 = zu. 太熱 = zu heiß. 太凍 = zu kalt.",
+          "今日太熱。 = Heute ist es zu heiß.",
+          "好 = sehr (Lektion 04/11); 太 = zu viel davon.",
+          "Wetter: 天氣好熱。 = Das Wetter ist sehr heiß."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "呢件衫好新。",
+          "answer": "Dieses Kleidungsstück ist sehr neu.",
+          "audio": "02_ni_gin_saam_hou_san.mp3"
+        },
+        {
+          "zh": "嗰部電話好舊。",
+          "answer": "Das Telefon da ist sehr alt.",
+          "audio": "04_go_bou_dinwaa_hou_gau.mp3"
+        },
+        {
+          "zh": "今日好熱。",
+          "answer": "Heute ist es sehr heiß.",
+          "audio": "06_gam_jat_hou_jit.mp3"
+        },
+        {
+          "zh": "而家好凍。",
+          "answer": "Jetzt ist es sehr kalt.",
+          "audio": "08_ji_gaa_hou_dung.mp3"
+        },
+        {
+          "zh": "我好餓。",
+          "answer": "Ich bin sehr hungrig.",
+          "audio": "10_ngo_hou_ngo6.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "呢件衫好 ___ 。",
+          "answer": "呢件衫好新。",
+          "audio": "02_ni_gin_saam_hou_san.mp3"
+        },
+        {
+          "prompt": "嗰部電話好 ___ 。",
+          "answer": "嗰部電話好舊。",
+          "audio": "04_go_bou_dinwaa_hou_gau.mp3"
+        },
+        {
+          "prompt": "今日好 ___ 。",
+          "answer": "今日好熱。",
+          "audio": "06_gam_jat_hou_jit.mp3"
+        },
+        {
+          "prompt": "而家好 ___ 。",
+          "answer": "而家好凍。",
+          "audio": "08_ji_gaa_hou_dung.mp3"
+        },
+        {
+          "prompt": "我好 ___ 。",
+          "answer": "我好餓。",
+          "audio": "10_ngo_hou_ngo6.mp3"
+        },
+        {
+          "prompt": "今日 ___ 熱。",
+          "answer": "今日太熱。",
+          "audio": "15_gam_jat_taai_jit.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Dieses Kleidungsstück ist sehr neu.",
+          "answer": "呢件衫好新。",
+          "jyutping": "ni1 gin6 saam1 hou2 san1.",
+          "audio": "02_ni_gin_saam_hou_san.mp3"
+        },
+        {
+          "prompt": "Heute ist es sehr heiß.",
+          "answer": "今日好熱。",
+          "jyutping": "gam1 jat6 hou2 jit6.",
+          "audio": "06_gam_jat_hou_jit.mp3"
+        },
+        {
+          "prompt": "Ich bin sehr hungrig.",
+          "answer": "我好餓。",
+          "jyutping": "ngo5 hou2 ngo6.",
+          "audio": "10_ngo_hou_ngo6.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "新",
+      "舊",
+      "熱",
+      "凍",
+      "餓",
+      "太"
+    ],
+    "reviewItems": [
+      {
+        "zh": "坐",
+        "de": "sitzen",
+        "audio": "rev_co.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "zh"
+      },
+      {
+        "zh": "大",
+        "de": "groß",
+        "audio": "rev_daai.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "de"
+      },
+      {
+        "zh": "細",
+        "de": "klein",
+        "audio": "rev_sai.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "zh"
+      },
+      {
+        "zh": "多",
+        "de": "viel / viele",
+        "audio": "rev_do.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "de"
+      },
+      {
+        "zh": "少",
+        "de": "wenig",
+        "audio": "rev_siu.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "zh"
+      },
+      {
+        "zh": "貴",
+        "de": "teuer",
+        "audio": "rev_gwai.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "de"
+      },
+      {
+        "zh": "行",
+        "de": "gehen / laufen",
+        "audio": "rev_hang.mp3",
+        "clipsFolder": "clips_lektion_12",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 10 und 11. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "呢件衫好新。",
+        "audio": "02_ni_gin_saam_hou_san.mp3"
+      },
+      {
+        "zh": "嗰部電話好舊。",
+        "audio": "04_go_bou_dinwaa_hou_gau.mp3"
+      },
+      {
+        "zh": "呢件衫唔舊。",
+        "audio": "18_ni_gin_saam_m_gau.mp3"
+      },
+      {
+        "zh": "餓唔餓？",
+        "audio": "17_ngo6_m_ngo6.mp3"
+      },
+      {
+        "zh": "今日太熱。",
+        "audio": "15_gam_jat_taai_jit.mp3"
+      },
+      {
+        "zh": "太凍。",
+        "audio": "16_taai_dung.mp3"
+      },
+      {
+        "zh": "天氣好熱。",
+        "audio": "19_tin_hei_hou_jit.mp3"
+      },
+      {
+        "zh": "我好餓。",
+        "audio": "10_ngo_hou_ngo6.mp3"
+      }
+    ],
+    "review": [
+      "坐 → sitzen",
+      "大 → groß",
+      "細 → klein",
+      "多 → viel / viele",
+      "少 → wenig",
+      "貴 → teuer",
+      "行 → gehen / laufen"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Dieses Kleidungsstück ist sehr neu.",
+          "answer": "呢件衫好新。",
+          "jyutping": "ni1 gin6 saam1 hou2 san1."
+        },
+        {
+          "prompt": "Heute ist es sehr heiß.",
+          "answer": "今日好熱。",
+          "jyutping": "gam1 jat6 hou2 jit6."
+        },
+        {
+          "prompt": "Ich bin sehr hungrig.",
+          "answer": "我好餓。",
+          "jyutping": "ngo5 hou2 ngo6."
+        }
+      ]
+    }
+  },
+  {
+    "id": 13,
+    "title": "durstig, müde, glücklich, beschäftigt, früh",
+    "date": "2026-10-04",
+    "cumulativeWords": 65,
+    "clipsFolder": "clips_lektion_13",
+    "words": [
+      {
+        "zh": "渴",
+        "jyutping": "hot3",
+        "de": "durstig",
+        "audio": "01_hot.mp3",
+        "example": {
+          "zh": "我好渴。",
+          "jyutping": "ngo5 hou2 hot3.",
+          "de": "Ich bin sehr durstig."
+        },
+        "exampleAudio": "02_ngo_hou_hot.mp3"
+      },
+      {
+        "zh": "攰",
+        "jyutping": "gui6",
+        "de": "müde",
+        "audio": "03_gui.mp3",
+        "example": {
+          "zh": "我今日好攰。",
+          "jyutping": "ngo5 gam1 jat6 hou2 gui6.",
+          "de": "Ich bin heute sehr müde."
+        },
+        "exampleAudio": "04_ngo_gamjat_hou_gui.mp3"
+      },
+      {
+        "zh": "開心",
+        "jyutping": "hoi1 sam1",
+        "de": "glücklich / froh",
+        "audio": "05_hoisam.mp3",
+        "example": {
+          "zh": "我好開心。",
+          "jyutping": "ngo5 hou2 hoi1 sam1.",
+          "de": "Ich bin sehr glücklich."
+        },
+        "exampleAudio": "06_ngo_hou_hoisam.mp3"
+      },
+      {
+        "zh": "忙",
+        "jyutping": "mong4",
+        "de": "beschäftigt",
+        "audio": "07_mong.mp3",
+        "example": {
+          "zh": "我而家好忙。",
+          "jyutping": "ngo5 ji4 gaa1 hou2 mong4.",
+          "de": "Ich bin jetzt sehr beschäftigt."
+        },
+        "exampleAudio": "08_ngo_jigaa_hou_mong.mp3"
+      },
+      {
+        "zh": "早",
+        "jyutping": "zou2",
+        "de": "früh",
+        "audio": "09_zou.mp3",
+        "example": {
+          "zh": "我聽日好早走。",
+          "jyutping": "ngo5 ting1 jat6 hou2 zou2 zau2.",
+          "de": "Ich gehe morgen sehr früh los."
+        },
+        "exampleAudio": "10_ngo_tingjat_hou_zou_zau.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "遲",
+        "jyutping": "ci4",
+        "de": "spät",
+        "audio": "11_ci.mp3"
+      },
+      {
+        "zh": "今晚",
+        "jyutping": "gam1 maan5",
+        "de": "heute Abend",
+        "audio": "12_gam_maan.mp3"
+      },
+      {
+        "zh": "朝早",
+        "jyutping": "ziu1 zou2",
+        "de": "morgens / am Morgen",
+        "audio": "13_ziu_zou.mp3"
+      },
+      {
+        "zh": "因為",
+        "jyutping": "jan1 wai6",
+        "de": "weil",
+        "audio": "14_janwai.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: Zustände mit 好, ohne 係",
+        "points": [
+          "Durstig, müde, glücklich, beschäftigt stehen direkt nach dem Subjekt: 我好渴。 我今日好攰。",
+          "Kein 係 vor dem Zustand. Nicht: 我係渴。 Nicht: 我係忙。",
+          "Verneinung: 唔 + Zustand. 我唔忙。 = Ich bin nicht beschäftigt.",
+          "Ja/Nein: Zustand + 唔 + Zustand. 渴唔渴？ Bei zwei Silben das ganze Wort: 開心唔開心？"
+        ]
+      },
+      {
+        "title": "Regel 2: 因為 = weil",
+        "points": [
+          "因為 nennt den Grund. 我好攰，因為我好忙。 = Ich bin müde, weil ich sehr beschäftigt bin.",
+          "我好渴，因為今日好熱。 = Ich bin durstig, weil es heute sehr heiß ist.",
+          "都 = auch: 我都好渴。 = Ich bin auch durstig.",
+          "今晚好忙。 = Heute Abend bin ich sehr beschäftigt. 朝早 = morgens."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我好渴。",
+          "answer": "Ich bin sehr durstig.",
+          "audio": "02_ngo_hou_hot.mp3"
+        },
+        {
+          "zh": "我今日好攰。",
+          "answer": "Ich bin heute sehr müde.",
+          "audio": "04_ngo_gamjat_hou_gui.mp3"
+        },
+        {
+          "zh": "我好開心。",
+          "answer": "Ich bin sehr glücklich.",
+          "audio": "06_ngo_hou_hoisam.mp3"
+        },
+        {
+          "zh": "我而家好忙。",
+          "answer": "Ich bin jetzt sehr beschäftigt.",
+          "audio": "08_ngo_jigaa_hou_mong.mp3"
+        },
+        {
+          "zh": "我聽日好早走。",
+          "answer": "Ich gehe morgen sehr früh los.",
+          "audio": "10_ngo_tingjat_hou_zou_zau.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我好 ___ 。",
+          "answer": "我好渴。",
+          "audio": "02_ngo_hou_hot.mp3"
+        },
+        {
+          "prompt": "我今日好 ___ 。",
+          "answer": "我今日好攰。",
+          "audio": "04_ngo_gamjat_hou_gui.mp3"
+        },
+        {
+          "prompt": "我好 ___ 。",
+          "answer": "我好開心。",
+          "audio": "06_ngo_hou_hoisam.mp3"
+        },
+        {
+          "prompt": "我而家好 ___ 。",
+          "answer": "我而家好忙。",
+          "audio": "08_ngo_jigaa_hou_mong.mp3"
+        },
+        {
+          "prompt": "我聽日好 ___ 走。",
+          "answer": "我聽日好早走。",
+          "audio": "10_ngo_tingjat_hou_zou_zau.mp3"
+        },
+        {
+          "prompt": "我而家好 ___ 。",
+          "answer": "我而家好遲。",
+          "audio": "20_ngo_jigaa_hou_ci.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich bin sehr durstig.",
+          "answer": "我好渴。",
+          "jyutping": "ngo5 hou2 hot3.",
+          "audio": "02_ngo_hou_hot.mp3"
+        },
+        {
+          "prompt": "Ich bin heute sehr müde.",
+          "answer": "我今日好攰。",
+          "jyutping": "ngo5 gam1 jat6 hou2 gui6.",
+          "audio": "04_ngo_gamjat_hou_gui.mp3"
+        },
+        {
+          "prompt": "Ich bin jetzt sehr beschäftigt.",
+          "answer": "我而家好忙。",
+          "jyutping": "ngo5 ji4 gaa1 hou2 mong4.",
+          "audio": "08_ngo_jigaa_hou_mong.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "渴",
+      "攰",
+      "開心",
+      "忙",
+      "早",
+      "遲"
+    ],
+    "reviewItems": [
+      {
+        "zh": "新",
+        "de": "neu",
+        "audio": "rev_san.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "zh"
+      },
+      {
+        "zh": "舊",
+        "de": "alt (Dinge)",
+        "audio": "rev_gau.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "de"
+      },
+      {
+        "zh": "熱",
+        "de": "heiß",
+        "audio": "rev_jit.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "zh"
+      },
+      {
+        "zh": "凍",
+        "de": "kalt",
+        "audio": "rev_dung.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "de"
+      },
+      {
+        "zh": "餓",
+        "de": "hungrig",
+        "audio": "rev_ngo6.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "zh"
+      },
+      {
+        "zh": "貴",
+        "de": "teuer",
+        "audio": "rev_gwai.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "de"
+      },
+      {
+        "zh": "平",
+        "de": "billig",
+        "audio": "rev_peng.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 11 und 12. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "我好渴。",
+        "audio": "02_ngo_hou_hot.mp3"
+      },
+      {
+        "zh": "我今日好攰。",
+        "audio": "04_ngo_gamjat_hou_gui.mp3"
+      },
+      {
+        "zh": "我好開心。",
+        "audio": "06_ngo_hou_hoisam.mp3"
+      },
+      {
+        "zh": "我唔忙。",
+        "audio": "16_ngo_m_mong.mp3"
+      },
+      {
+        "zh": "渴唔渴？",
+        "audio": "15_hot_m_hot.mp3"
+      },
+      {
+        "zh": "開心唔開心？",
+        "audio": "21_hoisam_m_hoisam.mp3"
+      },
+      {
+        "zh": "我好攰，因為我好忙。",
+        "audio": "17_gui_janwai_mong.mp3"
+      },
+      {
+        "zh": "我好渴，因為今日好熱。",
+        "audio": "22_ngo_hot_janwai_jit.mp3"
+      },
+      {
+        "zh": "我都好渴。",
+        "audio": "18_ngo_dou_hou_hot.mp3"
+      },
+      {
+        "zh": "今晚好忙。",
+        "audio": "19_gam_maan_hou_mong.mp3"
+      }
+    ],
+    "review": [
+      "新 → neu",
+      "舊 → alt (Dinge)",
+      "熱 → heiß",
+      "凍 → kalt",
+      "餓 → hungrig",
+      "貴 → teuer",
+      "平 → billig"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich bin sehr durstig.",
+          "answer": "我好渴。",
+          "jyutping": "ngo5 hou2 hot3."
+        },
+        {
+          "prompt": "Ich bin heute sehr müde.",
+          "answer": "我今日好攰。",
+          "jyutping": "ngo5 gam1 jat6 hou2 gui6."
+        },
+        {
+          "prompt": "Ich bin jetzt sehr beschäftigt.",
+          "answer": "我而家好忙。",
+          "jyutping": "ngo5 ji4 gaa1 hou2 mong4."
+        }
+      ]
+    }
   }
 ]
