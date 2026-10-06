@@ -4012,5 +4012,653 @@
         }
       ]
     }
+  },
+  {
+    "id": 14,
+    "title": "schlafen, aufstehen, Schmerzen, krank, wohl",
+    "date": "2026-10-05",
+    "cumulativeWords": 70,
+    "clipsFolder": "clips_lektion_14",
+    "words": [
+      {
+        "zh": "瞓",
+        "jyutping": "fan3",
+        "de": "schlafen",
+        "audio": "01_fan.mp3",
+        "example": {
+          "zh": "我好攰，想瞓。",
+          "jyutping": "ngo5 hou2 gui6, soeng2 fan3.",
+          "de": "Ich bin sehr müde und will schlafen."
+        },
+        "exampleAudio": "02_ngo_gui_soeng_fan.mp3"
+      },
+      {
+        "zh": "起身",
+        "jyutping": "hei2 san1",
+        "de": "aufstehen",
+        "audio": "03_heisan.mp3",
+        "example": {
+          "zh": "我朝早起身。",
+          "jyutping": "ngo5 ziu1 zou2 hei2 san1.",
+          "de": "Ich stehe morgens auf."
+        },
+        "exampleAudio": "04_ngo_ziuzou_heisan.mp3"
+      },
+      {
+        "zh": "痛",
+        "jyutping": "tung3",
+        "de": "schmerzen / weh tun",
+        "audio": "05_tung.mp3",
+        "example": {
+          "zh": "我頭痛。",
+          "jyutping": "ngo5 tau4 tung3.",
+          "de": "Ich habe Kopfschmerzen."
+        },
+        "exampleAudio": "06_ngo_tau_tung.mp3"
+      },
+      {
+        "zh": "病",
+        "jyutping": "beng6",
+        "de": "krank",
+        "audio": "07_beng.mp3",
+        "example": {
+          "zh": "我今日病咗。",
+          "jyutping": "ngo5 gam1 jat6 beng6 zo2.",
+          "de": "Ich bin heute krank geworden."
+        },
+        "exampleAudio": "08_ngo_gamjat_bengzo.mp3"
+      },
+      {
+        "zh": "舒服",
+        "jyutping": "syu1 fuk6",
+        "de": "sich wohl fühlen / bequem",
+        "audio": "09_syufuk.mp3",
+        "example": {
+          "zh": "我而家好舒服。",
+          "jyutping": "ngo5 ji4 gaa1 hou2 syu1 fuk6.",
+          "de": "Mir geht es jetzt sehr gut."
+        },
+        "exampleAudio": "10_ngo_jigaa_hou_syufuk.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "頭",
+        "jyutping": "tau4",
+        "de": "Kopf",
+        "audio": "11_tau.mp3"
+      },
+      {
+        "zh": "覺",
+        "jyutping": "gaau3",
+        "de": "Schlaf (in 瞓覺)",
+        "audio": "12_gaau.mp3"
+      },
+      {
+        "zh": "咗",
+        "jyutping": "zo2",
+        "de": "schon / geworden",
+        "audio": "13_zo.mp3"
+      },
+      {
+        "zh": "休息",
+        "jyutping": "jau1 sik1",
+        "de": "sich ausruhen",
+        "audio": "14_jausik.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Regel 1: 瞓 und 瞓覺, 起身",
+        "points": [
+          "瞓 = schlafen. 我好攰，想瞓。 = Ich bin sehr müde und will schlafen.",
+          "瞓覺 nimmt 覺 gaau3 als Objekt. 我要瞓覺。 = Ich will schlafen.",
+          "起身 = aufstehen. 我朝早起身。 = Ich stehe morgens auf.",
+          "Kein 係 davor. Nicht: 我係瞓。 Nicht: 我係起身。"
+        ]
+      },
+      {
+        "title": "Regel 2: 咗, 痛 und 唔舒服",
+        "points": [
+          "咗 markiert, dass etwas schon geschehen ist. 我今日病咗。 = Ich bin heute krank geworden.",
+          "我瞓咗。 = Ich habe geschlafen / bin eingeschlafen.",
+          "痛 steht nach dem Körperteil. 我頭痛。 = Ich habe Kopfschmerzen.",
+          "唔 + Zustand: 我唔舒服。 = Mir ist nicht wohl. Ja/Nein: 病唔病？",
+          "我要休息。 = Ich muss mich ausruhen."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我好攰，想瞓。",
+          "answer": "Ich bin sehr müde und will schlafen.",
+          "audio": "02_ngo_gui_soeng_fan.mp3"
+        },
+        {
+          "zh": "我朝早起身。",
+          "answer": "Ich stehe morgens auf.",
+          "audio": "04_ngo_ziuzou_heisan.mp3"
+        },
+        {
+          "zh": "我頭痛。",
+          "answer": "Ich habe Kopfschmerzen.",
+          "audio": "06_ngo_tau_tung.mp3"
+        },
+        {
+          "zh": "我今日病咗。",
+          "answer": "Ich bin heute krank geworden.",
+          "audio": "08_ngo_gamjat_bengzo.mp3"
+        },
+        {
+          "zh": "我而家好舒服。",
+          "answer": "Mir geht es jetzt sehr gut.",
+          "audio": "10_ngo_jigaa_hou_syufuk.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我好攰，想 ___ 。",
+          "answer": "我好攰，想瞓。",
+          "audio": "02_ngo_gui_soeng_fan.mp3"
+        },
+        {
+          "prompt": "我朝早 ___ 。",
+          "answer": "我朝早起身。",
+          "audio": "04_ngo_ziuzou_heisan.mp3"
+        },
+        {
+          "prompt": "我 ___ 痛。",
+          "answer": "我頭痛。",
+          "audio": "06_ngo_tau_tung.mp3"
+        },
+        {
+          "prompt": "我今日 ___ 咗。",
+          "answer": "我今日病咗。",
+          "audio": "08_ngo_gamjat_bengzo.mp3"
+        },
+        {
+          "prompt": "我而家好 ___ 。",
+          "answer": "我而家好舒服。",
+          "audio": "10_ngo_jigaa_hou_syufuk.mp3"
+        },
+        {
+          "prompt": "我要 ___ 。",
+          "answer": "我要休息。",
+          "audio": "19_ngo_jiu_jausik.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich bin sehr müde und will schlafen.",
+          "answer": "我好攰，想瞓。",
+          "jyutping": "ngo5 hou2 gui6, soeng2 fan3.",
+          "audio": "02_ngo_gui_soeng_fan.mp3"
+        },
+        {
+          "prompt": "Ich stehe morgens auf.",
+          "answer": "我朝早起身。",
+          "jyutping": "ngo5 ziu1 zou2 hei2 san1.",
+          "audio": "04_ngo_ziuzou_heisan.mp3"
+        },
+        {
+          "prompt": "Ich habe Kopfschmerzen.",
+          "answer": "我頭痛。",
+          "jyutping": "ngo5 tau4 tung3.",
+          "audio": "06_ngo_tau_tung.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "瞓",
+      "起身",
+      "頭",
+      "病",
+      "舒服",
+      "休息"
+    ],
+    "reviewItems": [
+      {
+        "zh": "渴",
+        "de": "durstig",
+        "audio": "rev_hot.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "zh"
+      },
+      {
+        "zh": "攰",
+        "de": "müde",
+        "audio": "rev_gui.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "de"
+      },
+      {
+        "zh": "開心",
+        "de": "glücklich",
+        "audio": "rev_hoisam.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "zh"
+      },
+      {
+        "zh": "忙",
+        "de": "beschäftigt",
+        "audio": "rev_mong.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "de"
+      },
+      {
+        "zh": "早",
+        "de": "früh",
+        "audio": "rev_zou.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "zh"
+      },
+      {
+        "zh": "遲",
+        "de": "spät",
+        "audio": "rev_ci.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "de"
+      },
+      {
+        "zh": "熱",
+        "de": "heiß",
+        "audio": "rev14_jit.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 12 und 13. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "我好攰，想瞓。",
+        "audio": "02_ngo_gui_soeng_fan.mp3"
+      },
+      {
+        "zh": "我要瞓覺。",
+        "audio": "15_ngo_jiu_fangau.mp3"
+      },
+      {
+        "zh": "我朝早起身。",
+        "audio": "04_ngo_ziuzou_heisan.mp3"
+      },
+      {
+        "zh": "我今日病咗。",
+        "audio": "08_ngo_gamjat_bengzo.mp3"
+      },
+      {
+        "zh": "我瞓咗。",
+        "audio": "16_ngo_fan_zo.mp3"
+      },
+      {
+        "zh": "我頭痛。",
+        "audio": "06_ngo_tau_tung.mp3"
+      },
+      {
+        "zh": "我唔舒服。",
+        "audio": "17_ngo_m_syufuk.mp3"
+      },
+      {
+        "zh": "病唔病？",
+        "audio": "20_beng_m_beng.mp3"
+      },
+      {
+        "zh": "我要休息。",
+        "audio": "19_ngo_jiu_jausik.mp3"
+      },
+      {
+        "zh": "我頭唔舒服。",
+        "audio": "18_tau_m_syufuk.mp3"
+      }
+    ],
+    "review": [
+      "渴 → durstig",
+      "攰 → müde",
+      "開心 → glücklich",
+      "忙 → beschäftigt",
+      "早 → früh",
+      "遲 → spät",
+      "熱 → heiß"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich bin sehr müde und will schlafen.",
+          "answer": "我好攰，想瞓。",
+          "jyutping": "ngo5 hou2 gui6, soeng2 fan3."
+        },
+        {
+          "prompt": "Ich stehe morgens auf.",
+          "answer": "我朝早起身。",
+          "jyutping": "ngo5 ziu1 zou2 hei2 san1."
+        },
+        {
+          "prompt": "Ich habe Kopfschmerzen.",
+          "answer": "我頭痛。",
+          "jyutping": "ngo5 tau4 tung3."
+        }
+      ]
+    }
+  },
+  {
+    "id": 15,
+    "title": "lernen, lesen, schreiben, Buch, Hausaufgaben",
+    "date": "2026-10-06",
+    "cumulativeWords": 75,
+    "clipsFolder": "clips_lektion_15",
+    "words": [
+      {
+        "zh": "學",
+        "jyutping": "hok6",
+        "de": "lernen",
+        "audio": "01_hok.mp3",
+        "example": {
+          "zh": "我想學中文。",
+          "jyutping": "ngo5 soeng2 hok6 zung1 man4.",
+          "de": "Ich will Chinesisch lernen."
+        },
+        "exampleAudio": "02_ngo_soeng_hok_zungman.mp3"
+      },
+      {
+        "zh": "讀",
+        "jyutping": "duk6",
+        "de": "lesen / studieren",
+        "audio": "03_duk.mp3",
+        "example": {
+          "zh": "我讀中文。",
+          "jyutping": "ngo5 duk6 zung1 man4.",
+          "de": "Ich lese Chinesisch. / Ich lerne Chinesisch."
+        },
+        "exampleAudio": "04_ngo_duk_zungman.mp3"
+      },
+      {
+        "zh": "寫",
+        "jyutping": "se2",
+        "de": "schreiben",
+        "audio": "05_se.mp3",
+        "example": {
+          "zh": "我寫功課。",
+          "jyutping": "ngo5 se2 gung1 fo3.",
+          "de": "Ich schreibe die Hausaufgaben."
+        },
+        "exampleAudio": "06_ngo_se_gungfo.mp3"
+      },
+      {
+        "zh": "書",
+        "jyutping": "syu1",
+        "de": "Buch",
+        "audio": "07_syu.mp3",
+        "example": {
+          "zh": "呢本書好新。",
+          "jyutping": "ni1 bun2 syu1 hou2 san1.",
+          "de": "Dieses Buch ist sehr neu."
+        },
+        "exampleAudio": "08_ni_bun_syu_hou_san.mp3"
+      },
+      {
+        "zh": "功課",
+        "jyutping": "gung1 fo3",
+        "de": "Hausaufgaben",
+        "audio": "09_gungfo.mp3",
+        "example": {
+          "zh": "我要做功課。",
+          "jyutping": "ngo5 jiu3 zou6 gung1 fo3.",
+          "de": "Ich muss Hausaufgaben machen."
+        },
+        "exampleAudio": "10_ngo_jiu_zou_gungfo.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "筆",
+        "jyutping": "bat1",
+        "de": "Stift",
+        "audio": "11_bat.mp3"
+      },
+      {
+        "zh": "紙",
+        "jyutping": "zi2",
+        "de": "Papier",
+        "audio": "12_zi.mp3"
+      },
+      {
+        "zh": "本",
+        "jyutping": "bun2",
+        "de": "Zählwort für Bücher",
+        "audio": "13_bun.mp3"
+      },
+      {
+        "zh": "考試",
+        "jyutping": "haau2 si5",
+        "de": "Prüfung",
+        "audio": "14_haausi.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "學 + Sprache oder Verb",
+        "points": [
+          "學 steht vor dem, was man lernt. Kein 係 davor.",
+          "我想學中文。 = Ich will Chinesisch lernen.",
+          "我學講廣東話。 = Ich lerne Kantonesisch sprechen.",
+          "識 = schon können. 我唔識寫。 = Ich kann nicht schreiben."
+        ]
+      },
+      {
+        "title": "讀, 睇書 und 寫 + Objekt",
+        "points": [
+          "讀 + Sache = lesen / lernen. 我讀中文。",
+          "讀書 = zur Schule gehen / studieren. 我讀書。",
+          "睇書 = ein Buch lesen (üblich in Hongkong). 我睇書。",
+          "寫 steht vor dem Objekt. 我寫功課。 我用筆寫。",
+          "我聽日有考試。 = Ich habe morgen eine Prüfung."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我想學中文。",
+          "answer": "Ich will Chinesisch lernen.",
+          "audio": "02_ngo_soeng_hok_zungman.mp3"
+        },
+        {
+          "zh": "我讀中文。",
+          "answer": "Ich lese Chinesisch. / Ich lerne Chinesisch.",
+          "audio": "04_ngo_duk_zungman.mp3"
+        },
+        {
+          "zh": "我寫功課。",
+          "answer": "Ich schreibe die Hausaufgaben.",
+          "audio": "06_ngo_se_gungfo.mp3"
+        },
+        {
+          "zh": "呢本書好新。",
+          "answer": "Dieses Buch ist sehr neu.",
+          "audio": "08_ni_bun_syu_hou_san.mp3"
+        },
+        {
+          "zh": "我要做功課。",
+          "answer": "Ich muss Hausaufgaben machen.",
+          "audio": "10_ngo_jiu_zou_gungfo.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我想 ___ 中文。",
+          "answer": "我想學中文。",
+          "audio": "02_ngo_soeng_hok_zungman.mp3"
+        },
+        {
+          "prompt": "我 ___ 中文。",
+          "answer": "我讀中文。",
+          "audio": "04_ngo_duk_zungman.mp3"
+        },
+        {
+          "prompt": "我 ___ 功課。",
+          "answer": "我寫功課。",
+          "audio": "06_ngo_se_gungfo.mp3"
+        },
+        {
+          "prompt": "呢本 ___ 好新。",
+          "answer": "呢本書好新。",
+          "audio": "08_ni_bun_syu_hou_san.mp3"
+        },
+        {
+          "prompt": "我要做 ___ 。",
+          "answer": "我要做功課。",
+          "audio": "10_ngo_jiu_zou_gungfo.mp3"
+        },
+        {
+          "prompt": "我用 ___ 寫。",
+          "answer": "我用筆寫。",
+          "audio": "18_ngo_jung_bat_se.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich will Chinesisch lernen.",
+          "answer": "我想學中文。",
+          "jyutping": "ngo5 soeng2 hok6 zung1 man4.",
+          "audio": "02_ngo_soeng_hok_zungman.mp3"
+        },
+        {
+          "prompt": "Ich schreibe die Hausaufgaben.",
+          "answer": "我寫功課。",
+          "jyutping": "ngo5 se2 gung1 fo3.",
+          "audio": "06_ngo_se_gungfo.mp3"
+        },
+        {
+          "prompt": "Dieses Buch ist sehr neu.",
+          "answer": "呢本書好新。",
+          "jyutping": "ni1 bun2 syu1 hou2 san1.",
+          "audio": "08_ni_bun_syu_hou_san.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "學",
+      "讀",
+      "寫",
+      "書",
+      "功課",
+      "筆"
+    ],
+    "reviewItems": [
+      {
+        "zh": "瞓",
+        "de": "schlafen",
+        "audio": "rev_fan.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      },
+      {
+        "zh": "起身",
+        "de": "aufstehen",
+        "audio": "rev_heisan.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "de"
+      },
+      {
+        "zh": "痛",
+        "de": "schmerzen",
+        "audio": "rev_tung.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      },
+      {
+        "zh": "病",
+        "de": "krank",
+        "audio": "rev_beng.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "de"
+      },
+      {
+        "zh": "舒服",
+        "de": "sich wohl fühlen",
+        "audio": "rev_syufuk.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      },
+      {
+        "zh": "渴",
+        "de": "durstig",
+        "audio": "rev_hot.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "de"
+      },
+      {
+        "zh": "攰",
+        "de": "müde",
+        "audio": "rev_gui.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 13 und 14. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "我想學中文。",
+        "audio": "02_ngo_soeng_hok_zungman.mp3"
+      },
+      {
+        "zh": "我學講廣東話。",
+        "audio": "15_ngo_hok_gong.mp3"
+      },
+      {
+        "zh": "我唔識寫。",
+        "audio": "20_ngo_m_sik_se.mp3"
+      },
+      {
+        "zh": "我讀書。",
+        "audio": "16_ngo_duk_syu.mp3"
+      },
+      {
+        "zh": "我睇書。",
+        "audio": "17_ngo_tai_syu.mp3"
+      },
+      {
+        "zh": "我用筆寫。",
+        "audio": "18_ngo_jung_bat_se.mp3"
+      },
+      {
+        "zh": "我聽日有考試。",
+        "audio": "19_tingjat_haausi.mp3"
+      },
+      {
+        "zh": "我寫喺紙度。",
+        "audio": "21_ngo_se_hai_zi.mp3"
+      }
+    ],
+    "review": [
+      "瞓 → schlafen",
+      "起身 → aufstehen",
+      "痛 → schmerzen",
+      "病 → krank",
+      "舒服 → sich wohl fühlen",
+      "渴 → durstig",
+      "攰 → müde"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich will Chinesisch lernen.",
+          "answer": "我想學中文。",
+          "jyutping": "ngo5 soeng2 hok6 zung1 man4."
+        },
+        {
+          "prompt": "Ich schreibe die Hausaufgaben.",
+          "answer": "我寫功課。",
+          "jyutping": "ngo5 se2 gung1 fo3."
+        },
+        {
+          "prompt": "Dieses Buch ist sehr neu.",
+          "answer": "呢本書好新。",
+          "jyutping": "ni1 bun2 syu1 hou2 san1."
+        }
+      ]
+    }
   }
 ]

@@ -988,5 +988,167 @@
     "core": false,
     "lesson": 13,
     "clipsFolder": "clips_lektion_13"
+  },
+  {
+    "zh": "瞓",
+    "jyutping": "fan3",
+    "de": "schlafen",
+    "audio": "01_fan.mp3",
+    "core": true,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "起身",
+    "jyutping": "hei2 san1",
+    "de": "aufstehen",
+    "audio": "03_heisan.mp3",
+    "core": true,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "痛",
+    "jyutping": "tung3",
+    "de": "schmerzen / weh tun",
+    "audio": "05_tung.mp3",
+    "core": true,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "病",
+    "jyutping": "beng6",
+    "de": "krank",
+    "audio": "07_beng.mp3",
+    "core": true,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "舒服",
+    "jyutping": "syu1 fuk6",
+    "de": "sich wohl fühlen / bequem",
+    "audio": "09_syufuk.mp3",
+    "core": true,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "頭",
+    "jyutping": "tau4",
+    "de": "Kopf",
+    "audio": "11_tau.mp3",
+    "core": false,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "覺",
+    "jyutping": "gaau3",
+    "de": "Schlaf (in 瞓覺)",
+    "audio": "12_gaau.mp3",
+    "core": false,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "咗",
+    "jyutping": "zo2",
+    "de": "schon / geworden",
+    "audio": "13_zo.mp3",
+    "core": false,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "休息",
+    "jyutping": "jau1 sik1",
+    "de": "sich ausruhen",
+    "audio": "14_jausik.mp3",
+    "core": false,
+    "lesson": 14,
+    "clipsFolder": "clips_lektion_14"
+  },
+  {
+    "zh": "學",
+    "jyutping": "hok6",
+    "de": "lernen",
+    "audio": "01_hok.mp3",
+    "core": true,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "讀",
+    "jyutping": "duk6",
+    "de": "lesen / studieren",
+    "audio": "03_duk.mp3",
+    "core": true,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "寫",
+    "jyutping": "se2",
+    "de": "schreiben",
+    "audio": "05_se.mp3",
+    "core": true,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "書",
+    "jyutping": "syu1",
+    "de": "Buch",
+    "audio": "07_syu.mp3",
+    "core": true,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "功課",
+    "jyutping": "gung1 fo3",
+    "de": "Hausaufgaben",
+    "audio": "09_gungfo.mp3",
+    "core": true,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "筆",
+    "jyutping": "bat1",
+    "de": "Stift",
+    "audio": "11_bat.mp3",
+    "core": false,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "紙",
+    "jyutping": "zi2",
+    "de": "Papier",
+    "audio": "12_zi.mp3",
+    "core": false,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "本",
+    "jyutping": "bun2",
+    "de": "Zählwort für Bücher",
+    "audio": "13_bun.mp3",
+    "core": false,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "考試",
+    "jyutping": "haau2 si5",
+    "de": "Prüfung",
+    "audio": "14_haausi.mp3",
+    "core": false,
+    "lesson": 15,
+    "clipsFolder": "clips_lektion_15"
   }
 ]
