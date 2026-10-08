@@ -4660,5 +4660,647 @@
         }
       ]
     }
+  },
+  {
+    "id": 16,
+    "title": "Fisch, Fleisch, Gemüse, süß, scharf",
+    "date": "2026-10-07",
+    "cumulativeWords": 80,
+    "clipsFolder": "clips_lektion_16",
+    "words": [
+      {
+        "zh": "魚",
+        "jyutping": "jyu4",
+        "de": "Fisch",
+        "audio": "01_jyu.mp3",
+        "example": {
+          "zh": "我想食魚。",
+          "jyutping": "ngo5 soeng2 sik6 jyu4.",
+          "de": "Ich will Fisch essen."
+        },
+        "exampleAudio": "02_ngo_soeng_sik_jyu.mp3"
+      },
+      {
+        "zh": "肉",
+        "jyutping": "juk6",
+        "de": "Fleisch",
+        "audio": "03_juk.mp3",
+        "example": {
+          "zh": "呢件肉好貴。",
+          "jyutping": "ni1 gin6 juk6 hou2 gwai3.",
+          "de": "Dieses Stück Fleisch ist sehr teuer."
+        },
+        "exampleAudio": "04_ni_gin_juk_hou_gwai.mp3"
+      },
+      {
+        "zh": "菜",
+        "jyutping": "coi3",
+        "de": "Gemüse / Gericht",
+        "audio": "05_coi.mp3",
+        "example": {
+          "zh": "我鍾意食菜。",
+          "jyutping": "ngo5 zung1 ji3 sik6 coi3.",
+          "de": "Ich mag Gemüse essen."
+        },
+        "exampleAudio": "06_ngo_zungji_sik_coi.mp3"
+      },
+      {
+        "zh": "甜",
+        "jyutping": "tim4",
+        "de": "süß",
+        "audio": "07_tim.mp3",
+        "example": {
+          "zh": "呢杯茶好甜。",
+          "jyutping": "ni1 bui1 caa4 hou2 tim4.",
+          "de": "Dieser Tee ist sehr süß."
+        },
+        "exampleAudio": "08_ni_bui_caa_hou_tim.mp3"
+      },
+      {
+        "zh": "辣",
+        "jyutping": "laat6",
+        "de": "scharf",
+        "audio": "09_laat.mp3",
+        "example": {
+          "zh": "我唔食辣。",
+          "jyutping": "ngo5 m4 sik6 laat6.",
+          "de": "Ich esse nichts Scharfes."
+        },
+        "exampleAudio": "10_ngo_m_sik_laat.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "酸",
+        "jyutping": "syun1",
+        "de": "sauer",
+        "audio": "11_syun.mp3"
+      },
+      {
+        "zh": "碗",
+        "jyutping": "wun2",
+        "de": "Schüssel (Zählwort)",
+        "audio": "12_wun.mp3"
+      },
+      {
+        "zh": "碟",
+        "jyutping": "dip6",
+        "de": "Teller (Zählwort)",
+        "audio": "13_dip.mp3"
+      },
+      {
+        "zh": "水果",
+        "jyutping": "seoi2 gwo2",
+        "de": "Obst",
+        "audio": "14_seoi_gwo.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "食 + Objekt",
+        "points": [
+          "食 steht vor dem, was man isst. Kein 係 davor.",
+          "我想食魚。 = Ich will Fisch essen.",
+          "我鍾意食菜。 = Ich mag Gemüse essen.",
+          "唔 steht vor dem Verb. 我唔食辣。 = Ich esse nichts Scharfes.",
+          "我唔食酸。 = Ich esse nichts Saures."
+        ]
+      },
+      {
+        "title": "Geschmack mit 好 und Zählwörter",
+        "points": [
+          "好 + Adjektiv = sehr. 好甜, 好辣, 好貴.",
+          "呢杯茶好甜。 = Dieser Tee ist sehr süß.",
+          "呢碗菜唔辣。 = Dieses Gemüse in der Schüssel ist nicht scharf.",
+          "件 für Fleischstücke: 呢件肉. 碗 für Schüsseln: 一碗麵. 碟 für Teller: 一碟魚."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我想食魚。",
+          "answer": "Ich will Fisch essen.",
+          "audio": "02_ngo_soeng_sik_jyu.mp3"
+        },
+        {
+          "zh": "呢件肉好貴。",
+          "answer": "Dieses Stück Fleisch ist sehr teuer.",
+          "audio": "04_ni_gin_juk_hou_gwai.mp3"
+        },
+        {
+          "zh": "我鍾意食菜。",
+          "answer": "Ich mag Gemüse essen.",
+          "audio": "06_ngo_zungji_sik_coi.mp3"
+        },
+        {
+          "zh": "呢杯茶好甜。",
+          "answer": "Dieser Tee ist sehr süß.",
+          "audio": "08_ni_bui_caa_hou_tim.mp3"
+        },
+        {
+          "zh": "我唔食辣。",
+          "answer": "Ich esse nichts Scharfes.",
+          "audio": "10_ngo_m_sik_laat.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我想食 ___ 。",
+          "answer": "我想食魚。",
+          "audio": "02_ngo_soeng_sik_jyu.mp3"
+        },
+        {
+          "prompt": "呢件 ___ 好貴。",
+          "answer": "呢件肉好貴。",
+          "audio": "04_ni_gin_juk_hou_gwai.mp3"
+        },
+        {
+          "prompt": "我鍾意食 ___ 。",
+          "answer": "我鍾意食菜。",
+          "audio": "06_ngo_zungji_sik_coi.mp3"
+        },
+        {
+          "prompt": "呢杯茶好 ___ 。",
+          "answer": "呢杯茶好甜。",
+          "audio": "08_ni_bui_caa_hou_tim.mp3"
+        },
+        {
+          "prompt": "我唔食 ___ 。",
+          "answer": "我唔食辣。",
+          "audio": "10_ngo_m_sik_laat.mp3"
+        },
+        {
+          "prompt": "呢 ___ 菜唔辣。",
+          "answer": "呢碗菜唔辣。",
+          "audio": "15_ni_wun_coi_m_laat.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich will Fisch essen.",
+          "answer": "我想食魚。",
+          "jyutping": "ngo5 soeng2 sik6 jyu4.",
+          "audio": "02_ngo_soeng_sik_jyu.mp3"
+        },
+        {
+          "prompt": "Ich esse nichts Scharfes.",
+          "answer": "我唔食辣。",
+          "jyutping": "ngo5 m4 sik6 laat6.",
+          "audio": "10_ngo_m_sik_laat.mp3"
+        },
+        {
+          "prompt": "Dieser Tee ist sehr süß.",
+          "answer": "呢杯茶好甜。",
+          "jyutping": "ni1 bui1 caa4 hou2 tim4.",
+          "audio": "08_ni_bui_caa_hou_tim.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "魚",
+      "肉",
+      "菜",
+      "甜",
+      "辣",
+      "碗"
+    ],
+    "reviewItems": [
+      {
+        "zh": "學",
+        "de": "lernen",
+        "audio": "rev_hok.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "zh"
+      },
+      {
+        "zh": "讀",
+        "de": "lesen / studieren",
+        "audio": "rev_duk.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "de"
+      },
+      {
+        "zh": "寫",
+        "de": "schreiben",
+        "audio": "rev_se.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "zh"
+      },
+      {
+        "zh": "書",
+        "de": "Buch",
+        "audio": "rev_syu.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "de"
+      },
+      {
+        "zh": "功課",
+        "de": "Hausaufgaben",
+        "audio": "rev_gungfo.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "zh"
+      },
+      {
+        "zh": "瞓",
+        "de": "schlafen",
+        "audio": "rev_fan.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "de"
+      },
+      {
+        "zh": "病",
+        "de": "krank",
+        "audio": "rev_beng.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 14 und 15. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "我想食魚。",
+        "audio": "02_ngo_soeng_sik_jyu.mp3"
+      },
+      {
+        "zh": "我鍾意食菜。",
+        "audio": "06_ngo_zungji_sik_coi.mp3"
+      },
+      {
+        "zh": "我唔食辣。",
+        "audio": "10_ngo_m_sik_laat.mp3"
+      },
+      {
+        "zh": "我唔食酸。",
+        "audio": "17_ngo_m_sik_syun.mp3"
+      },
+      {
+        "zh": "呢杯茶好甜。",
+        "audio": "08_ni_bui_caa_hou_tim.mp3"
+      },
+      {
+        "zh": "呢碗菜唔辣。",
+        "audio": "15_ni_wun_coi_m_laat.mp3"
+      },
+      {
+        "zh": "一碟魚。",
+        "audio": "16_jat_dip_jyu.mp3"
+      },
+      {
+        "zh": "我想食肉。",
+        "audio": "18_ngo_soeng_sik_juk.mp3"
+      }
+    ],
+    "review": [
+      "學 → lernen",
+      "讀 → lesen / studieren",
+      "寫 → schreiben",
+      "書 → Buch",
+      "功課 → Hausaufgaben",
+      "瞓 → schlafen",
+      "病 → krank"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Ich will Fisch essen.",
+          "answer": "我想食魚。",
+          "jyutping": "ngo5 soeng2 sik6 jyu4."
+        },
+        {
+          "prompt": "Ich esse nichts Scharfes.",
+          "answer": "我唔食辣。",
+          "jyutping": "ngo5 m4 sik6 laat6."
+        },
+        {
+          "prompt": "Dieser Tee ist sehr süß.",
+          "answer": "呢杯茶好甜。",
+          "jyutping": "ni1 bui1 caa4 hou2 tim4."
+        }
+      ]
+    }
+  },
+  {
+    "id": 17,
+    "title": "rot, blau, weiß, schwarz, grün",
+    "date": "2026-10-08",
+    "cumulativeWords": 85,
+    "clipsFolder": "clips_lektion_17",
+    "words": [
+      {
+        "zh": "紅",
+        "jyutping": "hung4",
+        "de": "rot",
+        "audio": "01_hung.mp3",
+        "example": {
+          "zh": "呢件衫好紅。",
+          "jyutping": "ni1 gin6 saam1 hou2 hung4.",
+          "de": "Dieses Kleidungsstück ist sehr rot."
+        },
+        "exampleAudio": "02_ni_gin_saam_hou_hung.mp3"
+      },
+      {
+        "zh": "藍",
+        "jyutping": "laam4",
+        "de": "blau",
+        "audio": "03_laam.mp3",
+        "example": {
+          "zh": "我鍾意藍色。",
+          "jyutping": "ngo5 zung1 ji3 laam4 sik1.",
+          "de": "Ich mag Blau."
+        },
+        "exampleAudio": "04_ngo_zungji_laam_sik.mp3"
+      },
+      {
+        "zh": "白",
+        "jyutping": "baak6",
+        "de": "weiß",
+        "audio": "05_baak.mp3",
+        "example": {
+          "zh": "我要白碗。",
+          "jyutping": "ngo5 jiu3 baak6 wun2.",
+          "de": "Ich brauche eine weiße Schüssel."
+        },
+        "exampleAudio": "06_ngo_jiu_baak_wun.mp3"
+      },
+      {
+        "zh": "黑",
+        "jyutping": "hak1",
+        "de": "schwarz",
+        "audio": "07_hak.mp3",
+        "example": {
+          "zh": "呢部車好黑。",
+          "jyutping": "ni1 bou6 ce1 hou2 hak1.",
+          "de": "Dieses Auto ist sehr schwarz."
+        },
+        "exampleAudio": "08_ni_bou_ce_hou_hak.mp3"
+      },
+      {
+        "zh": "綠",
+        "jyutping": "luk6",
+        "de": "grün",
+        "audio": "09_luk.mp3",
+        "example": {
+          "zh": "呢碟菜好綠。",
+          "jyutping": "ni1 dip6 coi3 hou2 luk6.",
+          "de": "Das Gemüse auf diesem Teller ist sehr grün."
+        },
+        "exampleAudio": "10_ni_dip_coi_hou_luk.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "黃",
+        "jyutping": "wong4",
+        "de": "gelb",
+        "audio": "11_wong.mp3"
+      },
+      {
+        "zh": "色",
+        "jyutping": "sik1",
+        "de": "Farbe",
+        "audio": "12_sik.mp3"
+      },
+      {
+        "zh": "顏色",
+        "jyutping": "ngan4 sik1",
+        "de": "Farbe",
+        "audio": "13_ngaan_sik.mp3"
+      },
+      {
+        "zh": "淺",
+        "jyutping": "cin2",
+        "de": "hell",
+        "audio": "14_cin.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Farbe ohne 係, mit 好",
+        "points": [
+          "Eine Farbe als Eigenschaft steht nach dem Nomen. Kein 係 davor.",
+          "好 + Farbe = sehr. 好紅, 好黑, 好綠.",
+          "呢件衫好紅。 = Dieses Kleidungsstück ist sehr rot.",
+          "呢部車好黑。 = Dieses Auto ist sehr schwarz.",
+          "呢碟菜好綠。 = Das Gemüse auf diesem Teller ist sehr grün.",
+          "呢件衫好淺。 = Dieses Kleidungsstück ist sehr hell."
+        ]
+      },
+      {
+        "title": "色 und 顏色",
+        "points": [
+          "色 hängt an der Farbe: 藍色, 黃色, 黑色.",
+          "顏色 = Farbe. Frage: 咩顏色.",
+          "我鍾意藍色。 = Ich mag Blau.",
+          "呢個係咩顏色？ = Was für eine Farbe ist das? 係, weil 顏色 ein Nomen ist.",
+          "呢件衫唔係黑色。 = Dieses Kleidungsstück ist nicht schwarz."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "呢件衫好紅。",
+          "answer": "Dieses Kleidungsstück ist sehr rot.",
+          "audio": "02_ni_gin_saam_hou_hung.mp3"
+        },
+        {
+          "zh": "我鍾意藍色。",
+          "answer": "Ich mag Blau.",
+          "audio": "04_ngo_zungji_laam_sik.mp3"
+        },
+        {
+          "zh": "我要白碗。",
+          "answer": "Ich brauche eine weiße Schüssel.",
+          "audio": "06_ngo_jiu_baak_wun.mp3"
+        },
+        {
+          "zh": "呢部車好黑。",
+          "answer": "Dieses Auto ist sehr schwarz.",
+          "audio": "08_ni_bou_ce_hou_hak.mp3"
+        },
+        {
+          "zh": "呢碟菜好綠。",
+          "answer": "Das Gemüse auf diesem Teller ist sehr grün.",
+          "audio": "10_ni_dip_coi_hou_luk.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "呢件衫好 ___ 。",
+          "answer": "呢件衫好紅。",
+          "audio": "02_ni_gin_saam_hou_hung.mp3"
+        },
+        {
+          "prompt": "我鍾意 ___ 色。",
+          "answer": "我鍾意藍色。",
+          "audio": "04_ngo_zungji_laam_sik.mp3"
+        },
+        {
+          "prompt": "我要 ___ 碗。",
+          "answer": "我要白碗。",
+          "audio": "06_ngo_jiu_baak_wun.mp3"
+        },
+        {
+          "prompt": "呢部車好 ___ 。",
+          "answer": "呢部車好黑。",
+          "audio": "08_ni_bou_ce_hou_hak.mp3"
+        },
+        {
+          "prompt": "呢碟菜好 ___ 。",
+          "answer": "呢碟菜好綠。",
+          "audio": "10_ni_dip_coi_hou_luk.mp3"
+        },
+        {
+          "prompt": "我鍾意黃 ___ 。",
+          "answer": "我鍾意黃色。",
+          "audio": "16_ngo_zungji_wong_sik.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Dieses Kleidungsstück ist sehr rot.",
+          "answer": "呢件衫好紅。",
+          "jyutping": "ni1 gin6 saam1 hou2 hung4.",
+          "audio": "02_ni_gin_saam_hou_hung.mp3"
+        },
+        {
+          "prompt": "Ich mag Blau.",
+          "answer": "我鍾意藍色。",
+          "jyutping": "ngo5 zung1 ji3 laam4 sik1.",
+          "audio": "04_ngo_zungji_laam_sik.mp3"
+        },
+        {
+          "prompt": "Was für eine Farbe ist das?",
+          "answer": "呢個係咩顏色？",
+          "jyutping": "ni1 go3 hai6 me1 ngan4 sik1?",
+          "audio": "15_ni_go_hai_me_ngaan_sik.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "紅",
+      "藍",
+      "白",
+      "黑",
+      "綠",
+      "色"
+    ],
+    "reviewItems": [
+      {
+        "zh": "魚",
+        "de": "Fisch",
+        "audio": "rev_jyu.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "zh"
+      },
+      {
+        "zh": "肉",
+        "de": "Fleisch",
+        "audio": "rev_juk.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "de"
+      },
+      {
+        "zh": "菜",
+        "de": "Gemüse / Gericht",
+        "audio": "rev_coi.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "zh"
+      },
+      {
+        "zh": "甜",
+        "de": "süß",
+        "audio": "rev_tim.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "de"
+      },
+      {
+        "zh": "辣",
+        "de": "scharf",
+        "audio": "rev_laat.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "zh"
+      },
+      {
+        "zh": "學",
+        "de": "lernen",
+        "audio": "rev_hok.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "de"
+      },
+      {
+        "zh": "書",
+        "de": "Buch",
+        "audio": "rev_syu.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 15 und 16. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "呢件衫好紅。",
+        "audio": "02_ni_gin_saam_hou_hung.mp3"
+      },
+      {
+        "zh": "呢部車好黑。",
+        "audio": "08_ni_bou_ce_hou_hak.mp3"
+      },
+      {
+        "zh": "呢碟菜好綠。",
+        "audio": "10_ni_dip_coi_hou_luk.mp3"
+      },
+      {
+        "zh": "呢件衫好淺。",
+        "audio": "18_ni_gin_saam_hou_cin.mp3"
+      },
+      {
+        "zh": "我鍾意藍色。",
+        "audio": "04_ngo_zungji_laam_sik.mp3"
+      },
+      {
+        "zh": "我鍾意黃色。",
+        "audio": "16_ngo_zungji_wong_sik.mp3"
+      },
+      {
+        "zh": "呢個係咩顏色？",
+        "audio": "15_ni_go_hai_me_ngaan_sik.mp3"
+      },
+      {
+        "zh": "呢件衫唔係黑色。",
+        "audio": "17_ni_gin_saam_m_hai_hak_sik.mp3"
+      }
+    ],
+    "review": [
+      "魚 → Fisch",
+      "肉 → Fleisch",
+      "菜 → Gemüse / Gericht",
+      "甜 → süß",
+      "辣 → scharf",
+      "學 → lernen",
+      "書 → Buch"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Dieses Kleidungsstück ist sehr rot.",
+          "answer": "呢件衫好紅。",
+          "jyutping": "ni1 gin6 saam1 hou2 hung4."
+        },
+        {
+          "prompt": "Ich mag Blau.",
+          "answer": "我鍾意藍色。",
+          "jyutping": "ngo5 zung1 ji3 laam4 sik1."
+        },
+        {
+          "prompt": "Was für eine Farbe ist das?",
+          "answer": "呢個係咩顏色？",
+          "jyutping": "ni1 go3 hai6 me1 ngan4 sik1?"
+        }
+      ]
+    }
   }
 ]

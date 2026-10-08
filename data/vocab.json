@@ -1150,5 +1150,167 @@
     "core": false,
     "lesson": 15,
     "clipsFolder": "clips_lektion_15"
+  },
+  {
+    "zh": "魚",
+    "jyutping": "jyu4",
+    "de": "Fisch",
+    "audio": "01_jyu.mp3",
+    "core": true,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "肉",
+    "jyutping": "juk6",
+    "de": "Fleisch",
+    "audio": "03_juk.mp3",
+    "core": true,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "菜",
+    "jyutping": "coi3",
+    "de": "Gemüse / Gericht",
+    "audio": "05_coi.mp3",
+    "core": true,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "甜",
+    "jyutping": "tim4",
+    "de": "süß",
+    "audio": "07_tim.mp3",
+    "core": true,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "辣",
+    "jyutping": "laat6",
+    "de": "scharf",
+    "audio": "09_laat.mp3",
+    "core": true,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "酸",
+    "jyutping": "syun1",
+    "de": "sauer",
+    "audio": "11_syun.mp3",
+    "core": false,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "碗",
+    "jyutping": "wun2",
+    "de": "Schüssel (Zählwort)",
+    "audio": "12_wun.mp3",
+    "core": false,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "碟",
+    "jyutping": "dip6",
+    "de": "Teller (Zählwort)",
+    "audio": "13_dip.mp3",
+    "core": false,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "水果",
+    "jyutping": "seoi2 gwo2",
+    "de": "Obst",
+    "audio": "14_seoi_gwo.mp3",
+    "core": false,
+    "lesson": 16,
+    "clipsFolder": "clips_lektion_16"
+  },
+  {
+    "zh": "紅",
+    "jyutping": "hung4",
+    "de": "rot",
+    "audio": "01_hung.mp3",
+    "core": true,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "藍",
+    "jyutping": "laam4",
+    "de": "blau",
+    "audio": "03_laam.mp3",
+    "core": true,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "白",
+    "jyutping": "baak6",
+    "de": "weiß",
+    "audio": "05_baak.mp3",
+    "core": true,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "黑",
+    "jyutping": "hak1",
+    "de": "schwarz",
+    "audio": "07_hak.mp3",
+    "core": true,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "綠",
+    "jyutping": "luk6",
+    "de": "grün",
+    "audio": "09_luk.mp3",
+    "core": true,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "黃",
+    "jyutping": "wong4",
+    "de": "gelb",
+    "audio": "11_wong.mp3",
+    "core": false,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "色",
+    "jyutping": "sik1",
+    "de": "Farbe",
+    "audio": "12_sik.mp3",
+    "core": false,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "顏色",
+    "jyutping": "ngan4 sik1",
+    "de": "Farbe",
+    "audio": "13_ngaan_sik.mp3",
+    "core": false,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "淺",
+    "jyutping": "cin2",
+    "de": "hell",
+    "audio": "14_cin.mp3",
+    "core": false,
+    "lesson": 17,
+    "clipsFolder": "clips_lektion_17"
   }
 ]
