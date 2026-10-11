@@ -1312,5 +1312,248 @@
     "core": false,
     "lesson": 17,
     "clipsFolder": "clips_lektion_17"
+  },
+  {
+    "zh": "哥哥",
+    "jyutping": "go4 go1",
+    "de": "älterer Bruder",
+    "audio": "01_go_go.mp3",
+    "core": true,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "家姐",
+    "jyutping": "gaa1 ze1",
+    "de": "ältere Schwester",
+    "audio": "03_gaa_ze.mp3",
+    "core": true,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "弟弟",
+    "jyutping": "dai4 dai2",
+    "de": "jüngerer Bruder",
+    "audio": "05_dai_dai.mp3",
+    "core": true,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "妹妹",
+    "jyutping": "mui6 mui2",
+    "de": "jüngere Schwester",
+    "audio": "07_mui_mui.mp3",
+    "core": true,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "仔",
+    "jyutping": "zai2",
+    "de": "Sohn / Junge",
+    "audio": "09_zai.mp3",
+    "core": true,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "女",
+    "jyutping": "neoi5",
+    "de": "Tochter / Mädchen",
+    "audio": "11_neoi.mp3",
+    "core": false,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "先生",
+    "jyutping": "sin1 saang1",
+    "de": "Herr / Ehemann",
+    "audio": "12_sin_saang.mp3",
+    "core": false,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "小姐",
+    "jyutping": "siu2 ze2",
+    "de": "Fräulein / junge Frau",
+    "audio": "13_siu_ze.mp3",
+    "core": false,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "家庭",
+    "jyutping": "gaa1 ting4",
+    "de": "Familie",
+    "audio": "14_gaa_ting.mp3",
+    "core": false,
+    "lesson": 18,
+    "clipsFolder": "clips_lektion_18"
+  },
+  {
+    "zh": "尋日",
+    "jyutping": "cam4 jat6",
+    "de": "gestern",
+    "audio": "01_cam_jat.mp3",
+    "core": true,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "晏晝",
+    "jyutping": "aan3 zau3",
+    "de": "Nachmittag / Mittag",
+    "audio": "03_aan_zau.mp3",
+    "core": true,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "夜晚",
+    "jyutping": "je6 maan5",
+    "de": "Nacht / Abend",
+    "audio": "05_je_maan.mp3",
+    "core": true,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "星期",
+    "jyutping": "sing1 kei4",
+    "de": "Woche",
+    "audio": "07_sing_kei.mp3",
+    "core": true,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "鐘",
+    "jyutping": "zung1",
+    "de": "Uhr / Stunde",
+    "audio": "09_zung.mp3",
+    "core": true,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "點",
+    "jyutping": "dim2",
+    "de": "Punkt / Uhrzeit",
+    "audio": "11_dim.mp3",
+    "core": false,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "時間",
+    "jyutping": "si4 gaan3",
+    "de": "Zeit",
+    "audio": "12_si_gaan.mp3",
+    "core": false,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "而家",
+    "jyutping": "ji4 gaa1",
+    "de": "jetzt",
+    "audio": "13_ji_gaa.mp3",
+    "core": false,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "今日",
+    "jyutping": "gam1 jat6",
+    "de": "heute",
+    "audio": "14_gam_jat.mp3",
+    "core": false,
+    "lesson": 19,
+    "clipsFolder": "clips_lektion_19"
+  },
+  {
+    "zh": "手",
+    "jyutping": "sau2",
+    "de": "Hand",
+    "audio": "01_sau.mp3",
+    "core": true,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "腳",
+    "jyutping": "goek3",
+    "de": "Fuß / Bein",
+    "audio": "03_goek.mp3",
+    "core": true,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "眼",
+    "jyutping": "ngaan5",
+    "de": "Auge",
+    "audio": "05_ngaan.mp3",
+    "core": true,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "耳",
+    "jyutping": "ji5",
+    "de": "Ohr",
+    "audio": "07_ji.mp3",
+    "core": true,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "口",
+    "jyutping": "hau2",
+    "de": "Mund",
+    "audio": "09_hau.mp3",
+    "core": true,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "鼻",
+    "jyutping": "lei6",
+    "de": "Nase",
+    "audio": "11_lei.mp3",
+    "core": false,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "面",
+    "jyutping": "min6",
+    "de": "Gesicht",
+    "audio": "12_min.mp3",
+    "core": false,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "身",
+    "jyutping": "san1",
+    "de": "Körper",
+    "audio": "13_san.mp3",
+    "core": false,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
+  },
+  {
+    "zh": "牙",
+    "jyutping": "ngaa4",
+    "de": "Zahn",
+    "audio": "14_ngaa.mp3",
+    "core": false,
+    "lesson": 20,
+    "clipsFolder": "clips_lektion_20"
   }
 ]

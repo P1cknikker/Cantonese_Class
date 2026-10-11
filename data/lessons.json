@@ -5302,5 +5302,831 @@
         }
       ]
     }
+  },
+  {
+    "id": 18,
+    "title": "älterer Bruder, ältere Schwester, jüngerer Bruder, jüngere Schwester, Sohn",
+    "date": "2026-10-09",
+    "cumulativeWords": 90,
+    "clipsFolder": "clips_lektion_18",
+    "words": [
+      {
+        "zh": "哥哥",
+        "jyutping": "go4 go1",
+        "de": "älterer Bruder",
+        "audio": "01_go_go.mp3",
+        "example": {
+          "zh": "呢個係我哥哥。",
+          "jyutping": "ni1 go3 hai6 ngo5 go4 go1.",
+          "de": "Das ist mein älterer Bruder."
+        },
+        "exampleAudio": "02_ni_go_hai_ngo_go_go.mp3"
+      },
+      {
+        "zh": "家姐",
+        "jyutping": "gaa1 ze1",
+        "de": "ältere Schwester",
+        "audio": "03_gaa_ze.mp3",
+        "example": {
+          "zh": "我家姐好忙。",
+          "jyutping": "ngo5 gaa1 ze1 hou2 mong4.",
+          "de": "Meine ältere Schwester ist sehr beschäftigt."
+        },
+        "exampleAudio": "04_ngo_gaa_ze_hou_mong.mp3"
+      },
+      {
+        "zh": "弟弟",
+        "jyutping": "dai4 dai2",
+        "de": "jüngerer Bruder",
+        "audio": "05_dai_dai.mp3",
+        "example": {
+          "zh": "我有弟弟。",
+          "jyutping": "ngo5 jau5 dai4 dai2.",
+          "de": "Ich habe einen jüngeren Bruder."
+        },
+        "exampleAudio": "06_ngo_jau_dai_dai.mp3"
+      },
+      {
+        "zh": "妹妹",
+        "jyutping": "mui6 mui2",
+        "de": "jüngere Schwester",
+        "audio": "07_mui_mui.mp3",
+        "example": {
+          "zh": "我妹妹想食魚。",
+          "jyutping": "ngo5 mui6 mui2 soeng2 sik6 jyu4.",
+          "de": "Meine jüngere Schwester möchte Fisch essen."
+        },
+        "exampleAudio": "08_ngo_mui_mui_soeng_sik_jyu.mp3"
+      },
+      {
+        "zh": "仔",
+        "jyutping": "zai2",
+        "de": "Sohn / Junge",
+        "audio": "09_zai.mp3",
+        "example": {
+          "zh": "我仔讀中文。",
+          "jyutping": "ngo5 zai2 duk6 zung1 man4.",
+          "de": "Mein Sohn liest / lernt Chinesisch."
+        },
+        "exampleAudio": "10_ngo_zai_duk_zung_man.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "女",
+        "jyutping": "neoi5",
+        "de": "Tochter / Mädchen",
+        "audio": "11_neoi.mp3"
+      },
+      {
+        "zh": "先生",
+        "jyutping": "sin1 saang1",
+        "de": "Herr / Ehemann",
+        "audio": "12_sin_saang.mp3"
+      },
+      {
+        "zh": "小姐",
+        "jyutping": "siu2 ze2",
+        "de": "Fräulein / junge Frau",
+        "audio": "13_siu_ze.mp3"
+      },
+      {
+        "zh": "家庭",
+        "jyutping": "gaa1 ting4",
+        "de": "Familie",
+        "audio": "14_gaa_ting.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Besitz ohne 嘅",
+        "points": [
+          "Bei engen Verwandten steht 我 direkt davor. Kein 嘅 nötig.",
+          "我哥哥, 我家姐, 我仔, 我女.",
+          "呢個係 + Person stellt vor. 係, weil danach eine Person kommt.",
+          "呢個係我哥哥。 = Das ist mein älterer Bruder.",
+          "呢個係我女。 = Das ist meine Tochter.",
+          "我家姐好忙。 = Meine ältere Schwester ist sehr beschäftigt."
+        ]
+      },
+      {
+        "title": "有 / 冇 + Verwandter",
+        "points": [
+          "有 = haben. 冇 = nicht haben. Frage: 有冇. Kein 嗎.",
+          "我有弟弟。 = Ich habe einen jüngeren Bruder.",
+          "我冇家姐。 = Ich habe keine ältere Schwester.",
+          "你有冇妹妹？ = Hast du eine jüngere Schwester?",
+          "我家庭好大。 = Meine Familie ist sehr groß."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "呢個係我哥哥。",
+          "answer": "Das ist mein älterer Bruder.",
+          "audio": "02_ni_go_hai_ngo_go_go.mp3"
+        },
+        {
+          "zh": "我家姐好忙。",
+          "answer": "Meine ältere Schwester ist sehr beschäftigt.",
+          "audio": "04_ngo_gaa_ze_hou_mong.mp3"
+        },
+        {
+          "zh": "我有弟弟。",
+          "answer": "Ich habe einen jüngeren Bruder.",
+          "audio": "06_ngo_jau_dai_dai.mp3"
+        },
+        {
+          "zh": "我妹妹想食魚。",
+          "answer": "Meine jüngere Schwester möchte Fisch essen.",
+          "audio": "08_ngo_mui_mui_soeng_sik_jyu.mp3"
+        },
+        {
+          "zh": "我仔讀中文。",
+          "answer": "Mein Sohn liest / lernt Chinesisch.",
+          "audio": "10_ngo_zai_duk_zung_man.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "呢個係我 ___ 。",
+          "answer": "呢個係我哥哥。",
+          "audio": "02_ni_go_hai_ngo_go_go.mp3"
+        },
+        {
+          "prompt": "我 ___ 好忙。",
+          "answer": "我家姐好忙。",
+          "audio": "04_ngo_gaa_ze_hou_mong.mp3"
+        },
+        {
+          "prompt": "我有 ___ 。",
+          "answer": "我有弟弟。",
+          "audio": "06_ngo_jau_dai_dai.mp3"
+        },
+        {
+          "prompt": "我 ___ 想食魚。",
+          "answer": "我妹妹想食魚。",
+          "audio": "08_ngo_mui_mui_soeng_sik_jyu.mp3"
+        },
+        {
+          "prompt": "我 ___ 讀中文。",
+          "answer": "我仔讀中文。",
+          "audio": "10_ngo_zai_duk_zung_man.mp3"
+        },
+        {
+          "prompt": "呢個係我 ___ 。",
+          "answer": "呢個係我女。",
+          "audio": "17_ni_go_hai_ngo_neoi.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Das ist mein älterer Bruder.",
+          "answer": "呢個係我哥哥。",
+          "jyutping": "ni1 go3 hai6 ngo5 go4 go1.",
+          "audio": "02_ni_go_hai_ngo_go_go.mp3"
+        },
+        {
+          "prompt": "Ich habe einen jüngeren Bruder.",
+          "answer": "我有弟弟。",
+          "jyutping": "ngo5 jau5 dai4 dai2.",
+          "audio": "06_ngo_jau_dai_dai.mp3"
+        },
+        {
+          "prompt": "Hast du eine jüngere Schwester?",
+          "answer": "你有冇妹妹？",
+          "jyutping": "nei5 jau5 mou5 mui6 mui2?",
+          "audio": "16_nei_jau_mou_mui_mui.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "哥哥",
+      "家姐",
+      "弟弟",
+      "妹妹",
+      "仔",
+      "女"
+    ],
+    "reviewItems": [
+      {
+        "zh": "紅",
+        "de": "rot",
+        "audio": "rev_hung.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "zh"
+      },
+      {
+        "zh": "魚",
+        "de": "Fisch",
+        "audio": "rev_jyu.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "de"
+      },
+      {
+        "zh": "藍",
+        "de": "blau",
+        "audio": "rev_laam.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "zh"
+      },
+      {
+        "zh": "甜",
+        "de": "süß",
+        "audio": "rev_tim.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "de"
+      },
+      {
+        "zh": "黑",
+        "de": "schwarz",
+        "audio": "rev_hak.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "zh"
+      },
+      {
+        "zh": "肉",
+        "de": "Fleisch",
+        "audio": "rev_juk.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "de"
+      },
+      {
+        "zh": "綠",
+        "de": "grün",
+        "audio": "rev_luk.mp3",
+        "clipsFolder": "clips_lektion_18",
+        "hide": "zh"
+      }
+    ],
+    "reviewNote": "Wiederhole Vokabeln aus Lektion 16 und 17. Abwechselnd ist Chinesisch oder Deutsch versteckt — mit „Prüfen“ ein- und ausblenden.",
+    "grammarExamples": [
+      {
+        "zh": "呢個係我哥哥。",
+        "audio": "02_ni_go_hai_ngo_go_go.mp3"
+      },
+      {
+        "zh": "呢個係我女。",
+        "audio": "17_ni_go_hai_ngo_neoi.mp3"
+      },
+      {
+        "zh": "我家姐好忙。",
+        "audio": "04_ngo_gaa_ze_hou_mong.mp3"
+      },
+      {
+        "zh": "我有弟弟。",
+        "audio": "06_ngo_jau_dai_dai.mp3"
+      },
+      {
+        "zh": "我冇家姐。",
+        "audio": "15_ngo_mou_gaa_ze.mp3"
+      },
+      {
+        "zh": "你有冇妹妹？",
+        "audio": "16_nei_jau_mou_mui_mui.mp3"
+      },
+      {
+        "zh": "我家庭好大。",
+        "audio": "18_ngo_gaa_ting_hou_daai.mp3"
+      },
+      {
+        "zh": "我妹妹想食魚。",
+        "audio": "08_ngo_mui_mui_soeng_sik_jyu.mp3"
+      }
+    ],
+    "review": [
+      "紅 → rot",
+      "魚 → Fisch",
+      "藍 → blau",
+      "甜 → süß",
+      "黑 → schwarz",
+      "肉 → Fleisch",
+      "綠 → grün"
+    ],
+    "paragraph": {
+      "task": "Übung C — Übersetze ins Kantonesische (wie in der Full-HTML).",
+      "items": [
+        {
+          "prompt": "Das ist mein älterer Bruder.",
+          "answer": "呢個係我哥哥。",
+          "jyutping": "ni1 go3 hai6 ngo5 go4 go1."
+        },
+        {
+          "prompt": "Ich habe einen jüngeren Bruder.",
+          "answer": "我有弟弟。",
+          "jyutping": "ngo5 jau5 dai4 dai2."
+        },
+        {
+          "prompt": "Hast du eine jüngere Schwester?",
+          "answer": "你有冇妹妹？",
+          "jyutping": "nei5 jau5 mou5 mui6 mui2?"
+        }
+      ]
+    }
+  },
+  {
+    "id": 19,
+    "title": "gestern, Nachmittag, Nacht, Woche, Uhr",
+    "date": "2026-10-10",
+    "cumulativeWords": 95,
+    "clipsFolder": "clips_lektion_19",
+    "words": [
+      {
+        "zh": "尋日",
+        "jyutping": "cam4 jat6",
+        "de": "gestern",
+        "audio": "01_cam_jat.mp3",
+        "example": {
+          "zh": "尋日我好忙。",
+          "jyutping": "cam4 jat6 ngo5 hou2 mong4.",
+          "de": "Gestern war ich sehr beschäftigt."
+        },
+        "exampleAudio": "02_cam_jat_ngo_hou_mong.mp3"
+      },
+      {
+        "zh": "晏晝",
+        "jyutping": "aan3 zau3",
+        "de": "Nachmittag / Mittag",
+        "audio": "03_aan_zau.mp3",
+        "example": {
+          "zh": "晏晝我食飯。",
+          "jyutping": "aan3 zau3 ngo5 sik6 faan6.",
+          "de": "Am Nachmittag esse ich."
+        },
+        "exampleAudio": "04_aan_zau_ngo_sik_faan.mp3"
+      },
+      {
+        "zh": "夜晚",
+        "jyutping": "je6 maan5",
+        "de": "Nacht / Abend",
+        "audio": "05_je_maan.mp3",
+        "example": {
+          "zh": "夜晚我瞓覺。",
+          "jyutping": "je6 maan5 ngo5 fan3 gaau3.",
+          "de": "Nachts schlafe ich."
+        },
+        "exampleAudio": "06_je_maan_ngo_fan_gaau.mp3"
+      },
+      {
+        "zh": "星期",
+        "jyutping": "sing1 kei4",
+        "de": "Woche",
+        "audio": "07_sing_kei.mp3",
+        "example": {
+          "zh": "我星期日休息。",
+          "jyutping": "ngo5 sing1 kei4 jat6 jau1 sik1.",
+          "de": "Am Sonntag ruhe ich mich aus."
+        },
+        "exampleAudio": "08_ngo_sing_kei_jat_jau_sik.mp3"
+      },
+      {
+        "zh": "鐘",
+        "jyutping": "zung1",
+        "de": "Uhr / Stunde",
+        "audio": "09_zung.mp3",
+        "example": {
+          "zh": "而家三點鐘。",
+          "jyutping": "ji4 gaa1 saam1 dim2 zung1.",
+          "de": "Jetzt ist es drei Uhr."
+        },
+        "exampleAudio": "10_ji_gaa_saam_dim_zung.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "點",
+        "jyutping": "dim2",
+        "de": "Punkt / Uhrzeit",
+        "audio": "11_dim.mp3"
+      },
+      {
+        "zh": "時間",
+        "jyutping": "si4 gaan3",
+        "de": "Zeit",
+        "audio": "12_si_gaan.mp3"
+      },
+      {
+        "zh": "而家",
+        "jyutping": "ji4 gaa1",
+        "de": "jetzt",
+        "audio": "13_ji_gaa.mp3"
+      },
+      {
+        "zh": "今日",
+        "jyutping": "gam1 jat6",
+        "de": "heute",
+        "audio": "14_gam_jat.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Zeitwörter im Satz",
+        "points": [
+          "Zeitangaben wie 尋日, 晏晝, 夜晚 stehen oft am Anfang des Satzes oder direkt vor dem Verb.",
+          "尋日我好忙。 = Gestern war ich sehr beschäftigt.",
+          "晏晝我食飯。 = Am Nachmittag esse ich.",
+          "夜晚我瞓覺。 = Nachts schlafe ich.",
+          "而家三點鐘。 = Jetzt ist es drei Uhr."
+        ]
+      },
+      {
+        "title": "Uhrzeit und Wochentage",
+        "points": [
+          "Uhrzeit: Zahl + 點鐘. 三點鐘 = drei Uhr. Frage: 幾點鐘？",
+          "而家幾點鐘？ = Wie spät ist es jetzt?",
+          "星期 + 日/一/二… : 星期日 = Sonntag, 星期五 = Freitag.",
+          "今日係星期五。 = Heute ist Freitag.",
+          "我有時間。 = Ich habe Zeit."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "尋日我好忙。",
+          "answer": "Gestern war ich sehr beschäftigt.",
+          "audio": "02_cam_jat_ngo_hou_mong.mp3"
+        },
+        {
+          "zh": "晏晝我食飯。",
+          "answer": "Am Nachmittag esse ich.",
+          "audio": "04_aan_zau_ngo_sik_faan.mp3"
+        },
+        {
+          "zh": "夜晚我瞓覺。",
+          "answer": "Nachts schlafe ich.",
+          "audio": "06_je_maan_ngo_fan_gaau.mp3"
+        },
+        {
+          "zh": "我星期日休息。",
+          "answer": "Am Sonntag ruhe ich mich aus.",
+          "audio": "08_ngo_sing_kei_jat_jau_sik.mp3"
+        },
+        {
+          "zh": "而家三點鐘。",
+          "answer": "Jetzt ist es drei Uhr.",
+          "audio": "10_ji_gaa_saam_dim_zung.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "___ 我好忙。",
+          "answer": "尋日我好忙。",
+          "audio": "02_cam_jat_ngo_hou_mong.mp3"
+        },
+        {
+          "prompt": "___ 我食飯。",
+          "answer": "晏晝我食飯。",
+          "audio": "04_aan_zau_ngo_sik_faan.mp3"
+        },
+        {
+          "prompt": "___ 我瞓覺。",
+          "answer": "夜晚我瞓覺。",
+          "audio": "06_je_maan_ngo_fan_gaau.mp3"
+        },
+        {
+          "prompt": "我 ___ 日休息。",
+          "answer": "我星期日休息。",
+          "audio": "08_ngo_sing_kei_jat_jau_sik.mp3"
+        },
+        {
+          "prompt": "而家三 ___ 鐘。",
+          "answer": "而家三點鐘。",
+          "audio": "10_ji_gaa_saam_dim_zung.mp3"
+        },
+        {
+          "prompt": "而家幾 ___ 鐘？",
+          "answer": "而家幾點鐘？",
+          "audio": "19_ji_gaa_gei_dim_zung.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Gestern war ich sehr beschäftigt.",
+          "answer": "尋日我好忙。",
+          "jyutping": "cam4 jat6 ngo5 hou2 mong4.",
+          "audio": "02_cam_jat_ngo_hou_mong.mp3"
+        },
+        {
+          "prompt": "Am Nachmittag esse ich.",
+          "answer": "晏晝我食飯。",
+          "jyutping": "aan3 zau3 ngo5 sik6 faan6.",
+          "audio": "04_aan_zau_ngo_sik_faan.mp3"
+        },
+        {
+          "prompt": "Jetzt ist es drei Uhr.",
+          "answer": "而家三點鐘。",
+          "jyutping": "ji4 gaa1 saam1 dim2 zung1.",
+          "audio": "10_ji_gaa_saam_dim_zung.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "尋日",
+      "晏晝",
+      "夜晚",
+      "星期",
+      "鐘",
+      "點"
+    ],
+    "reviewItems": [
+      {
+        "zh": "紅",
+        "de": "rot",
+        "audio": "01_hung.mp3",
+        "clipsFolder": "clips_lektion_17",
+        "hide": "zh"
+      },
+      {
+        "zh": "魚",
+        "de": "Fisch",
+        "audio": "01_jyu.mp3",
+        "clipsFolder": "clips_lektion_16",
+        "hide": "de"
+      },
+      {
+        "zh": "學",
+        "de": "lernen",
+        "audio": "01_hok.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      },
+      {
+        "zh": "瞓",
+        "de": "schlafen",
+        "audio": "01_fan.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "de"
+      },
+      {
+        "zh": "開心",
+        "de": "glücklich",
+        "audio": "03_hoi_sam.mp3",
+        "clipsFolder": "clips_lektion_13",
+        "hide": "zh"
+      },
+      {
+        "zh": "大",
+        "de": "groß",
+        "audio": "01_daai.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "de"
+      }
+    ],
+    "reviewNote": "Wiederholung aus früheren Lektionen (Farben, Essen, Schule, Schlafen, Gefühle, Größe).",
+    "grammarExamples": [],
+    "paragraph": "尋日我好忙。晏晝我食飯。夜晚我瞓覺。我星期日休息。而家三點鐘。"
+  },
+  {
+    "id": 20,
+    "title": "Hand, Fuß, Auge, Ohr, Mund",
+    "date": "2026-10-11",
+    "cumulativeWords": 100,
+    "clipsFolder": "clips_lektion_20",
+    "words": [
+      {
+        "zh": "手",
+        "jyutping": "sau2",
+        "de": "Hand",
+        "audio": "01_sau.mp3",
+        "example": {
+          "zh": "我有兩隻手。",
+          "jyutping": "ngo5 jau5 loeng5 zek3 sau2.",
+          "de": "Ich habe zwei Hände."
+        },
+        "exampleAudio": "02_ngo_jau_loeng_zek_sau.mp3"
+      },
+      {
+        "zh": "腳",
+        "jyutping": "goek3",
+        "de": "Fuß / Bein",
+        "audio": "03_goek.mp3",
+        "example": {
+          "zh": "我隻腳好痛。",
+          "jyutping": "ngo5 zek3 goek3 hou2 tung3.",
+          "de": "Mein Fuß tut sehr weh."
+        },
+        "exampleAudio": "04_ngo_zek_goek_hou_tung.mp3"
+      },
+      {
+        "zh": "眼",
+        "jyutping": "ngaan5",
+        "de": "Auge",
+        "audio": "05_ngaan.mp3",
+        "example": {
+          "zh": "我隻眼好大。",
+          "jyutping": "ngo5 zek3 ngaan5 hou2 daai6.",
+          "de": "Mein Auge ist sehr groß."
+        },
+        "exampleAudio": "06_ngo_zek_ngaan_hou_daai.mp3"
+      },
+      {
+        "zh": "耳",
+        "jyutping": "ji5",
+        "de": "Ohr",
+        "audio": "07_ji.mp3",
+        "example": {
+          "zh": "我隻耳好細。",
+          "jyutping": "ngo5 zek3 ji5 hou2 sai3.",
+          "de": "Mein Ohr ist sehr klein."
+        },
+        "exampleAudio": "08_ngo_zek_ji_hou_sai.mp3"
+      },
+      {
+        "zh": "口",
+        "jyutping": "hau2",
+        "de": "Mund",
+        "audio": "09_hau.mp3",
+        "example": {
+          "zh": "我個口好大。",
+          "jyutping": "ngo5 go3 hau2 hou2 daai6.",
+          "de": "Mein Mund ist sehr groß."
+        },
+        "exampleAudio": "10_ngo_go_hau_hou_daai.mp3"
+      }
+    ],
+    "helpers": [
+      {
+        "zh": "鼻",
+        "jyutping": "lei6",
+        "de": "Nase",
+        "audio": "11_lei.mp3"
+      },
+      {
+        "zh": "面",
+        "jyutping": "min6",
+        "de": "Gesicht",
+        "audio": "12_min.mp3"
+      },
+      {
+        "zh": "身",
+        "jyutping": "san1",
+        "de": "Körper",
+        "audio": "13_san.mp3"
+      },
+      {
+        "zh": "牙",
+        "jyutping": "ngaa4",
+        "de": "Zahn",
+        "audio": "14_ngaa.mp3"
+      }
+    ],
+    "grammar": [
+      {
+        "title": "Zählwörter für Körperteile",
+        "points": [
+          "Viele Körperteile verwenden 隻 (zek3): 一隻手, 兩隻眼, 一隻腳.",
+          "我有兩隻手。 = Ich habe zwei Hände.",
+          "我隻眼好大。 = Mein Auge ist sehr groß.",
+          "個 (go3) wird für 口 und 面 oft benutzt: 一個口, 一個面."
+        ]
+      },
+      {
+        "title": "Besitz und Beschreibung",
+        "points": [
+          "我 + Zählwort + Körperteil = mein ...",
+          "我隻腳好痛。 = Mein Fuß tut sehr weh.",
+          "我個口好大。 = Mein Mund ist sehr groß.",
+          "Verbindung mit bekannten Adjektiven: 大 (L11), 細 (L11), 痛 (L14)."
+        ]
+      }
+    ],
+    "exercises": {
+      "A": [
+        {
+          "zh": "我有兩隻手。",
+          "answer": "Ich habe zwei Hände.",
+          "audio": "02_ngo_jau_loeng_zek_sau.mp3"
+        },
+        {
+          "zh": "我隻腳好痛。",
+          "answer": "Mein Fuß tut sehr weh.",
+          "audio": "04_ngo_zek_goek_hou_tung.mp3"
+        },
+        {
+          "zh": "我隻眼好大。",
+          "answer": "Mein Auge ist sehr groß.",
+          "audio": "06_ngo_zek_ngaan_hou_daai.mp3"
+        },
+        {
+          "zh": "我隻耳好細。",
+          "answer": "Mein Ohr ist sehr klein.",
+          "audio": "08_ngo_zek_ji_hou_sai.mp3"
+        },
+        {
+          "zh": "我個口好大。",
+          "answer": "Mein Mund ist sehr groß.",
+          "audio": "10_ngo_go_hau_hou_daai.mp3"
+        }
+      ],
+      "B": [
+        {
+          "prompt": "我有兩隻 ___ 。",
+          "answer": "手",
+          "audio": "b1.mp3"
+        },
+        {
+          "prompt": "我隻 ___ 好痛。",
+          "answer": "腳",
+          "audio": "b2.mp3"
+        },
+        {
+          "prompt": "我隻 ___ 好大。",
+          "answer": "眼",
+          "audio": "b3.mp3"
+        },
+        {
+          "prompt": "我隻 ___ 好細。",
+          "answer": "耳",
+          "audio": "b4.mp3"
+        },
+        {
+          "prompt": "我個 ___ 好大。",
+          "answer": "口",
+          "audio": "b5.mp3"
+        },
+        {
+          "prompt": "我隻 ___ 好細。",
+          "answer": "鼻",
+          "audio": "b6.mp3"
+        }
+      ],
+      "C": [
+        {
+          "prompt": "Ich habe zwei Hände.",
+          "answer": "我有兩隻手。",
+          "jyutping": "ngo5 jau5 loeng5 zek3 sau2.",
+          "audio": "c1.mp3"
+        },
+        {
+          "prompt": "Mein Fuß tut sehr weh.",
+          "answer": "我隻腳好痛。",
+          "jyutping": "ngo5 zek3 goek3 hou2 tung3.",
+          "audio": "c2.mp3"
+        },
+        {
+          "prompt": "Mein Auge ist sehr groß.",
+          "answer": "我隻眼好大。",
+          "jyutping": "ngo5 zek3 ngaan5 hou2 daai6.",
+          "audio": "c3.mp3"
+        }
+      ]
+    },
+    "dndChips": [
+      "手",
+      "腳",
+      "眼",
+      "耳",
+      "口",
+      "鼻"
+    ],
+    "reviewItems": [
+      {
+        "zh": "痛",
+        "de": "schmerzen / weh tun",
+        "audio": "rev_tung.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "zh"
+      },
+      {
+        "zh": "大",
+        "de": "groß",
+        "audio": "rev_daai.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "de"
+      },
+      {
+        "zh": "細",
+        "de": "klein",
+        "audio": "rev_sai.mp3",
+        "clipsFolder": "clips_lektion_11",
+        "hide": "zh"
+      },
+      {
+        "zh": "有",
+        "de": "haben",
+        "audio": "rev_jau.mp3",
+        "clipsFolder": "clips_lektion_01",
+        "hide": "de"
+      },
+      {
+        "zh": "寫",
+        "de": "schreiben",
+        "audio": "rev_se.mp3",
+        "clipsFolder": "clips_lektion_15",
+        "hide": "zh"
+      },
+      {
+        "zh": "瞓",
+        "de": "schlafen",
+        "audio": "rev_fan.mp3",
+        "clipsFolder": "clips_lektion_14",
+        "hide": "de"
+      }
+    ],
+    "reviewNote": "Wiederholung aus L14, L11, L15 und früheren Lektionen. Abwechselnd versteckt.",
+    "grammarExamples": [],
+    "paragraph": "Körperteile sind nützlich im Alltag. Mit 隻 und 個 kannst du Besitz ausdrücken und mit bekannten Adjektiven beschreiben."
   }
 ]
